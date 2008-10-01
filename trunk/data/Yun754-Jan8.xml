@@ -1,0 +1,113 @@
+<TEI.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Diary of Yun Ch'i-ho, an electronic edition</title>
+<author><name type="person" reg="Yun Ch'i-ho">Yun Ch'i-ho</name></author>
+      </titleStmt>
+      <extent></extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2007</date>
+        <availability>
+          <p>&#x00A9; 2007, Lewis H. Beck Center, Emory University.
+  Emory University makes a claim of copyright only to original
+  contributions made by the Oxford Experience Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>The Oxford Experience</title>
+        <respStmt>
+          <name>Christine Loflin</name>
+          <name>Erika Farr</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl><author>Yun Ch'i-ho</author>. <title>Diary</title>. <pubPlace></pubPlace>:
+<publisher></publisher>, <date>8 January 1892</date>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part
+	of the Oxford Experience Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The archival material has been transcribed and encoded.
+	Paratextual elements may be provided as digital images only, with some exceptions.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF
+images of each page using either a flatbed scanner.  Text pages were
+captured in color at 300dpi.  These digital images were converted to
+an electronic text file by transcription.  The text files produced
+have been proofread against the original document or a JPEG image of
+the original.  This proofread text file has then been encoded using
+the recommendations for Level 3 of the TEI in Libraries Guidelines.
+For the details of Level 3 encoding, please see the webpage for TEI
+Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.  Encoders silently replaced em
+dashes with two dashes.  Page numbers and other text such as titles
+displayed in brackets have been added by the encoder and do not appear
+in the original text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Oxford Experience</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Edited</rs>
+        <rs type="genre"></rs>
+        <rs type="geography">United States</rs>
+        <date>1800-1899</date>  <!-- or 1900-1999 -->
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>10 July 2007</date>
+        <respStmt>
+          <name>Siobhain Rivera, </name>
+          <resp>Student Assistant.</resp>
+        </respStmt>
+        <item>XML tags inserted in compliance with TEI guidelines.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+<text>
+<front><!-- critical introduction goes here --></front>
+<body>
+<div type="diary entry">
+<opener><date value="1892-01-08">Jan. 8th Frid.</date></opener>
+<p>Cold &#x0026; bright</p>
+<p>Wrote to Dear <name type="person" reg="Abbie Hoss">Mrs. H.</name>: --
+"I never thought it likely that <name type="place" reg="Oxford, Georgia">Oxford</name> would get very cold.  But I was mistaken.  For the several days past, water freezes in my room most nights &#x0026; sometimes in day time.  Am enjoying cold weather, however.</p>
+
+<p>"Nothing unusual to disturb the <sic corr="monotony">monotoy</sic> of the college routine.  A <name type="place" reg="South Carolina">S.C.</name> boy, named <name>Wilson</name>, had to go home or rather had to be taken home on account of lunatic fits.  This state of mind was brought on by excessive use of <sic corr="cigarettes">cigaretts</sic>.  When he got into a fit -- &#x0026; that he did many times an hour -- he poured out 'cusses' in an unbroken stream.  One evening <name type="person" reg="Warren Candler">Dr. Candler</name> called on him.  Hearing the <name type="person" reg="Warren Candler">Dr.</name>, <name>Wilson</name> cried out "Oh! Look at that <hi rend="underline">bob-tailed monkey</hi>!  Take him out! Quick!"  Then followed a long string of 'cusses' of the queerest &#x0026; worst kinds.
+
+Am waiting for an answer from <name type="person" reg="Young John Allen">Dr. Allen</name> in regard to my [?] movement.  In case of his telling me come back to <name type="place">Shanghai</name> -- which is most likely -- I shall have to go to <name type="place" reg="Nashville, Tennessee">Nash.</name> on my way to <name type="place" reg="San Francisco, California">San F'co</name>,</p>
+</div>
+</body>
+</text>
+</TEI.2>

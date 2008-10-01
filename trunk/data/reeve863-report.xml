@@ -1,0 +1,391 @@
+<TEI.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Emory College Report, an electronic edition</title>
+<author><name type="person" reg="">Emory College Report</name></author>
+      </titleStmt>
+      <extent></extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2007</date>
+        <availability>
+          <p>&#x00A9; 2007, Lewis H. Beck Center, Emory University.
+  Emory University makes a claim of copyright only to original
+  contributions made by the Oxford Experience Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>The Oxford Experience</title>
+        <respStmt>
+          <name>Christine Loflin</name>
+          <name>Erika Farr</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl><author></author>. <title>Emory College Report</title>. <pubPlace></pubPlace>:
+<publisher></publisher>, <date>13 June 1906</date>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part
+	of the Oxford Experience Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The archival material has been transcribed and encoded.
+	Paratextual elements may be provided as digital images only, with some exceptions.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF
+images of each page using either a flatbed scanner.  Text pages were
+captured in color at 300dpi.  These digital images were converted to
+an electronic text file by transcription.  The text files produced
+have been proofread against the original document or a JPEG image of
+the original.  This proofread text file has then been encoded using
+the recommendations for Level 3 of the TEI in Libraries Guidelines.
+For the details of Level 3 encoding, please see the webpage for TEI
+Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.  Encoders silently replaced em
+dashes with two dashes.  Page numbers and other text such as titles
+displayed in brackets have been added by the encoder and do not appear
+in the original text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Oxford Experience</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Edited</rs>
+        <rs type="genre"></rs>
+        <rs type="geography">United States</rs>
+        <date>1800-1899</date>  <!-- or 1900-1999 -->
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>24 July 2007</date>
+        <respStmt>
+          <name>Siobhain Rivera, </name>
+          <resp>Student Assistant.</resp>
+        </respStmt>
+        <item>XML tags inserted in compliance with TEI guidelines.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+<text>
+<front><!-- Crtitical Introduction goes here --></front>
+<body>
+<div type="report"> 
+<head rend="center">EMORY COLLEGE <lb>OXFORD, GEORGIA.</lb>
+<lb>REPORT OF THE STANDING OF</lb></head> 
+<p rend="bold">Mr.____________________________ from 
+<lb>____________________________ 190__</lb></p>
+<table rows="27" cols"3">
+<row>
+<cell>STUDIES.</cell>
+<cell>Standing</cell>
+<cell>Absences</cell>
+</row>
+<row>
+<cell>Anglo-Saxon,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>History Eng. Lang'ge,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Philology,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Science of Language,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>English Literature,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Rhetoric,</cell>
+<cell>8</cell>
+<cell>6</cell>
+</row>
+<row>
+<cell>Composition,</cell>
+<cell>8 <!-- superscript-->5</cell>
+<cell></cell>
+</row>
+<row>
+<cell>Declamation,</cell>
+<cell>7 <!-- superscript-->5</cell>
+<cell></cell>
+</row>
+<row>
+<cell>English Grammar,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Geography,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Arithemtic,</cell>
+<cell></cell>
+<cell></cell>
+</row><row>
+<cell>Algebra,</cell>
+<cell>10</cell>
+<cell>1</cell>
+</row><row>
+<cell>Geometry,</cell>
+<cell>6 <!-- superscript-->5</cell>
+<cell></cell>
+</row>
+<row>
+<cell>Trigonometry,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Surveying,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Analytic Geometry,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Calculus,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Mechanics,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Astronomy,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Civil Engineering,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Physics,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Chemistry,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Geology,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Physiology,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Laboratory Work,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Field Work,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Latin Authors,</cell>
+<cell>7<!--superscript-->5</cell>
+<cell>7</cell>
+</row>
+<row>
+<cell>Latin, Prose Comp,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Latin Mythology,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Greek Authors,<signed>IS</signed></cell>
+<cell>9<!--superscript-->5</cell>
+<cell>8</cell>
+</row>
+<row>
+<cell>" Prose Comp,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>" Literature,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>French Language,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>" Collateral,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>German Language,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>" Collateral,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Logic,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Moral Philosophy,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Political Economy,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Psychology,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Parliamentary Law,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Theism,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>The Bible,</cell>
+<cell>10</cell>
+<cell>1</cell>
+</row>
+<row>
+<cell>History,</cell>
+<cell>9</cell>
+<cell>6</cell>
+</row>
+<row>
+<cell>Civics,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Drawing,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Zoology,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Botany,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Laboratory Work,</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>Gymnasium,</cell>
+<cell>9</cell>
+<cell>7</cell>
+</row>
+<row>
+<cell>Absent from Prayer,</cell>
+<cell></cell>
+<cell>10</cell>
+</row>
+<row>
+<cell>Absent from Church,</cell>
+<cell></cell>
+<cell>6</cell>
+</row>
+<row>
+<cell>Punctuality,</cell>
+<cell>8.8</cell>
+<cell></cell>
+</row>
+<row>
+<cell>Deportment,</cell>
+<cell>9.8</cell>
+<cell></cell>
+</row>
+</table>
+<p>EXPLANATIONS - The Grades of Merit are from 10, the highest, to 0, the lowest.</p>
+<p>General Deportment will be determined by "(1) punctuality, (2) behavior in class, (3) general attention to duty, (4) observance of College Laws."</p>
+<p>To rise, a student must make grades not lower than 6.  All deficiencies must be made up before graduation.</p>
+<p>Any pupil receiving below 5 in deportment, is dismissed from the institution.</p>
+<signed>M. T. PEED,<lb>Secretary of the Faculty.</lb></signed>
+<head rend="bold">TO PARENTS AND GUARDIANS.</head>
+<p>In view of the unavoidable evil <sic corr="effects">affects</sic> of absences upon the standing and proficiency of a student, the Faculty earnestly requests that parents and guardians do not encourage or approve any absences without very urgent reasons.</p> 
+</div>
+</body>
+</text>
+</TEI.2>
