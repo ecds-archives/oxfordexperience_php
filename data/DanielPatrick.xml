@@ -1,0 +1,210 @@
+<TEI.2>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title> W.A. Candler letter to brother, <date value="1897-04-30"> 
+April 30, 1897</date></title>
+<author><name type="person" reg=" ">Warren Akin Candler</name></author>
+	</titleStmt>
+	<extent></extent>
+	<publicationStmt>
+		<publisher>Emory University, Lewis H. Beck Center</publisher>
+		<pubPlace>Atlanta, Georgia</pubPlace>
+		<date>2007</date>
+		<availability>
+			<p>&#x00A9; 2007, Lewis H. Beck Center, Emory University.
+Emory University makes a claim of copyright only to original contributions made by the Oxford 
+Experience Project participants.  Emory University makes no claim of copyright to the original text.  
+Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the 
+contributions to this work claimed by Emory University for non-profit educational purposes, 
+provided that this header is included in its entirety.  For further inquiries about this text's 
+availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory 
+University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  
+30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  
+beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>The Oxford Experience</title>
+	<respStmt>
+		<name>Daniel Real</name>
+		<name>Patrick Jamieson</name>
+		<resp>Principal Investigators</resp>
+	</respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl>Letter from Warren Akin Candler to his brother, April 30, 1897; Manuscript, 
+Archive, and Rare Book Library, Emory University.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part
+	of the Oxford Experience Project.  Project participants intend for this encoded text, 
+as well as all texts produced by this project, to be made available on the web for 
+educational, scholarly and pedagogical purposes.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The archival material has been transcribed and encoded.
+	Paratextual elements may be provided as digital images only, with some 
+exceptions.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF
+images of each page using either a flatbed scanner.  Text pages were
+captured in color at 300dpi.  These digital images were converted to
+an electronic text file by transcription.  The text files produced
+have been proofread against the original document or a JPEG image of
+the original.  This proofread text file has then been encoded using
+the recommendations for Level 3 of the TEI in Libraries Guidelines.
+For the details of Level 3 encoding, please see the webpage for TEI
+Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.  Encoders silently replaced em
+dashes with two dashes.  Page numbers and other text such as titles
+displayed in brackets have been added by the encoder and do not appear
+in the original text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Oxford Experience</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Edited</rs>
+        <rs type="genre"></rs>
+        <rs type="geography">United States</rs>
+        <date>1800-1899</date> 
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2007-07-05</date>
+        <respStmt>
+          <name>Naomi Nelson, </name>
+          <resp>Assistant Director, MARBL, Emory University.</resp>
+        </respStmt>
+        <item>XML tags inserted in compliance with TEI guidelines.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+<text>
+
+<body>
+<div type="letter">
+<head>Letter form Warren Akin Candler <name type="person" reg="Warren Akin 
+Candler">Warren Akin Candler</name> to his brother<name type="person" reg="INSERT 
+NAME">INSERT NAME</name>, April 30, 1897</head>
+<opener>
+<address><addrLine>Emory College, President's Office </addrLine></address>
+<dateline>
+<name type="place">Oxford, Ga.,</name>
+<date value="1897-04-30">April, 30 1897</date>
+</dateline></opener>
+<salute><name type="person" reg="">My dear Brother: </name> </salute><p>I 
+am pained thus to
+send you this letter</p>
+
+	<p>On last Thursday <date value ="1897-04">April</date> and Friday
+  nights whilst I was in Atlanta there
+was serious disorder here. Bonfires
+were kindled on the campus, bombs
+belonging to the contractor on the new 
+building were burned; pistols were
+fired; <name type="person" reg="Dr. Moore ">Dr. Moore's </name>  fencing was
+
+<pb/>
+
+
+    Emory College,
+  President's Office,
+       Oxford, Ga.
+
+damaged, and <name type="person" reg="Dr. Haygood ">Dr. Haygoods</name> professional
+sign was pulled down &#x0026; carried
+to <name type="person" reg=" Prof. Janll "> Prof. Janlls </name> </p>
+
+<p>  One of the causes 
+which prevented my recessing in
+Atlanta over Sunday as I greatly
+desired *^ too*  (NEED TAG HERE) was a telephone message
+advising my return here on the 
+account of this disorder.</p>
+
+	        <p>This week we have been 
+
+<pb/>
+
+    Emory College,
+  President's Office,
+       Oxford, Ga.
+
+investigating the workers as well as 
+authorities are able who have no
+subpoena  power to secure  their testimony</p>
+
+	<p>I had not supposed <name type="person" reg="Albert INSERT LAST 
+NAME">Albert</name>
+had participated in it but today <date value ="1897-04-30">April 30.</date>
+he confessed to me what he had
+to do with the disorder on the campus.
+He denied having had any part in
+<pb/>
+
+Emory College
+President's Office
+Oxford, Ga.
+
+ other parts of the disorder. He has been suspended for two weeks 
+and demerited.</p>
+
+	<p>Others who added to the offense
+of disorder, falsehood before the 
+faculty when questioned, have been 
+dismissed.</p>
+
+	<p>I write the facts to you with a
+heary heart.  If while I am away 
+
+<pb/>
+
+Emory College
+President's Office
+Oxford, Ga. 
+
+pleading for Christian education 
+buys whom I implicitly trusted
+can bring dishonor to the institution I 
+feel like laying down the work 
+as a vain and impossible task.  
+Yet I am conscious of leaving the book.  
+I know how to make Christian men 
+and I must learn my familiar in God's hands.</p>
+
+<closer>With deep regrets.
+<salute>  I am Yours Truly, </salute>
+<signed><name type="person" reg="Candler, Warren A. (Warren Akin), 1857-1941">W.A. 
+Candler</name></signed>
+</closer>
+</div>
+</body>
+</text>
+</TEI.2>
