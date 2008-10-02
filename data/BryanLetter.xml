@@ -1,4 +1,4 @@
-<TEI.2>
+<TEI xml:id="oe1907song3" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" >
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -197,4 +197,4 @@ lecturing to them and telling
       </div>
 </body>
 </text>
-</TEI.2>
+</TEI>
