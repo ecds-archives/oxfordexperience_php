@@ -1,8 +1,8 @@
-<TEI.2>
+<TEI xml:id="oeDanielPatrick.01" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Diary Entry of Marion Walter Carmichael <date value="1898-02-26">February 26, 1898</date>, an electronic edition</title>
+        <title>Diary Entry of Marion Walter Carmichael <date when="1898-02-26">February 26, 1898</date>, an electronic edition</title>
 <author><name type="person" reg="">Marion Walter Carmichael</name></author>
       </titleStmt>
       <extent></extent>
@@ -55,7 +55,7 @@ displayed in brackets have been added by the encoder and do not appear
 in the original text.</p>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="lcsh">
+        <taxonomy xml:id="lcsh">
           <bibl>
             <title>Library of Congress Subject Headings</title>
           </bibl>
