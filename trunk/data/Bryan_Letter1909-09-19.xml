@@ -2,7 +2,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter to Bryan's Mother, <date value="1909-09-19">September 9, 1909</date>, an electronic edition</title>
+        <title>Letter to Bryan's Mother, <date when="1909-09-19">September 9, 1909</date>, an electronic edition</title>
 <author><name type="person" reg="">Lyle Bryan</name></author>
       </titleStmt>
       <extent></extent>
@@ -54,7 +54,7 @@ displayed in brackets have been added by the encoder and do not appear
 in the original text.</p>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="lcsh">
+        <taxonomy xml:id="lcsh">
           <bibl>
             <title>Library of Congress Subject Headings</title>
           </bibl>
@@ -102,7 +102,7 @@ in the original text.</p>
 <head>[Letter from Lyle Bryan to his Mother, September 19, 1909]</head>
 <opener>
 <dateline>
-<date value = "1909-09-19"> 09/19/1909 </date>
+<date when = "1909-09-19"> 09/19/1909 </date>
 Place of Publication: <name type = "place" reg ="Oxford, GA"> Oxford, GA </name>
 </dateline> 
 <salute> Dear <name reg="Alica Bryan">Mother</name>, </salute>

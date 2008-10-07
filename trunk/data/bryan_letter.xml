@@ -2,7 +2,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter to Mamma from Bryan,<date value="1908-11-15">November 15,1908</date> an electronic edition</title>
+        <title>Letter to Mamma from Bryan,<date when="1908-11-15">November 15,1908</date> an electronic edition</title>
 <author><name type="person" reg="">Bryan, William Lyle</name></author>
       </titleStmt>
       <extent></extent>
@@ -55,7 +55,7 @@ displayed in brackets have been added by the encoder and do not appear
 in the original text.</p>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="lcsh">
+        <taxonomy xml:id="lcsh">
           <bibl>
             <title>Library of Congress Subject Headings</title>
           </bibl>
@@ -86,7 +86,7 @@ in the original text.</p>
     </profileDesc>
     <revisionDesc>
       <change>
-        <date value="2007-11-15">October 4, 2007</date>
+        <date when="2007-11-15">October 4, 2007</date>
         <respStmt>
           <name type="person" reg="">Michael Dale, </name>
 		  <name type="person" reg="">Matthew Sutter,</name>
@@ -105,7 +105,7 @@ in the original text.</p>
 <address><addrLine><!--Insert AddLine--></addrLine></address>
 <dateline>
 <name type="place">Ringgold,Ga</name>
-<date value="1908-11-15">November 15, 1908</date>
+<date when="1908-11-15">November 15, 1908</date>
 </dateline>
 <salute>Dear <name type="person" reg="">Mamma</name>.</salute>
 </opener>

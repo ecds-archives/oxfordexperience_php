@@ -54,7 +54,7 @@ displayed in brackets have been added by the encoder and do not appear
 in the original text.</p>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="lcsh">
+        <taxonomy xml:id="lcsh">
           <bibl>
             <title>Library of Congress Subject Headings</title>
           </bibl>

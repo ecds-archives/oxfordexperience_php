@@ -1,4 +1,4 @@
-<TEI.2>
+<TEI xml:id="oeDanielPatrick.01" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -55,7 +55,7 @@ displayed in brackets have been added by the encoder and do not appear
 in the original text.</p>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="lcsh">
+        <taxonomy xml:id="lcsh">
           <bibl>
             <title>Library of Congress Subject Headings</title>
           </bibl>
@@ -99,7 +99,7 @@ in the original text.</p>
 <front><!-- critical introduction goes here --></front>
 <body>
 <div type="diary entry">
-<opener><date value="1892-01-08">Jan. 8th Frid.</date></opener>
+<opener><date when="1892-01-08">Jan. 8th Frid.</date></opener>
 <p>Cold &#x0026; bright</p>
 <p>Wrote to Dear <name type="person" reg="Abbie Hoss">Mrs. H.</name>: --
 "I never thought it likely that <name type="place" reg="Oxford, Georgia">Oxford</name> would get very cold.  But I was mistaken.  For the several days past, water freezes in my room most nights &#x0026; sometimes in day time.  Am enjoying cold weather, however.</p>
