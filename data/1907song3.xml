@@ -3,7 +3,7 @@
     <fileDesc>
       <titleStmt>
         <title>1907 Class Song, Emory College, an electronic edition</title>
-<author><name type="person" reg="Hind, A. T.">A. T. Hind</name></author>
+<author><name type="person">A. T. Hind</name></author>
       </titleStmt>
       <extent></extent>
       <publicationStmt>
@@ -86,12 +86,9 @@ in the original text.</p>
     </profileDesc>
     <revisionDesc>
       <change>
-        <date>July 3 2007</date>
-        <respStmt>
-          <name>Siobhain Rivera, </name>
-          <resp>Student Assistant.</resp>
-        </respStmt>
-        <item>XML tags inserted in compliance with TEI guidelines.</item>
+<name>Siobhain Rivera, </name>XML tags inserted in compliance with TEI guidelines.
+        <date when="2007-07-03">July 3 2007</date>
+        
       </change>
     </revisionDesc>
   </teiHeader>

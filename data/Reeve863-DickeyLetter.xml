@@ -3,7 +3,7 @@
     <fileDesc>
       <titleStmt>
         <title>Letter to Thomas Ellis Reeve <date when="1908-08-29">August 29, 1908</date>, an electronic edition</title>
-<author><name type="person" reg="James E. Dickey">President James Dickey</name></author>
+<author><name type="person">President James Dickey</name></author>
       </titleStmt>
       <extent></extent>
       <publicationStmt>
@@ -87,24 +87,20 @@ in the original text.</p>
     </profileDesc>
     <revisionDesc>
       <change>
-        <date>July 17, 2007</date>
-        <respStmt>
-          <name>Siobhain Rivera, </name>
-          <resp>Student Assistant.</resp>
-        </respStmt>
-        <item>XML tags inserted in compliance with TEI guidelines.</item>
+<name>Siobhain Rivera, </name>XML tags inserted in compliance with TEI guidelines.
+        <date when="2007-07-17">July 17, 2007</date>.
       </change>
     </revisionDesc>
   </teiHeader>
 <text>
 <front><!-- critical introduction goes here --></front>
 <body>
-<div type="letter">
+<div type="letter" xml:id="oeReeve863-DickeyLetter.9999">
 <head>Letter from President James E. Dickey to Thomas Ellis Reeve, August 29, 1908</head>
-<opener><!-- Letterhead goes here -->
+<opener>
 <dateline><date when="1908-08-29">Aug. 29, 1908.</date></dateline>
-<address><addrLine><name type="person" reg="Thomas Ellis Reeve">Mr. Ellis Reeve</name>,</addrLine> 
-<addrLine>Calhoun, Ga.</addrLine></address>
+<name type="person" reg="Thomas Ellis Reeve">Mr. Ellis Reeve</name>, 
+<address><addrLine>Calhoun, Ga.</addrLine></address>
 <salute>Dear <name type="person" reg="Thomas Ellis Reeve">Ellis</name>:</salute>
 </opener>
 <p>Enclosed find certificate for admission as requested.  We shall be pleased to have your brother with us.  The outlook for the opening is unusually good.</p>

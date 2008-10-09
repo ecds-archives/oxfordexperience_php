@@ -1,9 +1,9 @@
-<TEI xml:id="oe1907song3" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
+<TEI xml:id="oeJarrell428EmoryCreed" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Emory's Creed, an electronic edition</title>
-<author><name type="person" reg="">Charles Crawford Jarrell</name></author>
+<author><name type="person">Charles Crawford Jarrell</name></author>
       </titleStmt>
       <extent></extent>
       <publicationStmt>
@@ -85,13 +85,8 @@ in the original text.</p>
     </profileDesc>
     <revisionDesc>
       <change>
-        <date>July 18, 2007</date>
-        <respStmt>
-          <name>Siobhain Rivera, </name>
-          <resp>Student Assistant.</resp>
-        </respStmt>
-        <item>XML tags inserted in compliance with TEI guidelines.</item>
-      </change>
+<name>Siobhain Rivera, </name>XML tags inserted in compliance with TEI guidelines. <date when="2007-07-18">July 18, 2007</date>
+       </change>
     </revisionDesc>
   </teiHeader>
 <text>
