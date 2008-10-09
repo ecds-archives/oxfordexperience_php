@@ -28,7 +28,8 @@
         <title>The Oxford Experience</title>
         <respStmt>
           <name>Christine Loflin</name>
-          <name>Erika Farr</name>
+	  <name>Adriane Ivey</name>
+          <name>Alice Hickcox</name>
           <resp>Principal Investigators</resp>
         </respStmt>
       </seriesStmt>
@@ -175,7 +176,7 @@ in the original text.</p>
 <name type="place">Oxford, Ga.,</name>
 <date when="1892-02-06">February 6, 1892</date>
 </dateline>
-<salute>My Dear <name type="person"><choice><reg>Allen, Young John</reg><sic>Dr. Allen</sic></choice></name>:</salute>
+<salute>My Dear <name type="person">Dr. Allen</name>:</salute>
 </opener>
 <p>Yours of recent date has been received.</p>
 <p><name type="person" ref="#tsoong">Tsoong-Kia Tsin</name> came in on good time and is fully at his work.  He is not altogether as intellectual as <name type="person" ref="#yun">Yun</name> but is making a good impression.</p>
