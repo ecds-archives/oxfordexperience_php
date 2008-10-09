@@ -3,7 +3,7 @@
     <fileDesc>
       <titleStmt>
         <title>Diary of Yun Ch'i-ho, an electronic edition</title>
-<author><name type="person" reg="Yun Ch'i-ho">Yun Ch'i-ho</name></author>
+<author><name type="person">Yun Ch'i-ho</name></author>
       </titleStmt>
       <extent></extent>
       <publicationStmt>
@@ -85,14 +85,9 @@ in the original text.</p>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change>
+      <change><name>Siobhain Rivera, </name>XML tags inserted in compliance with TEI guidelines. 
         <date>July 16, 2007</date>
-        <respStmt>
-          <name>Siobhain Rivera, </name>
-          <resp>Sudent Assistant.</resp>
-        </respStmt>
-        <item>XML tags inserted in compliance with TEI guidelines.</item>
-      </change>
+             </change>
     </revisionDesc>
   </teiHeader>
 <text>
