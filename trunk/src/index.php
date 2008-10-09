@@ -6,12 +6,12 @@ include("common_functions.php");
 
 $id = $_GET["id"];
 
-$exist_args{"debug"} = false;
+$exist_args{"debug"} = true;
 $xmldb = new xmlDbConnection($exist_args);
 
 html_head("Browse", true);
 
-include("xml/browse-head.xml");
+include("web/xml/browse-head.xml");
 
 print '<div class="content">';
 
@@ -29,16 +29,18 @@ return
 </docdate>
 </result>';*/
 
-$query = 'for $a in /TEI.2/teiHeader
+$query = 'declare namespace tei="http://www.tei-c.org/ns/1.0";
+for $a in /tei:TEI
+order by $a//tei:title/tei:date/@when
 return 
 <result>
-{$a/../@id}
-{$a//titleStmt/title}
-{$a//titleStmt/author/name}
+{$a/@xml:id}
+{$a/tei:teiHeader//tei:titleStmt/tei:title}
+    {$a/tei:teiHeader//tei:titleStmt/tei:author/tei:name//tei:sic}
 </result>';
 
-$xsl_file = "browse.xsl";
-$xsl_params = array('mode' => "flat", "vol" => $vol);
+$xsl_file = "xslt/browse.xsl";
+//$xsl_params = array('mode' => "flat", "vol" => $vol);
 
 $maxdisplay = "110"; //show all the issues
 $position = "1"; //start here
@@ -51,7 +53,7 @@ $xmldb->printResult();
 
 
 
-include("xml/footer.xml");
+include("web/xml/footer.xml");
 ?> 
    
 </div>

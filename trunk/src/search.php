@@ -30,25 +30,25 @@ $options = array();
 if ($kw) 
   array_push($options, " &= \"$kw\"");
 if ($doctitle)
-  array_push($options, ".//div/head &= '$doctitle'");
+  array_push($options, ".//tei:div/tei:head &= '$doctitle'");
 if ($auth)
-  array_push($options, "(.//div/byline/docAuthor/name &= '$auth' or .//div/byline/docAuthor/name/@reg &= '$auth')");
+  array_push($options, "(./tei:fileDesc/tei:titleStmt/tei:author/tei:name &= '$auth')");
 if ($date)
-  array_push($options, "(.//div/docDate &= '$date' or .//div/docDate/@value &= '$date')");
+  array_push($options, "(.//tei:div/tei:docDate &= '$date' or .//tei:div/tei:docDate/@value &= '$date')");
 /*if ($subj)
  array_push($options, ".//keywords/list/item &= '$subj'");*/ //add subj later
 
 // there must be at least one search parameter for this to work
 if (count($options)) {
 
-  $searchfilter = "[.//div" . implode(" and ", $options) . "]"; 
-  print("DEBUG: Searchfilter is $searchfilter");
+  $searchfilter = "[" . implode(" and ", $options) . "]"; 
+  //print("DEBUG: Searchfilter is $searchfilter");
   
-  $query = "for \$a in /TEI.2$searchfilter
-let \$t := \$a//titleStmt//title
+  $query = "for \$a in /tei:TEI$searchfilter
+let \$t := \$a//tei:titleStmt//tei:title
 let \$doc := \$a/@id
-let \$auth := \$a//titleStmt//author/name
-let \$date := \$a//sourceDesc//date
+let \$auth := \$a//tei:titleStmt//tei:author/tei:name
+let \$date := \$a//tei:sourceDesc//tei:date
 let \$matchcount := text:match-count(\$a)
 order by \$matchcount descending
 return <item>{\$a/@id}";
@@ -63,7 +63,7 @@ return <item>{\$a/@id}";
    $query .= "{for \$s in \$a//keywords/list/item return <subject>{string(\$s)}</subject>}";*/
 
   $query .= "</item>";
-  $xsl = "exist-search.xsl";
+  $xsl = "xslt/exist-search.xsl";
   $xsl_params = array('mode' => "search", 'keyword' => $kw, 'doctitle' => $doctitle, 'auth' => $auth, 'date' => $date,  'max' => $max);
 }
 
@@ -72,14 +72,14 @@ return <item>{\$a/@id}";
 <html>
  <head>
 <title><?= $htmltitle ?> : Search Results</title>
-    <link rel="stylesheet" type="text/css" href="oxfexp.css">
+    <link rel="stylesheet" type="text/css" href="web/css/oxfexp.css">
  <!--   <link rel="shortcut icon" href="ewwrp.ico" type="image/x-icon">
     <script src='<?= $baseurl ?>/projax/js/prototype.js' type='text/javascript'></script>
     <script src='<?= $baseurl ?>/projax/js/scriptaculous.js' type='text/javascript'></script> -->
 </head>
 <body>
 
-<? include("xml/browse-head.xml") ?>
+<? include("web/xml/browse-head.xml") ?>
 
 
 <div class="content">

@@ -52,7 +52,7 @@
 
   <!-- multiple matches within a single paragraph -->
   <xsl:template match="match" mode="kwic-multiple">
-    <xsl:param name="second" value="false"/>	<!-- if true, this is a second match within $context words -->
+    <xsl:param name="second">false</xsl:param>	<!-- if true, this is a second match within $context words -->
     <!-- count # of words to next match -->
     <xsl:variable name="wcount"><xsl:apply-templates select="following-sibling::*[1]" mode="count"/></xsl:variable>
 
@@ -72,7 +72,7 @@
  	  <xsl:text> </xsl:text><xsl:apply-templates select="."/><xsl:text> </xsl:text> 
 	  </hi>
        </xsl:when>
-       <xsl:when test="title"> 
+       <xsl:when test="tei:title"> 
 	 <!-- in SC titles are sometimes marked with this element -->
 	  <hi><xsl:attribute name="rend">italic</xsl:attribute><xsl:value-of select="title"/>
          <!-- make sure there are spaces around keyword -->

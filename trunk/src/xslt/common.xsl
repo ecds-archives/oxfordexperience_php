@@ -9,22 +9,22 @@
   <xsl:param name="url_suffix"/>
   <xsl:variable name="myurlsuffix"><xsl:if test="$url_suffix != ''">&amp;<xsl:value-of select="$url_suffix"/></xsl:if></xsl:variable>
 
-  <xsl:template match="teiHeader">
-    <xsl:apply-templates select="//titleStmt/title"/>
+  <xsl:template match="tei:teiHeader">
+    <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
     <xsl:apply-templates select="//relative-toc"/>
-    <xsl:apply-templates select="//titleStmt/author"/>
+    <xsl:apply-templates select="//tei:titleStmt/tei:author"/>
     <p>
-      <xsl:apply-templates select="//sourceDesc"/>
-      <xsl:apply-templates select="//rs[@type='collection']"/>
+      <xsl:apply-templates select="//tei:sourceDesc"/>
+      <xsl:apply-templates select="//tei:rs[@type='collection']"/>
     </p>
     <xsl:call-template name="doclinks"/>
   </xsl:template>
 
 
-  <xsl:template match="sourceDesc">
-      date: <xsl:apply-templates select="bibl/date"/>
+  <xsl:template match="tei:sourceDesc">
+      date: <xsl:apply-templates select="tei:bibl/tei:date"/>
       <br/>
-      source publisher: <xsl:apply-templates select="bibl/publisher"/>
+      source publisher: <xsl:apply-templates select="tei:bibl/tei:publisher"/>
   </xsl:template>
 
   <xsl:template name="doclinks">
@@ -58,7 +58,7 @@
 
 
   <!-- title links back to TOC when not at TOC view -->
-  <xsl:template match="titleStmt/title">
+  <xsl:template match="tei:titleStmt/tei:title">
     <h1>
       <xsl:choose>
         <xsl:when test="$mode = 'toc'">
@@ -74,11 +74,11 @@
     </h1>
 </xsl:template>
 
-<xsl:template match="titleStmt/author">
+<xsl:template match="tei:titleStmt/tei:author">
   <p>by <xsl:apply-templates/></p>
 </xsl:template>
 
-<xsl:template match="author/name">
+<xsl:template match="tei:author/tei:name">
   <a>
     <xsl:attribute name="href">browse.php?field=author&amp;value=<xsl:value-of select="normalize-space(.)"/></xsl:attribute>
     <xsl:apply-templates/>
@@ -94,7 +94,7 @@
   
 </xsl:template>
 
-<xsl:template match="rs[@type='collection']">
+<xsl:template match="tei:rs[@type='collection']">
   <!-- texts may belong to more than one collection -->
   <xsl:choose>
     <xsl:when test="position() = 1">
@@ -115,8 +115,8 @@
 </xsl:template>
 
 
-<xsl:template match="subject|publisher">
-  <xsl:if test="preceding-sibling::publisher">
+<xsl:template match="tei:subject|tei:publisher">
+  <xsl:if test="preceding-sibling::tei:publisher">
     <xsl:text>; </xsl:text>
   </xsl:if>
   <!-- convert special characters to url format -->
@@ -134,7 +134,7 @@
 </xsl:template>
 
 <!-- display date, link to a date search -->
-<xsl:template match="bibl/date">
+<xsl:template match="tei:bibl/tei:date">
   <xsl:variable name="searchdate">
     <xsl:choose>
       <!-- uncertain dates are in this format: [186-?]; search for all 1860 matches -->
@@ -159,10 +159,10 @@
 <xsl:template match="node[ancestor::toc] | node[ancestor::relative-toc] | node[ancestor::kwic]">  
 <xsl:choose>
   <!-- nodes that don't display, and whose children shouldn't be indented -->
-  <xsl:when test="@name = 'TEI.2' or @name='body' or @name='group'"> 
+  <xsl:when test="@name = 'tei:TEI' or @name='tei:body' or @name='tei:group'"> 
     <xsl:apply-templates select="node"/>
   </xsl:when>
-  <xsl:when test="@name = 'text' and (parent::node/@name != 'group' or parent::toc)">
+  <xsl:when test="@name = 'tei:text' and (parent::node/@name != 'tei:group' or parent::toc)">
     <xsl:apply-templates select="node"/>
   </xsl:when>
   <xsl:otherwise>
@@ -217,33 +217,33 @@
   <xsl:template name="toc-label">
     <xsl:param name="mode"/>
       <xsl:choose>
-        <xsl:when test="@name = 'front'">front matter</xsl:when>
-        <xsl:when test="@name = 'back'">back matter</xsl:when>
-        <xsl:when test="@name = 'titlePage'">
+        <xsl:when test="@name = 'tei:front'">front matter</xsl:when>
+        <xsl:when test="@name = 'tei:back'">back matter</xsl:when>
+        <xsl:when test="@name = 'tei:titlePage'">
           title page
           <xsl:if test="@type">
             : <xsl:value-of select="@type"/>
         </xsl:if>
       </xsl:when>
-      <xsl:when test="@name = 'text' and parent::node/@name='group'">
+      <xsl:when test="@name = 'tei:text' and parent::node/@name='tei:group'">
         <!-- texts under group (composite text) : display title from titlepage -->
-        <xsl:apply-templates select="titlePart"/>
+        <xsl:apply-templates select="tei:titlePart"/>
       </xsl:when>
-      <xsl:when test="@name = 'div'">
+      <xsl:when test="@name = 'tei:div'">
         <!-- only display type if it is not duplicated in the head (e.g., chapter) -->
         <xsl:if test="not(contains(
                       translate(head,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),
                       translate(@type,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')))">
           <xsl:value-of select="@type"/>
-          <xsl:if test="head"><xsl:text>: </xsl:text></xsl:if>
+          <xsl:if test="tei:head"><xsl:text>: </xsl:text></xsl:if>
         </xsl:if>
-        <xsl:if test="head != ''">	<!-- a couple of the outer, wrapping divs are blank -->
+        <xsl:if test="tei:head != ''">	<!-- a couple of the outer, wrapping divs are blank -->
           <xsl:choose>
             <xsl:when test="$mode = 'breadcrumb'">
-              <xsl:apply-templates select="head" mode="short-toc"/> 
+              <xsl:apply-templates select="tei:head" mode="short-toc"/> 
             </xsl:when>        
             <xsl:otherwise>
-              <xsl:apply-templates select="head" mode="toc"/> 
+              <xsl:apply-templates select="tei:head" mode="toc"/> 
             </xsl:otherwise>
         </xsl:choose>
       </xsl:if>
@@ -252,7 +252,7 @@
   </xsl:template>
 
   <!-- formatting for well-tagged critical bibliography -->
-  <xsl:template match="div[@type='bibliography']/bibl|div[@type='Section']/bibl">
+  <xsl:template match="tei:div[@type='bibliography']/tei:bibl|tei:div[@type='Section']/bibl">
     <xsl:element name="p">
       <xsl:attribute name="class">bibliography</xsl:attribute>
       <xsl:apply-templates/>

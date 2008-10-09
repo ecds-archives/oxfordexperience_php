@@ -2,7 +2,7 @@
 include_once("config.php");
 include_once("lib/xmlDbConnection.class.php");
 
-$exist_args{"debug"} = true;
+$exist_args{"debug"} = false;
 
 $db = new xmlDbConnection($exist_args);
 
@@ -52,7 +52,7 @@ print "$doctype
 <html>
  <head>
     <title>$htmltitle : $doctitle : Keyword in Context</title>
-    <link rel='stylesheet' type='text/css' href='oxfexp.css'>";
+    <link rel='stylesheet' type='text/css' href='web/css/oxfexp.css'>";
 
 include("xml/browse-head.xml");
 
@@ -61,8 +61,8 @@ print "<div class='content'>
 
 $xsl_params = array("url_suffix" => "keyword=$keyword");
 
-$db->xslBind("kwic-towords.xsl");
-$db->xslBind("kwic.xsl", $xsl_params);
+$db->xslBind("xslt/kwic-towords.xsl");
+$db->xslBind("xslt/kwic.xsl", $xsl_params);
 
 $db->transform();
 $db->printResult();
