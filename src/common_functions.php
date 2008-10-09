@@ -21,7 +21,7 @@ function getCSS () {
   // production
   //  $css_basepath = "http://cti.library.emory.edu/iln/";
   //  $css_basepath = "http://beck.library.emory.edu/oxfordexperience";
-  $css = "oxfexp.css"; 
+  $css = "web/css/oxfexp.css"; 
  /* if ($browser == "MSIE") {
     if ($os == "mac") {
       $css = "iln-iemac.css";

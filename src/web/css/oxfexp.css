@@ -1,7 +1,7 @@
-@import "highlight.css";
+/*@import "highlight.css";*/
 @import "footnotes.css";
-body { text-color: #333333;
-     background-image: url(images/bg1.gif);}
+body { color: #333333;
+     background-image: url(../images/bg1.gif);}
 /* styles for the header and footer */
 div.header, div.footer { text-align: center; width: 700px;  /*width: 665px;*/ margin: auto; }
 /*div.header, div.footer { center: true; text-align: center; width: 665px; margin: auto; clear: both; }*/
@@ -42,9 +42,9 @@ div.headimage {position:static;
 	      margin-top: 2em; 
 	      margin-bottom: 1em; }
 div.headimage h2 { font-family: "Arial", "MS Arial", sans-serif; 
-	   font-size: 13pt;
+	   font-size: 24pt;
 	   color: #20074b;
-	   font-style: italic; 
+	   /*font-style: italic; */
 	   text-align: center;}
 
 img.headimage {display: block;
@@ -52,7 +52,7 @@ img.headimage {display: block;
 	      margin-left: auto; 
 	      margin-right: auto;}
 
-div.nav {font-family: "Arial Bold", Arial, MS Arial, sans-serif;
+div.nav {font-family: "Arial Bold", Arial, "MS Arial", sans-serif;
 	font-size: 24pt;  
 	text-decoration: none; 
 	text-align: center;}
@@ -77,7 +77,7 @@ img.teenimage {display: block;
 
 p.credit {text-align: right;
 	 font-size:8pt;
-	 font-family: MS Arial, Arial, sans-serif;
+	 font-family: "MS Arial", Arial, sans-serif;
 	 margin-right: 36%;
 	 margin-top: -0.125em;}
 
@@ -93,7 +93,7 @@ img.teensub {display: block;
 	      margin-right: auto;}
 	    
 
-div.subnav {font-family: "Arial Bold",  MS Arial, Gill Sans, sans-serif;
+div.subnav {font-family: "Arial Bold",  "MS Arial", Gill Sans, sans-serif;
 	   font-size: 18pt; 
 	   text-decoration: none; 
 	   text-align: center;} 
@@ -101,7 +101,7 @@ div.subnav {font-family: "Arial Bold",  MS Arial, Gill Sans, sans-serif;
 p.navlinks {margin-left: auto; 
 	   margin-right:auto;
 	   display: inline;
-	   text-shadow: 0.12em 0.12em 0.1em black} 
+	   } 
 
 span#ho {padding: 0 1em;} 
 span#ov {padding: 0 1em;} 
@@ -109,14 +109,14 @@ span#br {padding: 0 1em;}
 span#se {padding: 0 1em;}
 
 
-div.content {font-family: "Arial", MS Arial, sans-serif; 
+div.content {font-family: "Arial", "MS Arial", sans-serif; 
 	    font-size: 12pt; 
 	    text-decoration: none; 
 	    text-align: left; 
 	    margin-left: 2em;
 	    margin-right: 2em;}
 
-div.contents {font-family: "Arial", MS Arial, sans-serif; 
+div.contents {font-family: "Arial", "MS Arial", sans-serif; 
 	    font-size: 12pt; 
 	    text-decoration: none; 
 	    text-align: left; 
@@ -135,10 +135,10 @@ div.acklink { font-family: "Arial", "MS Arial", sans-serif;
 	   margin-left: 0em;} 
 
 div.externalnav {text-align: center; 
-		font-family: "Arial Bold",  MS Arial, sans-serif; 
+		font-family: "Arial Bold",  "MS Arial", sans-serif; 
 		font-size: 14pt; 
 		text-decoration: none;
-	   	text-shadow: 0.1em 0.1em 0.1em black}
+	   	}
 
 p#beck {margin-left: auto; 
        margin-bottom: 1em; 
@@ -148,6 +148,14 @@ p#beck {margin-left: auto;
 
 span#bc, span#src {padding: 0 2em;}
 span.editorial { color: #545454; font-size: 10px; font-weight: normal; /* same as body text, even inside a head */ }
+
+span.edcorr {color: #545454;}
+span.add {color:green;}
+span.del {color:red}
+span.note {color: #545454; font-size: 11px; font-weight: normal;}
+
+
+
 
 span.speaker {font-weight: bold;}
 
@@ -161,8 +169,8 @@ span.sidebar {display: block;
 	     margin-top: 1%;}
 
 div.foot {display:block; 
-	 font-family: "Arial Bold",  MS Arial, Gill Sans, sans-serif;
-	 font-size: 12; 
+	 font-family: "Arial Bold",  "MS Arial", Gill Sans, sans-serif;
+	 font-size: 12px; 
 	 text-decoration: none; 
 	 text-align: center;}
 
@@ -173,7 +181,7 @@ span#con span#euc span#ul span#eu {padding: 0 1em}
 
 hr.foot {width: 613px;}
 
-//Styles for search matching, tables
+/*Styles for search matching, tables*/
 
 td.count { width:15%; 
 	 text-align: center; }
@@ -198,7 +206,7 @@ table.kwic { margin: 5px 0.5in 5px 0.5in;
 	   border-bottom: 1px solid #cccccc;}
 
 table.kwic td.pn { width: 65px; 
-	   vertical-align: center;}
+	   vertical-align: middle;}
 
 /* link results - display as horizontal list, inline, with lines between */
 li.resultlink, li.firstresultlink { 

@@ -56,7 +56,7 @@
   </xsl:template> -->
 
   <!-- poetry lines are short enough; shouldn't need parsing out words -->
-  <xsl:template match="l">
+  <xsl:template match="tei:l">
     <p><xsl:apply-templates/></p>
   </xsl:template>
 

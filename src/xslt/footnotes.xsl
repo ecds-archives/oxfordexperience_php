@@ -78,7 +78,7 @@
   characters & mark-up will display in pop-up version of footnote) -->
   <xsl:element name="script">
     <xsl:attribute name="type">text/javascript</xsl:attribute>
-    <xsl:apply-templates select="//note" mode="javascript"/>
+    <xsl:apply-templates select="//tei:note" mode="javascript"/>
   </xsl:element>
 
   <!--  <xsl:element name="div">
@@ -100,10 +100,10 @@
 </xsl:template>
 
 
-<xsl:key name="note-by-id" match="//note" use="@id"/>
+<xsl:key name="note-by-id" match="//note" use="@xml:id"/>
 
 <!-- some texts are tagged with refs where the note should go, and some are not -->
-<xsl:template match="ref">
+<xsl:template match="tei:ref">
   <xsl:if test="$ref-mode = 'ref'">
     <a> 
      <xsl:attribute name="name"><xsl:value-of select="concat('notelink-', @target)"/></xsl:attribute>
@@ -118,7 +118,7 @@
 </xsl:template>
 
 
-<xsl:template match="note">
+<xsl:template match="tei:note">
   <xsl:param name="mode">normal</xsl:param>	<!-- also possible: next-note -->
   <!-- Check the previous sibling; if using next-note and
        next-note-list, use sibling name to determine if we should not
@@ -139,7 +139,7 @@
       <xsl:when test="$number-mode = 'n-attribute'"><xsl:value-of select="@n"/></xsl:when>
       <!-- config parameter set to generate note number -->
       <xsl:when test="$number-mode = 'generate'">
-        <xsl:value-of select="count(preceding::note|ancestor-or-self::note)"/>
+        <xsl:value-of select="count(preceding::tei:note|ancestor-or-self::tei:note)"/>
       </xsl:when>
     </xsl:choose>
   </xsl:variable>
@@ -167,7 +167,7 @@
   <xsl:choose>
     <xsl:when test="$ref-mode = 'ref' and $use-popups = 'true'">
       <xsl:attribute name="onMouseOver">
-        <xsl:text>overlib(</xsl:text><xsl:value-of select="@id"/><xsl:text>, </xsl:text><xsl:if test="$popup-captions = 'true'"><xsl:text>CAPTION, 'Footnote </xsl:text><xsl:value-of select="$number"/></xsl:if><xsl:text>', WIDTH, </xsl:text><xsl:value-of select="$popup-width"/><xsl:value-of select="$cssopts"/><xsl:value-of select="$STICKY"/><xsl:text>);</xsl:text> 
+        <xsl:text>overlib(</xsl:text><xsl:value-of select="@xml:id"/><xsl:text>, </xsl:text><xsl:if test="$popup-captions = 'true'"><xsl:text>CAPTION, 'Footnote </xsl:text><xsl:value-of select="$number"/></xsl:if><xsl:text>', WIDTH, </xsl:text><xsl:value-of select="$popup-width"/><xsl:value-of select="$cssopts"/><xsl:value-of select="$STICKY"/><xsl:text>);</xsl:text> 
       </xsl:attribute>
       <xsl:attribute name="onMouseOut">
         <xsl:text>nd();</xsl:text>
@@ -198,7 +198,7 @@
 </xsl:template>
 
 <!-- inline note : display in the text  -->
-<xsl:template match="note[@place='inline']">
+<xsl:template match="tei:note[@place='inline']">
   <xsl:element name="p">
     <xsl:attribute name="class">inline-note</xsl:attribute>
     <xsl:choose>
@@ -225,13 +225,13 @@
 <!-- only display endnote div if there actually are notes -->
 <!--SC notes are not typed  <xsl:if test="count(//note[@type='foot'])
 > 0"> -->
-<xsl:if test="count(//note) > 0">
+<xsl:if test="count(//tei:note) > 0">
     <xsl:element name="div">
       <xsl:attribute name="class">endnote</xsl:attribute>
       <xsl:element name="h2">Notes</xsl:element>
 <!-- SC notes not typed  <xsl:apply-templates
 select="//note[@type='foot']" mode="end"/> -->
-      <xsl:apply-templates select="//note" mode="end"/>
+      <xsl:apply-templates select="//tei:note" mode="end"/>
     </xsl:element>
 
    <!-- if we are using popups, give credit for using overLib -->
@@ -257,7 +257,7 @@ select="//note[@type='foot']" mode="end"/> -->
 -->
 <!-- SC notes not typed 
 <xsl:template match="note[@type='foot']" mode="end"> -->
-<xsl:template match="note" mode="end">
+<xsl:template match="tei:note" mode="end">
   <xsl:variable name="number">
     <xsl:choose>
       <!-- config parameter set to use n attribute for note number -->
@@ -276,8 +276,8 @@ select="//note[@type='foot']" mode="end"/> -->
  Also note: because of the preceding pb outside the returned div,
  needs a little extra logic to ensure the first page # displayed is correct. --> 
 
-  <xsl:variable name="pb"><xsl:value-of select="preceding::pb[1]/@n"/></xsl:variable>
-  <xsl:variable name="next-pb"><xsl:value-of select="following::pb[1]/@n"/></xsl:variable>
+  <xsl:variable name="pb"><xsl:value-of select="preceding::tei:pb[1]/@n"/></xsl:variable>
+  <xsl:variable name="next-pb"><xsl:value-of select="following::tei:pb[1]/@n"/></xsl:variable>
 
   <!-- convert preceding & following page number strings to numbers -->
   <xsl:variable name="prev-pnum">
@@ -327,7 +327,7 @@ select="//note[@type='foot']" mode="end"/> -->
 <!--    <span class="fn-pagen"><a><xsl:attribute name="href">#page<xsl:value-of select="$pagenum"/></xsl:attribute>
 	Page  <xsl:value-of select="$pagenum"/></a> - </span> -->
     <xsl:element name="a">
-      <xsl:attribute name="name"><xsl:value-of select="@id"/></xsl:attribute>
+      <xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute>
       <xsl:attribute name="href"><xsl:value-of select="concat('#','notelink-', @id)"/></xsl:attribute>
       <xsl:attribute name="title">Return to text</xsl:attribute>
         <xsl:value-of select="$number"/> 
@@ -348,15 +348,15 @@ select="//note[@type='foot']" mode="end"/> -->
 </xsl:template>
 
 
-<xsl:template match="note/p" mode="endnote">
+<xsl:template match="tei:note/tei:p" mode="endnote">
    <xsl:apply-templates/><br/>
 </xsl:template> 
 
 <!-- handle poetry lines within a note separately -->
-<xsl:template match="note/l" mode="endnote">
+<xsl:template match="tei:note/tei:l" mode="endnote">
 </xsl:template>
 
-<xsl:template match="note/caption" mode="endnote">
+<xsl:template match="tei:note/tei:caption" mode="endnote">
   <xsl:element name="span">
     <xsl:attribute name="class">endnote-caption</xsl:attribute>
     <xsl:apply-templates/> 
@@ -365,31 +365,31 @@ select="//note[@type='foot']" mode="end"/> -->
 </xsl:template>
 
 <!-- endnote mode: convert turn a ref inside a note into a link -->
-<xsl:template match="note/ref" mode="endnote">
+<xsl:template match="tei:note/tei:ref" mode="endnote">
   <xsl:element name="a">
-    <xsl:attribute name="href">cti-tgfwfw-<xsl:value-of select="@target"/></xsl:attribute>
+    <xsl:attribute name="href"><xsl:value-of select="@target"/></xsl:attribute>
     <xsl:attribute name="target">_top</xsl:attribute>
     <xsl:apply-templates/>
   </xsl:element>
 </xsl:template>
 
 <!-- if a hi tag occurs at the note level (not inside a p or l), explicitly call the normal mode hi template -->
-<xsl:template match="note/hi" mode="endnote">
+<xsl:template match="tei:note/tei:hi" mode="endnote">
   <xsl:apply-templates select="."/>
 </xsl:template>
 
 <!-- javascript modes: convert turn a ref inside a note into a link
      (note: space disappears before link; put one in.) -->
-<xsl:template match="note/ref" mode="javascript">
+<xsl:template match="tei:note/tei:ref" mode="javascript">
   <xsl:text> </xsl:text><xsl:element name="a">
-    <xsl:attribute name="href">cti-tgfwfw-<xsl:value-of select="@target"/></xsl:attribute>
+    <xsl:attribute name="href"><xsl:value-of select="@target"/></xsl:attribute>
     <xsl:attribute name="target">_top</xsl:attribute>
     <xsl:apply-templates/>
   </xsl:element>
 </xsl:template>
 
 
-<xsl:template match="hi" mode="endnote">
+<xsl:template match="tei:hi" mode="endnote">
  <span>
    <xsl:attribute name="class"><xsl:value-of select="@rend"/></xsl:attribute>
    <xsl:apply-templates/>
@@ -398,8 +398,8 @@ select="//note[@type='foot']" mode="end"/> -->
 
 
   <!-- enclose text in a javascript variable -->
-  <xsl:template match="note" mode="javascript">
-    var <xsl:apply-templates select="@id" mode="jsid"/> = '<xsl:apply-templates mode="javascript"/>';
+  <xsl:template match="tei:note" mode="javascript">
+    var <xsl:apply-templates select="@xml:id" mode="jsid"/> = '<xsl:apply-templates mode="javascript"/>';
   </xsl:template>
 
   <!-- escape any single quotes so it doesn't mess up the javascript string -->
@@ -414,7 +414,7 @@ select="//note[@type='foot']" mode="end"/> -->
   </xsl:template>
 
 <!-- note: for some reason, was losing spacing before & after text -->
-<xsl:template match="hi[@r!='roman']" mode="javascript">
+<xsl:template match="tei:hi[@r!='roman']" mode="javascript">
  <xsl:text> </xsl:text>
  <xsl:element name="span">
    <xsl:attribute name="class"><xsl:value-of select="@r"/></xsl:attribute>
@@ -426,7 +426,7 @@ select="//note[@type='foot']" mode="end"/> -->
 <!-- convert id string to a valid javascript variable name
 	currently handles:  . - 
 -->
-<xsl:template match="@id" mode="jsid">
+<xsl:template match="@xml:id" mode="jsid">
 
   <!-- starting value of id string -->
   <xsl:variable name="string"><xsl:value-of select="."/></xsl:variable>
