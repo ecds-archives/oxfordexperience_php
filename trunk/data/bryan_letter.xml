@@ -2,8 +2,12 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter to Mamma from Bryan,<date when="1908-11-15">November 15,1908</date> an electronic edition</title>
-<author><name type="person" reg="">Bryan, William Lyle</name></author>
+        <title>Letter to Mamma from Lyle,<date when="1908-11-15">November 15,1908</date> an electronic edition</title>
+<author><name type="person"><choice>
+  <reg>Bryan, William Lyle</reg>
+  <sic>William Lyle Bryan</sic>
+  </choice>
+</name></author>
       </titleStmt>
       <extent></extent>
       <publicationStmt>
@@ -86,13 +90,11 @@ in the original text.</p>
     </profileDesc>
     <revisionDesc>
       <change>
-        <date when="2007-11-15">October 4, 2007</date>
-        <respStmt>
-          <name type="person" reg="">Michael Dale, </name>
-		  <name type="person" reg="">Matthew Sutter,</name>
-          <resp>Editor, Student, Oxford College.</resp>
-        </respStmt>
-        <item>XML tags inserted in compliance with TEI guidelines.</item>
+        On <date when="2007-11-15">October 4, 2007</date>
+        
+          <name type="person">Michael Dale, </name>
+		  <name type="person">Matthew Sutter,</name>
+           students at Oxford College, transcribed and encoded in XML compliance with TEI guidelines.
       </change>
     </revisionDesc>
   </teiHeader>
@@ -102,7 +104,6 @@ in the original text.</p>
 <div type="letter">
 <head>Letter from William Lyle Bryan to His Mother, November 15, 1908</head>
 <opener>
-<address><addrLine><!--Insert AddLine--></addrLine></address>
 <dateline>
 <name type="place">Ringgold,Ga</name>
 <date when="1908-11-15">November 15, 1908</date>
