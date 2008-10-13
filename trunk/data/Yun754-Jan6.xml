@@ -1,8 +1,8 @@
-<TEI  xml:id="oe1907song3" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
+<TEI  xml:id="oeYun7541892-01-06" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Diary of Yun Ch'i-ho, an electronic edition</title>
+        <title>Diary of Yun Ch'i-ho, <date when="1892-01-06">January 6, 1892</date> an electronic edition</title>
 <author><name type="person">Yun Ch'i-ho</name></author>
       </titleStmt>
       <extent></extent>
@@ -93,12 +93,12 @@ in the original text.</p>
 <text>
 <front><!-- critical introduction goes here --></front>
 <body>
-<div type="diary entry">
+<div type="diary_entry">
 <opener><date when="1892-01-06">Jan 6 - Wednesday.</date></opener>
 <p>Very cold this morning.</p>
-<p>In the Soph. Bib. Class <name type="person" reg="Warren A. Candler">Dr. C</name> in commenting on the courage and virtues of <name type="person">Esther</name> gave some firm &#x0026; forceful remarks.  In substance he said: --
-<list type="ordered"><item n="1.">Riches &#x0026; beauty are two things that are very rarely consecrated to God.</item>
-<item n="2.">Woman's suffrage means every body's suffering.  Her business is to be the queen of the home.  You ask "Isn't <name type="person">Francis Willard</name> a good woman?"  Yes: very good; but politics are none of her business.  Isn't she smart? Yes: very smart; [very] she wasn't made for voting.  I would rather see her in heaven than at the ballot box.  (And I shall see her in heaven long before she can vote.)</item></list></p>
+<p>In the Soph. Bib. Class <name type="person"><reg>Candler, W. A. (William Akin)</reg><sic>Dr. C</sic></name> in commenting on the courage and virtues of <name type="person">Esther</name> gave some firm &#x0026; forceful remarks.  In substance he said: --
+<list type="ordered"><item>1. Riches &#x0026; beauty are two things that are very rarely consecrated to God.</item>
+<item>2. Woman's suffrage means every body's suffering.  Her business is to be the queen of the home.  You ask "Isn't <name type="person">Francis Willard</name> a good woman?"  Yes: very good; but politics are none of her business.  Isn't she smart? Yes: very smart; [very] she wasn't made for voting.  I would rather see her in heaven than at the ballot box.  (And I shall see her in heaven long before she can vote.)</item></list></p>
 </div>
 </body>
 </text>
