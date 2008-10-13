@@ -1,0 +1,134 @@
+<TEI xml:id="oeBryanLetter1908-11-15.01"  xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter to W. Lyle Bryan's mother<date when="1908-11-15">November 15, 1908</date>, an electronic edition</title>
+<author><name type="person">
+  <choice>
+    <reg>Bryan, William Lyle, 1890-1960</reg>
+    <sic>W. Lyle Bryan</sic>
+  </choice>
+</name></author>
+      </titleStmt>
+      <extent></extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2007</date>
+        <availability>
+          <p>&#x00A9; 2007, Lewis H. Beck Center, Emory University.
+  Emory University makes a claim of copyright only to original
+  contributions made by the Oxford Experience Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>The Oxford Experience</title>
+        <respStmt>
+          <name>Christine Loflin</name>
+          <name>Adriane Ivey</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl>Letter to W. Lyle Bryan's mother, <date when="1908-11-15">15 Nov 1908</date>, William Lyle Bryan papers, 1908-1960, Manuscript, Archives, and Rare Book Library, Emory University.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part
+	of the Oxford Experience Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The archival material has been transcribed and encoded.
+	Paratextual elements may be provided as digital images only, with some exceptions.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF
+images of each page using either a flatbed scanner.  Text pages were
+captured in color at 300dpi.  These digital images were converted to
+an electronic text file by transcription.  The text files produced
+have been proofread against the original document or a JPEG image of
+the original.  This proofread text file has then been encoded using
+the recommendations for Level 3 of the TEI in Libraries Guidelines.
+For the details of Level 3 encoding, please see the webpage for TEI
+Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.  Encoders silently replaced em
+dashes with two dashes.  Page numbers and other text such as titles
+displayed in brackets have been added by the encoder and do not appear
+in the original text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Oxford Experience</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Edited</rs>
+        <rs type="genre">Letter</rs>
+        <rs type="geography">United States</rs>
+        <date>1800-1899</date>  <!-- or 1900-1999 -->
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>On <date>October 24, 2007</date> <name>Sara Kirsch</name> and <name>Alexandra Couvaras</name>, transcribed and encoded this letter.
+      </change>
+      <change> On <date when="2008-10-13">October 13, 2008</date> <name>Alice Hickcox</name>, Electronic Text Specialist, Beck Center, corrected the encoding and made changes for P4 to P5 migration.
+      </change>
+    </revisionDesc>
+  </teiHeader>
+<text>
+<body>
+<div type="letter">
+<pb facs="1908-11-15_p1.jpg"/>
+<head>[Letter from W. Lyle Bryan to his mother, November 15, 1908]</head>
+<opener>
+  <address>
+    <addrLine>Ringold, Ga.</addrLine>
+  </address><lb/>
+  <dateline><date when="1908-11-15">Nov. 15, 1908.</date></dateline>
+ 
+<salute>Dear Mamma,</salute>
+</opener>
+
+<p>Well I guess you will be glad to see that my J.C. Cooper paper has given out.  My roommate is a printer and he got a lot of that paper given him in an office because J.C. Cooper refused it.
+He had given me a stack but it has given out.
+We got our standings in Latin yesterday and I was one of three to make a 95.  I made a 9 on dailies which gave me a general average of 92 1/2 which I think is the second best mark in the class. Giradeau got 9.5 on <pb facs="1908-11-15_p2.jpg"/>the exam and 9.2 on dailies so you see he only beat me by .1. In two weeks we have an examination in Algebra if I can "shoot up" the "Madame" pretty well I believe I will make my general average of 9. alright which I have set as my mark.  If I can make a 9. my name will go out on the Honor roll in Journal and at Commencement.  I managed to get an E. on my last composition.  Giradeau ought to beat me in Latin as he has graduated from the Boy H.S. of Atlanta and has read 2 orations of Cicero and two books of Vergil more than myself.  My dailies in French are 9.8 I don't know what I made on exam - but think it was above a 9.  I would certainly be pleased could I make honor roll.</p>  <p>We will have an easy week next week as several of the Profs. are going to conference.</p>  <p>Did you ever get my report? In December the reports will go out with your grade marked in letters.</p>  <p>I went over to Covington Monday to see about my money being overdue.  I come to find out that I was not overdrawn but had three fifty to my credit.  The bookkeeper had made a mistake of eight dollars.  I have paid my tuition.  It keep me spending a good deal to keep up with all my expenses.  Then there is always collection for something which I think is unjust.  Like this: The senior of <del rend="strikethrough">'07</del> got out an annual and <pb facs="1908-11-15_p3.jpg"/>defaulted on it several hundred dollars.  Tom Rivers was trying to make it up among the students so as to save the <hi rend="underline">honor</hi> of the college.  I told honor or no honor I was not going to pay other folks debts.</p>
+<p>Asa Candlers' son is here and one wouldn't of all the boys pick him out as a millionaire's son.  He is so very plain and unassuming and in the Literary Society talks of expense just as if he were some poor man's son.</p>
+<p>Tell Papa that I said that college life wasn't what it was made out to be.  It is a great deal of hard work and very little pleasure.  I haven't been to anything since I have been here and haven't spoken to a lady except the matron since I have been here.  One has to study <pb facs="1908-11-15_p4.jpg"/>out of all self-defense from lonesomeness.</p>
+<p>Monday afternoon I went to see my first football game.  It was between the Juniors and the Freshman.  I was thoroughly disgusted with a game that knocks boys senseless and bruises them up that does.  I don't think I shall try for the baseball team next spring, as one has to spend as much time practicing that ones lessons come up short.</p>
+<p>The boys had the laugh on me the other day.  Everyone was ready through when I saw that three was about two tablespoons of milk in the pitcher.  The milk was put for the boys coffee.  So I thought I would drink it.  Just as I poured it out, Evans said to me, "Watch out <pb facs="1908-11-15_p5.jpg"/>Bryan they will charge you a dime for that.  I unmindfully placed it in my lips.  Then the matron saw me and jumped up and was at my side in a second and said, "We can't allow that Mr. Bryan. We cant allow that." When she said that I slapped it back on the table and then she said, "As long as you have poured it out you can drink it," just as if I were a ten year old child which made me madder than ever.  I felt bad to think one would publicly embarrass me for two tablespoonfuls of milk.  I just turned on my heel and walked out of the dining room.</p>
+<p>I think we are going to get out on Dec. 17 for Christmas although it has not been officially announced and then to have nearly two weeks.  I hope it is so and that the time will roll around quickly.  Papa will have to write me out a permit to come <hi rend="underline">home</hi>.  I don't think he has to send one when I want to go to <hi rend="underline">Covington</hi>.</p>
+<p>It was real laughable in Chapel the other day.  You know Prof. Peed is so sarcastic that he is less universally liked than any one of the Professors.  Dr. Dickey was gone and Prof. Peed had to take the chair.  The boys thought it was a good chance to get it back on him so just as he took the chair the boys began clapping and whistling and I thought they were never going to stop. <pb facs="1908-11-15_p6.jpg"/>
+Whenever a man tries to run over college boys he is picking a hard road.
+</p>
+<p>(Private for <hi rend="underline">mamma</hi>.)</p>
+<p>I have been thinking of something nice for Papa and Walker. Ands have decided that this would be very nice.</p>
+<p>Since being here I have to do so much writing that I have bought me a fountain pen from Sears for 1.10. It has a solid gold point and is very nice little trick.  You can write twice as well and fast.  You know Papa's faculty for keeping <hi rend="underline">sorry</hi> <hi rend="underline">pens</hi>.  Let me know what you think about this.</p>
+
+<closer>
+<salute>Your loving son,</salute>
+<signed><name type="person">W. Lyle Bryan</name></signed>
+</closer>
+</div>
+</body>
+</text>
+</TEI>
