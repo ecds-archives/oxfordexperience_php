@@ -1,0 +1,127 @@
+<TEI xml:id="oeBryanLetter1906-06-06.01" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter to William Lyle Bryan's Mother, <date when="1909-06-06">June 6, 1909</date>, an electronic edition</title>
+<author><name type="person"><choice><reg>Bryan, Willam Lyle, 1890-1960</reg><sic>William Lyle Bryan</sic></choice></name></author>
+      </titleStmt>
+      <extent></extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2007</date>
+        <availability>
+          <p>&#x00A9; 2007, Lewis H. Beck Center, Emory University.
+  Emory University makes a claim of copyright only to original
+  contributions made by the Oxford Experience Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>The Oxford Experience</title>
+        <respStmt>
+          <name>Christine Loflin</name>
+          <name>Erika Farr</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl><author>William Lyle Bryan</author>. <title>Letter from William Lyle Bryan to his mother</title>. <pubPlace>Atlanta</pubPlace>:
+<publisher>Emory University</publisher>, <date>June 10,1909</date>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part
+	of the Oxford Experience Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The archival material has been transcribed and encoded.
+	Paratextual elements may be provided as digital images only, with some exceptions.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF
+images of each page using either a flatbed scanner.  Text pages were
+captured in color at 300dpi.  These digital images were converted to
+an electronic text file by transcription.  The text files produced
+have been proofread against the original document or a JPEG image of
+the original.  This proofread text file has then been encoded using
+the recommendations for Level 3 of the TEI in Libraries Guidelines.
+For the details of Level 3 encoding, please see the webpage for TEI
+Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.  Encoders silently replaced em
+dashes with two dashes.  Page numbers and other text such as titles
+displayed in brackets have been added by the encoder and do not appear
+in the original text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Oxford Experience</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Edited</rs>
+        <rs type="genre"></rs>
+        <rs type="geography">United States</rs>
+        <date>1800-1899</date>  <!-- or 1900-1999 -->
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        On <date>2007-10-17</date>
+ 
+          <name>Liam Ammerman</name> and <name>Dora Dhakal</name>,
+          students, Oxford College of Emory University,
+       transcribed and encoded this document in P4.
+      </change>
+      <change>On <date>October 14, 2008</date> <name>Alice Hickcox</name> corrected the encoding and migrated it to P5.</change>
+    </revisionDesc>
+  </teiHeader>
+<text>
+<body><div type="letter"><head>[Letter from William Lyle Bryan to his mother, June 10, 1909</head>
+<opener><address><addrLine>President's Office</addrLine> </address><dateline><name type="place">Atlanta, Ga.,</name><date when="1909-06-10">June 10,1909</date></dateline>
+
+<salute>Dear Mamma:</salute></opener>
+
+<p>We are here at <name type="person">Edwina</name>'s and have just gotten up. She wants us to stop over till saturday morning and I suppose I will as today and tomorrow <name type="person">Edwina</name> wants us to go out to <name type="place">grant's Park</name> for a little Picnic. I will then come in home and be there at 12 o'clock Saturday morning or should I get left I will be there at night. I had a good time commencement.</p>
+
+<p>Out of 15 medals <name type="group">nons</name> won 10 and out of 4 for oratory <name type="group">nons</name> got 3. The <name type="group">frats</name> are defeated. We had the Honor Roll passed at commencement. I was pleased to see my name on the list. Along with three others of my class.</p>
+
+<p>We had our <name type="group">Non</name> reception Tuesday night. I had a fine time and met lots of the girls. We secured the orchestra that the college had hired for commencement.</p>
+
+<p> The <name type="group">Frats</name> couldn't get my music and had a rather dull affair.</p>
+
+<p>The line was drawn closer at commencement than I have ever seen it drawn. All of the girls in town divide up and a "Frat" girl wouldnt think of going with a "Non". I was glad that <name type="person">Kenyon</name> (junior) got the medal for oratory. for the "frats" ignored him though he was the best speaker and applauded the man who was <name type="group">phi delta theta</name>.</p>
+
+<closer>
+
+<salute>Your loving son,</salute>
+
+<signed><name type="person">Lyle</name></signed>
+</closer>
+<postscript>
+<p>Please keep this R. of Honor</p>
+</postscript>
+
+</div>
+</body>
+</text>
+</TEI>
