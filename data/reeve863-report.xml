@@ -1,9 +1,9 @@
-<TEI xml:id="oe1907song3" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
+<TEI xml:id="oereeve863-report" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Emory College Report, an electronic edition</title>
-<author><name type="person" reg="">Emory College Report</name></author>
+<author><name type="person">Emory College Report</name></author>
       </titleStmt>
       <extent></extent>
       <publicationStmt>
@@ -86,23 +86,18 @@ in the original text.</p>
     </profileDesc>
     <revisionDesc>
       <change>
-        <date>24 July 2007</date>
-        <respStmt>
-          <name>Siobhain Rivera, </name>
-          <resp>Student Assistant.</resp>
-        </respStmt>
-        <item>XML tags inserted in compliance with TEI guidelines.</item>
+<name>Siobhain Rivera, </name> inserted xml tags in compliance with TEI guidelines on <date when="2007-07-24">24 July 2007</date>
       </change>
     </revisionDesc>
   </teiHeader>
 <text>
 <front><!-- Crtitical Introduction goes here --></front>
 <body>
-<div type="report"> 
-<head rend="center">EMORY COLLEGE <lb>OXFORD, GEORGIA.</lb>
-<lb>REPORT OF THE STANDING OF</lb></head> 
-<p rend="bold">Mr.____________________________ from 
-<lb>____________________________ 190__</lb></p>
+<div type="report" xml:id="oereeve83-report.9999"> 
+<head><hi rend="center">EMORY COLLEGE <lb/>OXFORD, GEORGIA.
+REPORT OF THE STANDING OF</hi><lb/></head> 
+<p><hi rend="bold">Mr.____________________________ from 
+____________________________ 190__</hi></p>
 <table rows="27" cols="3">
 <row>
 <cell>STUDIES.</cell>
@@ -253,7 +248,7 @@ in the original text.</p>
 <cell></cell>
 </row>
 <row>
-<cell>Greek Authors,<signed>IS</signed></cell>
+<cell>Greek Authors,IS</cell>
 <cell>9<!--superscript-->5</cell>
 <cell>8</cell>
 </row>
@@ -382,9 +377,11 @@ in the original text.</p>
 <p>General Deportment will be determined by "(1) punctuality, (2) behavior in class, (3) general attention to duty, (4) observance of College Laws."</p>
 <p>To rise, a student must make grades not lower than 6.  All deficiencies must be made up before graduation.</p>
 <p>Any pupil receiving below 5 in deportment, is dismissed from the institution.</p>
-<signed>M. T. PEED,<lb>Secretary of the Faculty.</lb></signed>
-<head rend="bold">TO PARENTS AND GUARDIANS.</head>
-<p>In view of the unavoidable evil <sic corr="effects">affects</sic> of absences upon the standing and proficiency of a student, the Faculty earnestly requests that parents and guardians do not encourage or approve any absences without very urgent reasons.</p> 
+<signed>M. T. PEED,<lb/>Secretary of the Faculty.</signed>
+</div>
+<div>
+<head><hi rend="bold">TO PARENTS AND GUARDIANS.</hi></head>
+<p>In view of the unavoidable evil<choice> <sic>affects</sic><corr>effects</corr></choice> of absences upon the standing and proficiency of a student, the Faculty earnestly requests that parents and guardians do not encourage or approve any absences without very urgent reasons.</p> 
 </div>
 </body>
 </text>
