@@ -3,7 +3,8 @@
     <fileDesc>
       <titleStmt>
         <title>K. T. Tsoong Letter, <date when="1909-06-06">June 6, 1909</date>, an electronic edition</title>
-<author><name type="person">K. T. Soong</name></author>
+<author><name type="person">
+<choice><reg>Tsoong, Kia Tsing</reg><sic>K. T. Tsoong</sic></choice></name></author>
       </titleStmt>
       <extent></extent>
       <publicationStmt>
@@ -89,11 +90,8 @@ in the original text.</p>
         <date when="2007-12-05">December 5, 2007 </date>
     
           <name>Ada Leung, </name>
-         
-	  <name>Christy</name>
-
-   
-        XML tags inserted in compliance with TEI guidelines.
+         and
+	  <name>Christy</name> transcribed and encoded the text.
       </change>
     </revisionDesc>
   </teiHeader>
