@@ -99,15 +99,15 @@ in the original text.</p>
 <head>Letter from President James E. Dickey to Thomas Ellis Reeve, August 29, 1908</head>
 <opener>
 <dateline><date when="1908-08-29">Aug. 29, 1908.</date></dateline>
-<name type="person" reg="Thomas Ellis Reeve">Mr. Ellis Reeve</name>, 
+<name type="person">Mr. Ellis Reeve</name>, 
 <address><addrLine>Calhoun, Ga.</addrLine></address>
-<salute>Dear <name type="person" reg="Thomas Ellis Reeve">Ellis</name>:</salute>
+<salute>Dear <name type="person">Ellis</name>:</salute>
 </opener>
 <p>Enclosed find certificate for admission as requested.  We shall be pleased to have your brother with us.  The outlook for the opening is unusually good.</p>
 <p>Hoping to see you on the 15th of September, I am with kind regards, </p>
 <closer>
 <salute>Very truly yours,</salute>
-<signed><name type="person" reg="James E. Dickey">James E. Dickey</name></signed>
+<signed><name type="person">James E. Dickey</name></signed>
 </closer>
 </div>
 </body>

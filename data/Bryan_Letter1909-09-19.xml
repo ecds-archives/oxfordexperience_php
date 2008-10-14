@@ -3,7 +3,7 @@
     <fileDesc>
       <titleStmt>
         <title>Letter to Bryan's Mother, <date when="1909-09-19">September 9, 1909</date>, an electronic edition</title>
-<author><name type="person" reg="">Lyle Bryan</name></author>
+<author><name type="person">Lyle Bryan</name></author>
       </titleStmt>
       <extent></extent>
       <publicationStmt>
@@ -85,13 +85,13 @@ in the original text.</p>
     </profileDesc>
     <revisionDesc>
       <change>
-        <date>2007-11-12</date>
-        <respStmt>
-          <name>Allison Harper </name>
+       On <date>2007-11-12</date>
+      
+          <name>Allison Harper, </name>
           <name>Kate Hutchinson </name>
-          <resp>Oxford College Students, Emory University.</resp>
-        </respStmt>
-        <item>XML tags inserted in compliance with TEI guidelines.</item>
+          
+       
+        inserted XML tags in compliance with TEI guidelines.
       </change>
     </revisionDesc>
   </teiHeader>
@@ -103,27 +103,27 @@ in the original text.</p>
 <opener>
 <dateline>
 <date when = "1909-09-19"> 09/19/1909 </date>
-Place of Publication: <name type = "place" reg ="Oxford, GA"> Oxford, GA </name>
+Place of Publication: <name type = "place"> Oxford, GA </name>
 </dateline> 
-<salute> Dear <name reg="Alica Bryan">Mother</name>, </salute>
+<salute> Dear <name type="person">Mother</name>, </salute>
 </opener>
 
-<p> I suppose you will be interested first to learn of my room.  I bought the rocker, blankets and counter pin in <name type = "place" reg ="Atlanta, GA"> Atlanta </name> and had them shipped down.  The freight was only 25'4.  These things with my rugs indeed do make my room cozy.  I bought me a nickel lamp for $2.00.  The <orig reg="counterpane">counter pin</orig> was a good wide one and nicely covers my bed. </p>
+<p> I suppose you will be interested first to learn of my room.  I bought the rocker, blankets and counter pin in <name type = "place"> Atlanta </name> and had them shipped down.  The freight was only 25'4.  These things with my rugs indeed do make my room cozy.  I bought me a nickel lamp for $2.00.  The counter pin was a good wide one and nicely covers my bed. </p>
 
-	<p>I am rooming by myself.  I had a roommate for about two days.  The first fellow that was sent me was rather seedy looking and I told him to move on.  Then another one came and as he was a sophomore and was neat and clean looking I took him in,  He was from <name type = "place" reg ="Tallahasse, FL"> Tallahassee, Florida </name>.  He stayed here two days and then told me that he believed he would go home as he couldn'd5t stand the fare at the hall so he had his trunk hauled over to <name type = "place" reg ="Covington, GA"> Covington </name> but the next thing I saw was my dearly beloved coming back.  He had decided he would stay at <name reg ="Mrs. Wynn"> Mrs. Wynn's</name> place.  So now I am by myself. </p>
+	<p>I am rooming by myself.  I had a roommate for about two days.  The first fellow that was sent me was rather seedy looking and I told him to move on.  Then another one came and as he was a sophomore and was neat and clean looking I took him in,  He was from <name type="place"> Tallahassee, Florida </name>.  He stayed here two days and then told me that he believed he would go home as he couldn'd5t stand the fare at the hall so he had his trunk hauled over to <name type = "place"> Covington </name> but the next thing I saw was my dearly beloved coming back.  He had decided he would stay at <name> Mrs. Wynn's</name> place.  So now I am by myself. </p>
 
-	<p>There will and increased enrollment this year nearly 300.  We have seventy in our class and there are one hundred freshmen.  There are lots of the back and rafts of new fellows.  I now understand how it is that the old men do not feel towards a new man like they do towards one that they have already known.  Strange <name reg="White">White</name> and <name reg="Sappington">Sappington</name> are all back.  But what do you think get ready for exclamation.  <name reg ="Bishop"> Bishop </name> is back and is as full of uninvited philosophy as ever.  </p>
+	<p>There will and increased enrollment this year nearly 300.  We have seventy in our class and there are one hundred freshmen.  There are lots of the back and rafts of new fellows.  I now understand how it is that the old men do not feel towards a new man like they do towards one that they have already known.  Strange <name>White</name> and <name>Sappington</name> are all back.  But what do you think get ready for exclamation.  <name> Bishop </name> is back and is as full of uninvited philosophy as ever.  </p>
 
-<p>	I have been working on my debate a little.  <name reg= "Dr Turner"> Dr. Turner </name> took my certificate all right it is certainly different from last year this being a sophomore.  Last year when we went to get our cards signed up it was 'get in line there you Freshmen'.  Now the Profs shake hands with a fellow and say 'I am so glad to see you back.' </p>
+<p>	I have been working on my debate a little.  <name> Dr. Turner </name> took my certificate all right it is certainly different from last year this being a sophomore.  Last year when we went to get our cards signed up it was 'get in line there you Freshmen'.  Now the Profs shake hands with a fellow and say 'I am so glad to see you back.' </p>
 
 	<p>I am study in Latin, Tactitus Agricola.., Trigonometry, History Physics, Mechanics, English Literature, Bible.  Every fellow here is going to be measured then see if he develops any during the year.  They take fifty seven measurements on your body.</p>
 
-<p>	<name reg ="Thrasher"> Thrasher </name> and <name reg ="Ashford"> Ashford </name> are back.  They are taking  special. </p>
-	<p>I enclose a piece about <name reg ="Cook"> Cook  </name> that I cut upon the constitution which I thought probably you would enjoy if you had not seen it. </p>
+<p>	<name> Thrasher </name>and <name>Ashford </name>are back.  They are taking  special. </p>
+	<p>I enclose a piece about <name>Cook</name> that I cut upon the constitution which I thought probably you would enjoy if you had not seen it. </p>
 	<p>Write to you soon </p>
 		<closer>
 			 <salute> Your loving son, </salute>
-				<signed> <name reg = "Lyle Bryan"> Lyle Bryan. </name> </signed>
+				<signed> <name>Lyle Bryan. </name> </signed>
  </closer>
 </div>
 </body>
