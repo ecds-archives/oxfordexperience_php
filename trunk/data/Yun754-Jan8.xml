@@ -3,7 +3,7 @@
     <fileDesc>
       <titleStmt>
         <title>Diary of Yun Ch'i-ho, an electronic edition</title>
-<author><name type="person" reg="Yun Ch'i-ho">Yun Ch'i-ho</name></author>
+<author><name type="person"><choice><reg>"Yun Ch'i-ho"></reg><sic>Yun Ch'i-ho</sic></choice></name></author>
       </titleStmt>
       <extent></extent>
       <publicationStmt>
@@ -86,28 +86,25 @@ in the original text.</p>
     </profileDesc>
     <revisionDesc>
       <change>
-        <date>10 July 2007</date>
-        <respStmt>
-          <name>Siobhain Rivera, </name>
-          <resp>Student Assistant.</resp>
-        </respStmt>
-        <item>XML tags inserted in compliance with TEI guidelines.</item>
+        On <date>10 July 2007</date>
+                 <name>Siobhain Rivera, </name>
+          inserted XML tags in compliance with TEI guidelines.
       </change>
     </revisionDesc>
   </teiHeader>
 <text>
 <front><!-- critical introduction goes here --></front>
 <body>
-<div type="diary entry">
+<div type="diary_entry">
 <opener><date when="1892-01-08">Jan. 8th Frid.</date></opener>
 <p>Cold &#x0026; bright</p>
-<p>Wrote to Dear <name type="person" reg="Abbie Hoss">Mrs. H.</name>: --
-"I never thought it likely that <name type="place" reg="Oxford, Georgia">Oxford</name> would get very cold.  But I was mistaken.  For the several days past, water freezes in my room most nights &#x0026; sometimes in day time.  Am enjoying cold weather, however.</p>
+<p>Wrote to Dear <name type="person"><choice><reg>Abbie Hoss</reg><sic>Mrs. H.</sic></choice> </name>: --
+"I never thought it likely that <name type="place"><choice><reg>Oxford, Georgia</reg><sic>Oxford</sic></choice></name> would get very cold.  But I was mistaken.  For the several days past, water freezes in my room most nights &#x0026; sometimes in day time.  Am enjoying cold weather, however.</p>
 
-<p>"Nothing unusual to disturb the <sic corr="monotony">monotoy</sic> of the college routine.  A <name type="place" reg="South Carolina">S.C.</name> boy, named <name>Wilson</name>, had to go home or rather had to be taken home on account of lunatic fits.  This state of mind was brought on by excessive use of <sic corr="cigarettes">cigaretts</sic>.  When he got into a fit -- &#x0026; that he did many times an hour -- he poured out 'cusses' in an unbroken stream.  One evening <name type="person" reg="Warren Candler">Dr. Candler</name> called on him.  Hearing the <name type="person" reg="Warren Candler">Dr.</name>, <name>Wilson</name> cried out "Oh! Look at that <hi rend="underline">bob-tailed monkey</hi>!  Take him out! Quick!"  Then followed a long string of 'cusses' of the queerest &#x0026; worst kinds.
+<p>"Nothing unusual to disturb the <choice><corr>monotony</corr><sic>monotoy</sic></choice> of the college routine.  A <name type="place"><choice><reg>South Carolina</reg><sic>S.C.</sic></choice></name> boy, named <name>Wilson</name>, had to go home or rather had to be taken home on account of lunatic fits.  This state of mind was brought on by excessive use of <choice><corr>cigarettes</corr><sic>cigaretts</sic></choice>.  When he got into a fit -- &#x0026; that he did many times an hour -- he poured out 'cusses' in an unbroken stream.  One evening <name type="person"><choice><reg>Warren Candler</reg><sic>Dr. Candler</sic></choice></name> called on him.  Hearing the <name type="person"><choice><reg>Warren Candler</reg><sic>Dr. Wilson</sic></choice></name> cried out "Oh! Look at that <hi rend="underline">bob-tailed monkey</hi>!  Take him out! Quick!"  Then followed a long string of 'cusses' of the queerest &#x0026; worst kinds.
 
-Am waiting for an answer from <name type="person" reg="Young John Allen">Dr. Allen</name> in regard to my [?] movement.  In case of his telling me come back to <name type="place">Shanghai</name> -- which is most likely -- I shall have to go to <name type="place" reg="Nashville, Tennessee">Nash.</name> on my way to <name type="place" reg="San Francisco, California">San F'co</name>,</p>
+Am waiting for an answer from <name type="person"><choice><reg>Young John Allen</reg><sic>Dr. Allen</sic></choice></name> in regard to my [?] movement.  In case of his telling me come back to <name type="place">Shanghai</name> -- which is most likely -- I shall have to go to <name type="place"><choice><reg>Nashville, Tennessee"</reg><sic>Nash.</sic></choice></name> on my way to <name type="place"><choice><reg>San Francisco, California</reg><sic>San F'co</sic></choice></name>,</p>
 </div>
 </body>
 </text>
-</TEI.2>
+</TEI>
