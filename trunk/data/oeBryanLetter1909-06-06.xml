@@ -1,4 +1,4 @@
-<TEI xml:id="oeBryanLetter1906-06-06.01" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
+<TEI xml:id="oeBryanLetter1909-06-06.01" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -97,7 +97,7 @@ in the original text.</p>
   </teiHeader>
 <text>
 <body><div type="letter"><head>[Letter from William Lyle Bryan to his mother, June 10, 1909</head>
-<opener><address><addrLine>President's Office</addrLine> </address><dateline><name type="place">Atlanta, Ga.,</name><date when="1909-06-10">June 10,1909</date></dateline>
+<opener><address><addrLine>President's Office</addrLine><lb/> </address><dateline><name type="place">Atlanta, Ga.,</name><date when="1909-06-10">June 10,1909</date></dateline>
 
 <salute>Dear Mamma:</salute></opener>
 
