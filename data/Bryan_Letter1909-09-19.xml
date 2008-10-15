@@ -1,9 +1,9 @@
-<TEI xml:id="oe1907song3" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
+<TEI xml:id="oeBryan_Letter1909-09-19.9999" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Letter to Bryan's Mother, <date when="1909-09-19">September 9, 1909</date>, an electronic edition</title>
-<author><name type="person">Lyle Bryan</name></author>
+<author><name type="person"><choice><reg>Bryan, William Lyle</reg><sic>Lyle Bryan</sic></choice></name></author>
       </titleStmt>
       <extent></extent>
       <publicationStmt>
@@ -103,14 +103,14 @@ in the original text.</p>
 <opener>
 <dateline>
 <date when = "1909-09-19"> 09/19/1909 </date>
-Place of Publication: <name type = "place"> Oxford, GA </name>
+<name type = "place"> Oxford, GA </name>
 </dateline> 
 <salute> Dear <name type="person">Mother</name>, </salute>
 </opener>
 
 <p> I suppose you will be interested first to learn of my room.  I bought the rocker, blankets and counter pin in <name type = "place"> Atlanta </name> and had them shipped down.  The freight was only 25'4.  These things with my rugs indeed do make my room cozy.  I bought me a nickel lamp for $2.00.  The counter pin was a good wide one and nicely covers my bed. </p>
 
-	<p>I am rooming by myself.  I had a roommate for about two days.  The first fellow that was sent me was rather seedy looking and I told him to move on.  Then another one came and as he was a sophomore and was neat and clean looking I took him in,  He was from <name type="place"> Tallahassee, Florida </name>.  He stayed here two days and then told me that he believed he would go home as he couldn'd5t stand the fare at the hall so he had his trunk hauled over to <name type = "place"> Covington </name> but the next thing I saw was my dearly beloved coming back.  He had decided he would stay at <name> Mrs. Wynn's</name> place.  So now I am by myself. </p>
+	<p>I am rooming by myself.  I had a roommate for about two days.  The first fellow that was sent me was rather seedy looking and I told him to move on.  Then another one came and as he was a sophomore and was neat and clean looking I took him in,  He was from <name type="place"> Tallahassee, Florida </name>.  He stayed here two days and then told me that he believed he would go home as he couldn't stand the fare at the hall so he had his trunk hauled over to <name type = "place"> Covington </name> but the next thing I saw was my dearly beloved coming back.  He had decided he would stay at <name> Mrs. Wynn's</name> place.  So now I am by myself. </p>
 
 	<p>There will and increased enrollment this year nearly 300.  We have seventy in our class and there are one hundred freshmen.  There are lots of the back and rafts of new fellows.  I now understand how it is that the old men do not feel towards a new man like they do towards one that they have already known.  Strange <name>White</name> and <name>Sappington</name> are all back.  But what do you think get ready for exclamation.  <name> Bishop </name> is back and is as full of uninvited philosophy as ever.  </p>
 

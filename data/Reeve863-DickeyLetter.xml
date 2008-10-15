@@ -1,9 +1,9 @@
-<TEI xml:id="oe1907song3" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
+<TEI xml:id="oeReeve863-DickeyLetter.9999" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Letter to Thomas Ellis Reeve <date when="1908-08-29">August 29, 1908</date>, an electronic edition</title>
-<author><name type="person">President James Dickey</name></author>
+<author><name type="person"><choice><sic>President James Dickey</sic><reg>Dickey, James</reg></choice></name></author>
       </titleStmt>
       <extent></extent>
       <publicationStmt>
@@ -99,8 +99,8 @@ in the original text.</p>
 <head>Letter from President James E. Dickey to Thomas Ellis Reeve, August 29, 1908</head>
 <opener>
 <dateline><date when="1908-08-29">Aug. 29, 1908.</date></dateline>
-<name type="person">Mr. Ellis Reeve</name>, 
-<address><addrLine>Calhoun, Ga.</addrLine></address>
+<name type="person">Mr. Ellis Reeve</name>, <lb/>
+<address><addrLine>Calhoun, Ga.</addrLine></address><lb/>
 <salute>Dear <name type="person">Ellis</name>:</salute>
 </opener>
 <p>Enclosed find certificate for admission as requested.  We shall be pleased to have your brother with us.  The outlook for the opening is unusually good.</p>
