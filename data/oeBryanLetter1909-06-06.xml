@@ -99,7 +99,7 @@ in the original text.</p>
 <body>
 <pb facs="1909-06-10_1.jpg"/>
 
-<div type="letter"><head>[Letter from William Lyle Bryan to his mother, June 10, 1909</head>
+<div type="letter"><head>[Letter from William Lyle Bryan to his mother, June 10, 1909]</head>
 <opener><address><addrLine>President's Office</addrLine><lb/> </address><dateline><name type="place">Atlanta, Ga.,</name><date when="1909-06-10">June 10,1909</date></dateline>
 
 <salute>Dear Mamma:</salute></opener>
@@ -126,11 +126,61 @@ won 10 and out of 4 for oratory <name type="group">nons</name> got 3. The <name 
 </closer>
 <lb/>
 <postscript>
-<pb facs="1909-06-10_3.jpg"/>
+
 <p>Please keep this R. of Honor</p>
 </postscript>
 
 </div>
 </body>
+<back>
+<pb facs="1909-06-10_3.jpg"/>
+<div type="report">
+<head rend="center"> ROLL OF HONOR</head>
+<p>Note:    A Student is put on the Roll of Honor when his yearly standing is 9 or over.</p>
+<list>
+<head rend="bold">SUB FRESHMAN</head>
+<item><name type="person">R. W. PRYOR,</name></item>
+<item><name type="person">U. RUMBLE,</name></item>
+</list>
+<list>
+<head rend="bold">FRESHMAN</head>
+<item><name type="person">F. L. BOYER,</name></item>
+<item><name type="person">W. L. BRYAN,</name></item>
+<item><name type="person">D. P. MELSON,</name></item>
+<item><name type="person">B. E WILCOX,</name></item>
+</list>
+<list>
+<head rend="bold">SOPHOMORE</head>
+<item><name type="person">W. H. BURT,</name></item>
+<item><name type="person">T. B. CHRISTIAN,</name></item>
+<item><name type="person">H. N. FULLER,</name></item>
+<item><name type="person">J. L. GIRARDEAU,</name></item>
+<item><name type="person">G. S. ROACH,</name></item>
+<item><name type="person">W. M. WRIGHT,</name></item>
+</list>
+<list>
+<head rend="bold">JUNIOR</head>
+<item><name type="person">H. G. BARNETT,</name></item>
+<item><name type="person">*P. H. CHRISTIAN,</name></item>
+<item><name type="person">S. T. HARRELL,</name></item>
+<item><name type="person">E. D. KENYON,</name></item>
+<item><name type="person">L. C. KOLB,</name></item>
+<item><name type="person">*P. M. MUNRO,</name></item>
+</list>
+<list>
+<head rend="bold">SENIOR</head>
+<item><name type="person">*S. BRINKLEY,</name></item>
+<item><name type="person">J. M. BRYAN,</name></item>
+<item><name type="person">*W. S. BRYAN"</name></item>
+<item><name type="person">E. V. HEATH,</name></item>
+<item><name type="person">C. C. HINTON,</name></item>
+<item><name type="person">T. O. MARSHALL,</name></item>
+<item><name type="person">T. M. RIVERS,</name></item>
+<item><name type="person">A. W. WHITE,</name></item>
+<item><name type="person">E. C. WILSON,</name></item>
+</list>
+<p> * Admitted to the <name type="group">Alpha Epsilon Upsilon"</name> on an average class standing for three consecutive years of 9.25 and over.</p>
+</div>
+</back>
 </text>
 </TEI>
