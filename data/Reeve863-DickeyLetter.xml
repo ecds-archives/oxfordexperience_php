@@ -96,6 +96,7 @@ in the original text.</p>
 <front><!-- critical introduction goes here --></front>
 <body>
 <div type="letter" xml:id="oeReeve863-DickeyLetter.9999">
+<pb facs="Reeve863-DickeyLetter.jpg"/>
 <head>Letter from President James E. Dickey to Thomas Ellis Reeve, August 29, 1908</head>
 <opener>
 <dateline><date when="1908-08-29">Aug. 29, 1908.</date></dateline>
@@ -111,5 +112,89 @@ in the original text.</p>
 </closer>
 </div>
 </body>
+<back>
+<pb facs="Reeve863-AdmissionCert1.jpg"/>
+<div type="certificate">
+<head>Emory College Certificate of Admission</head>
+<p rend="center">_____________________________________________</p>
+<p rend="right">_____________________________________190____</p>
+<p rend="smallcap">To the Faculty of Emory College:</p>
+<p rend="italic">Mr. ______________  _______________</p>
+<p rend="indent"><hi rend="italic">Candidate for admission to the __________ Class of Emory College, has completed in a satisfactory manner the courses herein set forth.</hi></p>
+<p rend="right">___________________________</p>
+<p rend="right"><hi rend="italic">Principal of ____________________ School.</hi></p>
+<p>*State the total number of hours given to the subject in the class room.</p>
+<table rows="6" cols="4">
+<row>
+  <cell>SUBJECT</cell>
+  <cell>TEXT-BOOK</cell>
+  <cell>NO. OF PAGES</cell>
+  <cell>NO. OF HOURS*</cell>
+</row>
+<row>
+  <cell>
+<list><l><hi rend="smallcap">English</hi>--Grammar.</l>
+		<l>Composition.</l>
+		<l>Rhetoric.</l>
+		<l>Required Reading.</l></list>
+</cell>
+<cell></cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+  <cell>
+<list><l><hi rend="smallcap">Latin</hi>--Beginner's Book.</l>
+		<l>Grammar.</l>
+		<l>Caesar.</l>
+		<l>Cicero.</l>
+		<l>Virgil.</l>
+		<l>Prose Composition.</l></list>
+</cell>
+<cell></cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+  <cell><list><l><hi rend="smallcap">Greek</hi>--Beginner's Book.</l>
+		<l>Xenophon's Anabasis</l>
+		<l>Herodotus.</l>
+		<l>Homer.</l>
+		<l>Prose Composition.</l>
+		<l>Mythology and History.</l></list>
+</cell>
+<cell></cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+  <cell><list><l><hi rend="smallcap">Mathematics</hi>--Arithmetic.</l>
+		<l>Algebra.</l>
+		<l>Geometry.</l>
+		<l>Trigonometry.</l>
+		<l>Analytic Geom.</l>
+		</list>
+</cell>
+<cell></cell>
+<cell></cell>
+<cell></cell>
+</row>
+
+<row>
+  <cell><list><l><hi rend="smallcap">History</hi>--U.S. History.</l>
+		<l>History of Greece.</l>
+		<l>History of Rome.</l>
+		<l>Other Studies (Modern Lan., Science, etc.)</l><!-- this text should be smaller than the rest -->
+		</list>
+</cell>
+<cell></cell>
+<cell></cell>
+<cell></cell>
+</row>
+</table>
+<pb facs="Reeve863-AdmissionCert2.jpg"/>
+<p>This is the back of the certificate, meant to be folded up and mailed back to the College by the principal of the applicant's school.</p>
+</div>
+</back>
 </text>
 </TEI>
