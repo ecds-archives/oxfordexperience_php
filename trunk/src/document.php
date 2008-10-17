@@ -10,7 +10,7 @@ $terms = $_REQUEST["keyword"];
 
 $view = $_REQUEST["view"];
 
-$exist_args{"debug"} = true;
+$exist_args{"debug"} = false;
 $xmldb = new xmlDbConnection($exist_args);
 
 html_head("Documents", true);
@@ -43,11 +43,17 @@ return
 {$b}
 </result>';
 
+if ($view == "xml") {
+$xmldb->xquery($query);
+print '<a href="document.php?id=' . $id . '">Return to document</a>';
+$xmldb->displayXML();
+    }
+else {
 // run the query 
 $xmldb->xquery($query);
 $xmldb->xslTransform($xsl_file, $xsl_params);
 $xmldb->printResult();
-
+}
 ?> 
    
 </div>

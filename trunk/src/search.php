@@ -1,8 +1,9 @@
 <?php
 include_once("config.php");
 include_once("lib/xmlDbConnection.class.php");
+include("common_functions.php");
 
-$exist_args{"debug"} = true;
+$exist_args{"debug"} = false;
 
 $db = new xmlDbConnection($exist_args);
 
@@ -28,13 +29,13 @@ $htmltitle = "The Oxford Experience";
 
 $options = array();
 if ($kw) 
-  array_push($options, " &= \"$kw\"");
+  array_push($options, ".//tei:div &= \"$kw\"");
 if ($doctitle)
   array_push($options, ".//tei:div/tei:head &= '$doctitle'");
 if ($auth)
   array_push($options, "(./tei:fileDesc/tei:titleStmt/tei:author/tei:name &= '$auth')");
 if ($date)
-  array_push($options, "(.//tei:div/tei:docDate &= '$date' or .//tei:div/tei:docDate/@value &= '$date')");
+  array_push($options, "(.//tei:fileDesc/tei:titleStmt/tei:date &= '$date' or .//tei:fileDesc/tei:titleStmt/tei:date/@when &= '$date')");
 /*if ($subj)
  array_push($options, ".//keywords/list/item &= '$subj'");*/ //add subj later
 
@@ -42,21 +43,21 @@ if ($date)
 if (count($options)) {
 
   $searchfilter = "[" . implode(" and ", $options) . "]"; 
-  //print("DEBUG: Searchfilter is $searchfilter");
+  print("DEBUG: Searchfilter is $searchfilter");
   
-  $query = "for \$a in /tei:TEI$searchfilter
+  $query = "declare namespace tei='http://www.tei-c.org/ns/1.0';
+for \$a in /tei:TEI$searchfilter
 let \$t := \$a//tei:titleStmt//tei:title
-let \$doc := \$a/@id
 let \$auth := \$a//tei:titleStmt//tei:author/tei:name
 let \$date := \$a//tei:sourceDesc//tei:date
 let \$matchcount := text:match-count(\$a)
 order by \$matchcount descending
-return <item>{\$a/@id}";
+return <item>{\$a/@xml:id}";
   if ($kw)	// only count matches for keyword searches
     $query .= "<hits>{\$matchcount}</hits>";
   $query .= "
   {\$t}
-  <id>{\$doc}</id>
+  <id>{\$a/@xml:id}</id>
   {\$auth}
   {\$date}";
   /*  if ($subj)	// return subjects if included in search 

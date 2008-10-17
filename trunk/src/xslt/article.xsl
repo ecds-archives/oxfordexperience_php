@@ -35,6 +35,7 @@
 <xsl:template match="/">
   <!-- recall the article list -->
   <xsl:call-template name="return" />
+  <xsl:call-template name="xmlview"/>
  <xsl:apply-templates/>
 <!-- display footnotes at end -->
 <!--    <xsl:call-template name="endnotes"/> -->
@@ -66,22 +67,24 @@
 <!-- Don't print the header -->
   <xsl:template match="tei:teiHeader"/>
 
-<xsl:template match="tei:front">
- <!-- show intro essay -->
-   <xsl:if test="$view = 'intro'">  
+<xsl:template match="tei:front[tei:div/@type='critical_introduction']">
+  <xsl:choose>
+<!-- link to the essay - default -->
+    <xsl:when test="$view = ''">
+      <xsl:element name="a">
+	<xsl:attribute name="href">document.php?id=<xsl:value-of select="$id"/>&amp;view=intro</xsl:attribute>View the introduction</xsl:element>
+	<xsl:element name="br"/>
+	</xsl:when>
+ <!-- show intro essay, link back to letter view -->
+   <xsl:when test="$view = 'intro'">  
       <xsl:element name="a">
 	<xsl:attribute name="href">document.php?id=<xsl:value-of select="$id"/></xsl:attribute>View document only</xsl:element>
       <xsl:element name="div">
 	<xsl:attribute name="class">intro</xsl:attribute>
   <xsl:apply-templates select="tei:div"/>
       </xsl:element>
-    </xsl:if> 
-<!-- link to the essay -->
-    <xsl:if test="$view = ''"> 
-      <xsl:element name="a">
-	<xsl:attribute name="href">document.php?id=<xsl:value-of select="$id"/>&amp;view=intro</xsl:attribute>View the introduction</xsl:element>
-
-    </xsl:if>
+    </xsl:when>
+  </xsl:choose> 
 </xsl:template>
 
 
@@ -93,6 +96,8 @@
 </xsl:template>
 
   <!-- figure code for yjallen, using P5 @facs in pb -->
+  <!-- if it is inside a paragraph, or in the back, add breaks around the page break -->
+  <!-- only offer the view if there is @facs -->
   
   <xsl:template match="//tei:pb">
     <xsl:if test="ancestor::tei:p | ancestor::tei:back"><br/></xsl:if>
@@ -102,6 +107,9 @@
       <xsl:attribute name="target">_blank</xsl:attribute>
       View image of page
     </xsl:element>
+    <xsl:if test="position()=1">
+      <xsl:element name="br"/>
+    </xsl:if>
   </xsl:if>
     <xsl:if test="ancestor::tei:p | ancestor::tei:back"><br/></xsl:if>
   </xsl:template>
@@ -109,7 +117,8 @@
 
 <!-- display the title -->
 <xsl:template match="tei:div/tei:head">
-  <xsl:element name="h1">
+  <xsl:element name="h2">
+    <xsl:attribute name="class">title</xsl:attribute>
    <xsl:apply-templates />
   </xsl:element>
 </xsl:template>
@@ -119,15 +128,24 @@
     <xsl:value-of select="."/>
   </xsl:element>
 </xsl:template>
+
 <xsl:template match="tei:docDate">
 <xsl:element name="p">
   <xsl:apply-templates/>
 </xsl:element>
 </xsl:template>
+
 <xsl:template match="tei:bibl">
 <xsl:element name="p">
   <xsl:apply-templates/>
 </xsl:element>
+</xsl:template>
+
+<xsl:template match="tei:front/tei:div/tei:docAuthor">
+  <xsl:element name="h3">
+    <xsl:attribute name="class">author</xsl:attribute>
+    <xsl:apply-templates/>
+  </xsl:element>
 </xsl:template>
 <!--
 <xsl:template match="div3">
@@ -550,6 +568,12 @@ select="//next/docDate"/></xsl:element>
       </xsl:call-template>
     </xsl:if>
   </xsl:template>
-  
+
+  <!-- offer view of xml -->
+  <xsl:template name="xmlview">
+    <xsl:element name="a">
+      <xsl:attribute name="href">document.php?id=<xsl:value-of select="$id"/>&amp;view=xml</xsl:attribute>View the TEI xml code for this page</xsl:element>
+	<xsl:element name="br"/>
+  </xsl:template>
 </xsl:stylesheet>
 
