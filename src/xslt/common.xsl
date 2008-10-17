@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:exist="http://exist.sourceforge.net/NS/exist"
-  exclude-result-prefixes="exist" version="1.0">
+  exclude-result-prefixes="exist" version="1.0"
+  xmlns:tei="http://www.tei-c.org/ns/1.0">
 
   <xsl:include href="utils.xsl"/>
   <xsl:include href="tei-table.xsl"/>
