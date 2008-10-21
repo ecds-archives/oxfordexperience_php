@@ -33,9 +33,9 @@ if ($kw)
 if ($doctitle)
   array_push($options, ".//tei:div/tei:head &= '$doctitle'");
 if ($auth)
-  array_push($options, "(./tei:fileDesc/tei:titleStmt/tei:author/tei:name &= '$auth')");
+  array_push($options, "(./tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author/tei:name &= '$auth' or ./tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author/tei:name//tei:sic &= '$auth' or ./tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author/tei:name//tei:reg &= '$auth')");
 if ($date)
-  array_push($options, "(.//tei:fileDesc/tei:titleStmt/tei:date &= '$date' or .//tei:fileDesc/tei:titleStmt/tei:date/@when &= '$date')");
+  array_push($options, "(.//tei:fileDesc/tei:titleStmt//tei:date &= '$date' or .//tei:fileDesc/tei:titleStmt//tei:date/@when &= '$date')");
 /*if ($subj)
  array_push($options, ".//keywords/list/item &= '$subj'");*/ //add subj later
 
@@ -43,7 +43,7 @@ if ($date)
 if (count($options)) {
 
   $searchfilter = "[" . implode(" and ", $options) . "]"; 
-  print("DEBUG: Searchfilter is $searchfilter");
+  //print("DEBUG: Searchfilter is $searchfilter");
   
   $query = "declare namespace tei='http://www.tei-c.org/ns/1.0';
 for \$a in /tei:TEI$searchfilter
