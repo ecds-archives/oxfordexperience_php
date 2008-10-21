@@ -1,9 +1,9 @@
-<TEI.2>
+<TEI xml:id="Reeve863_AdmissionCert" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Emory College Certificate of Admission, an electronic edition</title>
-<author><name type="corporate" reg="Emory College">Emory College</name></author>
+<author><name type="corporate">Emory College</name></author>
       </titleStmt>
       <extent></extent>
       <publicationStmt>
@@ -56,7 +56,7 @@ displayed in brackets have been added by the encoder and do not appear
 in the original text.</p>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="lcsh">
+        <taxonomy xml:id="lcsh">
           <bibl>
             <title>Library of Congress Subject Headings</title>
           </bibl>
@@ -87,12 +87,9 @@ in the original text.</p>
     </profileDesc>
     <revisionDesc>
       <change>
-        <date>July 18, 2007</date>
-        <respStmt>
-          <name>Siobhain Rivera, </name>
-          <resp>Student Assistant.</resp>
-        </respStmt>
-        <item>XML tags inserted in compliance with TEI guidelines.</item>
+        
+        
+          <name>Siobhain Rivera, </name>inserted XML tags in compliance with TEI guidelines on <date>July 18, 2007</date>
       </change>
     </revisionDesc>
   </teiHeader>
@@ -118,10 +115,10 @@ in the original text.</p>
 </row>
 <row>
   <cell>
-<list><l><hi rend="smallcap">English</hi>--Grammar.</l>
-		<l>Composition.</l>
-		<l>Rhetoric.</l>
-		<l>Required Reading.</l></list>
+<list><item><hi rend="smallcap">English</hi>--Grammar.</l>
+		<item>Composition.</l>
+		<item>Rhetoric.</l>
+		<item>Required Reading.</l></list>
 </cell>
 <cell></cell>
 <cell></cell>
@@ -129,12 +126,12 @@ in the original text.</p>
 </row>
 <row>
   <cell>
-<list><l><hi rend="smallcap">Latin</hi>--Beginner's Book.</l>
-		<l>Grammar.</l>
-		<l>Caesar.</l>
-		<l>Cicero.</l>
-		<l>Virgil.</l>
-		<l>Prose Composition.</l></list>
+<list><item><hi rend="smallcap">Latin</hi>--Beginner's Book.</l>
+		<item>Grammar.</l>
+		<item>Caesar.</l>
+		<item>Cicero.</l>
+		<item>Virgil.</l>
+		<item>Prose Composition.</l></list>
 </cell>
 <cell></cell>
 <cell></cell>
@@ -153,11 +150,11 @@ in the original text.</p>
 <cell></cell>
 </row>
 <row>
-  <cell><list><l><hi rend="smallcap">Mathematics</hi>--Arithmetic.</l>
-		<l>Algebra.</l>
-		<l>Geometry.</l>
-		<l>Trigonometry.</l>
-		<l>Analytic Geom.</l>
+  <cell><list><item><hi rend="smallcap">Mathematics</hi>--Arithmetic.</l>
+		<item>Algebra.</l>
+		<item>Geometry.</l>
+		<item>Trigonometry.</l>
+		<item>Analytic Geom.</l>
 		</list>
 </cell>
 <cell></cell>
@@ -166,10 +163,10 @@ in the original text.</p>
 </row>
 
 <row>
-  <cell><list><l><hi rend="smallcap">History</hi>--U.S. History.</l>
-		<l>History of Greece.</l>
-		<l>History of Rome.</l>
-		<l>Other Studies (Modern Lan., Science, etc.)</l><!-- this text should be smaller than the rest -->
+  <cell><list><item><hi rend="smallcap">History</hi>--U.S. History.</l>
+		<item>History of Greece.</l>
+		<item>History of Rome.</l>
+		<item>Other Studies (Modern Lan., Science, etc.)</l><!-- this text should be smaller than the rest -->
 		</list>
 </cell>
 <cell></cell>

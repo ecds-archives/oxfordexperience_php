@@ -3,7 +3,7 @@
     <fileDesc>
       <titleStmt>
         <title>1897 Emory College "Phoenix", an electronic edition</title>
-<author><name type="person" reg=""><!-- author name --></name></author>
+<author><name type="person"><!-- author name --></name></author>
       </titleStmt>
       <extent></extent>
       <publicationStmt>
@@ -56,7 +56,7 @@ displayed in brackets have been added by the encoder and do not appear
 in the original text.</p>
       </editorialDecl>
       <classDecl>
-        <taxonomy id="lcsh">
+        <taxonomy xml:id="lcsh">
           <bibl>
             <title>Library of Congress Subject Headings</title>
           </bibl>
@@ -87,26 +87,24 @@ in the original text.</p>
     </profileDesc>
     <revisionDesc>
       <change>
-        <date>25 July 2007</date>
-        <respStmt>
-          <name>Siobhain Rivera, </name>
-          <resp>Student Assistant.</resp>
-        </respStmt>
-        <item>XML tags inserted in compliance with TEI guidelines.</item>
+        
+       
+          <name>Siobhain Rivera, </name> inserted XML tags inserted in compliance with TEI guidelines on <date>25 July 2007</date>
+         
       </change>
     </revisionDesc>
   </teiHeader>
 <text>
 <front><!-- Critical Introduction goes here--></front>
 <body>
-<div type="Emory Phoenix">
-<figure entity="Thomson716-EmoryPhoenix2" rend="center"><figDesc>This is the graphic at the top of the ad.</figDesc></figure>
+<div type="article">
+<pb facs="Thomson716-EmoryPhoenix2" rend="center"/>
 <head rend="center">EXPENSES.</head>
 <p>The total cost of a year at Emory is as low as that of any first class college on this continent-lower than most.  It has not seemed wise to the authorities of the institution to weaken its teaching force in order to make tuition free to all, but rather to grant such help to those only who really need it.</p>
-<p>But while it advertises no "free tuition," board (a much larger item than tuition in a college course) is so low in Oxford, and the expenses arising from the social surroundings of the College (which cannot be stated in a catalogue, but are often heavily felt by the student) are so small, the annual expenses of a student at Emory College, exclusive of clothing, can be brought within $200.  The following schedule gives the rate of board, tuition, books, etc:</p>
-<hi rend="center">Matriculation Fee............................ $5.00
-<lb>Payable only on entering College.)</lb></hi>
-<head rend="center">SUB-FRESHMAN CLASSES.</head>
+<p>But while it advertises no "free tuition," board (a much larger item than tuition in a college course) is so low in Oxford, and the expenses arising from the social surroundings of the College (which cannot be stated in a catalogue, but are often heavily felt by the student) are so small, the annual expenses of a student at Emory College, exclusive of clothing, can be brought within $200.  The following schedule gives the rate of board, tuition, books, etc:<lb/>
+<hi rend="center">Matriculation Fee............................ $5.00</hi></p>
+<p>Payable only on entering College.)</p></div>
+<div type="list"><head rend="center">SUB-FRESHMAN CLASSES.</head>
 <list>
 <item>Tuition, Fall Term........................$20.00</item>    
 <item>Tuition, Spring Term......................$30.00</item>
@@ -114,8 +112,8 @@ in the original text.</p>
 <item>Library Fee, Spring Term..................  1.00</item>
 <item>General Repairs Fee, Fall Term. ..........   .50</item>    
 <item>General Repairs Fee, Spring Term..........  1.00</item> 
-</list>
-<head rend="center">Freshman, Sophomore, Junior and Senior Classes.</head>
+</list></div>
+<div type="list"><head rend="center">Freshman, Sophomore, Junior and Senior Classes.</head>
 <list>
 <item>Tuition, Fall Term .......................$25.00</item>     
 <item>Tuition, Spring Term......................$35.00</item> 
@@ -123,14 +121,15 @@ in the original text.</p>
 <item>Library Fee, Spring Term..................  1.00</item>
 <item>General Repairs Fee, Fall Term............   .50</item>     
 <item>General Repairs Fee, Spring Term..........  1.00</item> 
-<hi rend="center">
 <item>Laboratory Fee...............................$5.00
 (Payable annually by students in Junior and Senior Classes taking Experimental work in laboratory, and used to replace Chemicals consumed.)</item>
 <item>Diploma Fee..... .............. ...........$10.00
-(Payable at the opening Spring Term, Senior Year.</item></hi>
-</list>
+(Payable at the opening Spring Term, Senior Year.</item>
+</list></div>
+<div type="section">
 <head rend="center">BOARD, Etc.</head>
-<p>Board-including fuel, lights, etc.-can be obtained in good families at from $12.00 to $16.50 per month. Fifty dollars, paid in advance, will secure the highest priced board, including fuel, servants' attention, etc. for three months.  Washing costs from $1.00 to $1.50 per month.  Board in "Helping Hall" $8.00 to $10.00 per month.</p>
+<p>Board-including fuel, lights, etc.-can be obtained in good families at from $12.00 to $16.50 per month. Fifty dollars, paid in advance, will secure the highest priced board, including fuel, servants' attention, etc. for three months.  Washing costs from $1.00 to $1.50 per month.  Board in "Helping Hall" $8.00 to $10.00 per month.</p></div>
+<div type="section">
 <head rend="center">Cost of Books, Etc.</head>
 <p>First-class Latin and Greek Lexicons cost from $2.00 to $3.00 each.  These will answer during the entire college course.  Text-books will cost, on an average, about $10.00 per annum.  Very often second-hand books can be purchased at <hi rend="smallcaps">half rates</hi>.</p>
 <p>A full supply of Text-books used in the Institution is kept onsale at the College at publishers' prices.  For further information, write to the President,</p>
