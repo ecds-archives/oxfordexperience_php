@@ -66,7 +66,7 @@ in the original text.</p>
       <creation>
         <rs type="collection">Oxford Experience</rs>
         <rs type="language">English</rs>
-        <rs type="ethnicity">Caucasian</rs>
+        <rs type="ethnicity">Asian</rs>
         <rs type="form">Edited</rs>
         <rs type="genre"></rs>
         <rs type="geography">United States</rs>
@@ -95,6 +95,7 @@ in the original text.</p>
 <body>
 <div type="diary_entry">
 <pb facs="Yun754-Jan6-1.jpg"/>
+<head>[Diary of Yun Ch'i-ho, <date when="1892-01-06">January 6, 1892]</date></head>
 <opener><date when="1892-01-06">Jan 6 - Wednesday.</date></opener>
 <p>Very cold this morning.</p>
 <p>In the Soph. Bib. Class <name type="person">Dr. C<reg>Candler, W. A. (William Akin)</reg></name> in commenting on the courage and virtues of <name type="person">Esther</name> gave some firm &#x0026; forceful remarks.  In substance he said: --
