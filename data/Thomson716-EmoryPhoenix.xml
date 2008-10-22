@@ -1,9 +1,9 @@
-<TEI xml:id="oe1907song3" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
+<TEI xml:id="Thomson716-EmoryPhoenix" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>1897 Emory College "Phoenix", an electronic edition</title>
-<author><name type="person"><!-- author name --></name></author>
+<author><name type="person"><choice><sic>W.A. Candler</sic><reg>Candler, Warren A. (Warren Akin), 1857-1941</reg></choice></name></author>
       </titleStmt>
       <extent></extent>
       <publicationStmt>
