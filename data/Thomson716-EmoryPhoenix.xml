@@ -2,7 +2,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>1897 Emory College "Phoenix", an electronic edition</title>
+        <title>Emory College "Phoenix", an electronic edition, <date when="1897">1897</date></title>
 <author><name type="person"><choice><sic>W.A. Candler</sic><reg>Candler, Warren A. (Warren Akin), 1857-1941</reg></choice></name></author>
       </titleStmt>
       <extent></extent>
@@ -22,13 +22,12 @@ on-profit educational purposes, provided that this header is included in its ent
         <title>The Oxford Experience</title>
         <respStmt>
           <name>Christine Loflin</name>
-          <name>Erika Farr</name>
+          <name>Adriane Ivey</name>
           <resp>Principal Investigators</resp>
         </respStmt>
       </seriesStmt>
       <sourceDesc>
-        <bibl><author></author>. <title>Emory Phoenix</title>. <pubPlace></pubPlace>:
-<publisher></publisher>, <date>1897</date>.</bibl>
+        <bibl><title>Emory Phoenix</title>, <date>1897</date>. Albert Danner Thomson papers, Manuscript, Archives, and Rare Book Library, Emory University.</bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
