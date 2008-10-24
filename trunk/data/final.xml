@@ -1,4 +1,4 @@
-<TEI xml:id="oeDanielPatrick.01" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
+<TEI xml:id="oecarmichael.01" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,7 +21,7 @@
         <title>The Oxford Experience</title>
         <respStmt>
           <name>Christine Loflin</name>
-          <name>Erika Farr</name>
+          <name>Adriane Ivey</name>
           <resp>Principal Investigators</resp>
         </respStmt>
       </seriesStmt>
@@ -85,32 +85,32 @@ in the original text.</p>
       </textClass>
     </profileDesc>
     <revisionDesc>
+      <change><date>10-15-08</date> <name>Stewart Varner</name> migrated the coding to p5.
+      </change>
       <change>
         <date>10/18/07</date>
-        <respStmt>
-          <name>David Joseph, Imran Merchant </name>
-          <resp>Transcribers.</resp>
-        </respStmt>
-        <item>XML tags inserted in compliance with TEI guidelines.</item>
+          <name>David Joseph</name> and <name>Imran Merchant </name>
+        transcribed the document and added XML tags in compliance with TEI guidelines.
       </change>
     </revisionDesc>
   </teiHeader>
 <text>
 <body>
-<div type="Entry">
-<dateline>
-<pb>
+<div>
+<pb facs="1898-Journal_Entry_1.jpg"/>
+
 <p>
 	In some near or remote future, should my eye change to fall upon this page, I shall recall in all distinctness this day - Feb 26th, 1898.</p>
 <p>
-	How miserable are the effects of negligence of duty! For more than three weeks I have delayed writing my spring term speeches, and not with last night did I try hard to accomplish the task. But I do! I accomplished nothing! I read a a part of Emerson's essay on self-reliance, thinking that it might quicken mental action but after trying to write until half past one o'clock, I could do nothing that was satisfactory to my worn mind. I went to bed, slept until nearly seven o'clock and arose with the determination of making another trick this morning. So after breakfast I gathered ripe Lec's History of the W.S., Sargents Standard Speaker, and writing tablet and set out for the woods. The morning is fright and nature seems to be every aid. I am now in a little patch of fine woods of fine on ten years growth by an old gully about ten feet deep which in all probability is the result of thought led antebellum farming, about one mile north west of Andrew Hall. What success I may have today I cannot now predict. But this much I know, that there is no probability of my enjoying the Arbor Day exercises of the class of '98, of which I am a member, unless I make one more earnest effort to write my contemplated eulogy on Thomas Jefferson. May my mind be quickened by Him who has all power.</p>
-</dateline>
-<pb/>
-<pb>
-<dateline>
-March 3rd, 1898
-	<p>This has been another trying day in my life. I arose this morning being awakened by the cook's call for the keys to kitchen, and learned that my butler was still sick and that the boy in his place had not returned. Consequent by I had to look after the dinning room and did get to study my mental philosophy lesson on I should. And was called reform failed, and was rebulked. But alas! The sun does not shine bright every day. </p> 
-</dateline>
-<pb/>
+	How miserable are the effects of negligence of duty! For more than three weeks I have delayed writing my spring term speeches, and not with last night did I try hard to accomplish the task. But I do! I accomplished nothing! I read a a part of Emerson's essay on self-reliance, think<pb facs="1898-Journal_Entry_2.jpg"/>ing that it might quicken mental action but after trying to write until half past one o'clock, I could do nothing that was satisfactory to my worn mind. I went to bed, slept until nearly seven o'clock and arose with the determination of making another trick this morning. So after breakfast I gathered ripe Lee's History of the U.S., Sargents Standard Speaker, and writing tablet and set out for the woods. The morning is fright and nature seems to be every aid. I am now in a little patch of fine woods of fine on ten years growth by an old gully about ten feet deep which in all probability is the result of thought led antebellum farming, about one mile north west of Andrew Hall. What success I may have today I cannot now predict. But this much I know, that there is no probability of my enjoying the <pb facs="1898-Journal_Entry_3.jpg"/>Arbor Day exercises of the class of '98, of which I am a member, unless I make one more earnest effort to write my contemplated eulogy on Thomas Jefferson. May my mind be quickened by Him who has all power.</p>
 
-</TEI.2>
+
+<dateline>
+March 3rd, 1898</dateline>
+	<p>This has been another trying day in my life. I arose this morning being awakened by the cook's call for the keys to kitchen, and learned that my butler was still sick and that the boy in his place had not returned. Consequent by I had to look after the <sic>dinning</sic> room and did get to study my mental philosophy lesson on I should. And was called reform failed, and was rebuked. But alas! The sun does not shine bright every day. </p> 
+
+<pb/>
+</div>
+</body>
+</text>
+</TEI>

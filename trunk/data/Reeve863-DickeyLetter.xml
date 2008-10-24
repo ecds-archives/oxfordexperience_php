@@ -2,7 +2,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter to Thomas Ellis Reeve <date when="1908-08-29">August 29, 1908</date>, an electronic edition</title>
+        <title>Letter from President James E. Dickey to Thomas Ellis Reeve <date when="1908-08-29">August 29, 1908</date>, an electronic edition</title>
 <author><name type="person"><choice><sic>President James Dickey</sic><reg>Dickey, James</reg></choice></name></author>
       </titleStmt>
       <extent></extent>
@@ -22,13 +22,12 @@ on-profit educational purposes, provided that this header is included in its ent
         <title>The Oxford Experience</title>
         <respStmt>
           <name>Christine Loflin</name>
-          <name>Erika Farr</name>
+          <name>Adriane Ivey</name>
           <resp>Principal Investigators</resp>
         </respStmt>
       </seriesStmt>
       <sourceDesc>
-        <bibl><author>James E. Dickey</author>. <title>Letter to Thomas Ellis Reeve</title>. <pubPlace></pubPlace>:
-<publisher></publisher>, <date>29 Aug 1908</date>.</bibl>
+        <bibl><title>Letter from President James E. Dickey to Thomas Ellis Reeve</title>, <date>29 Aug 1908</date>. Thomas Ellis and Etha Mills Reeve papers, Manuscript, Archives, and Rare Book Library, Emory University</bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -97,7 +96,7 @@ in the original text.</p>
 <body>
 <div type="letter" xml:id="oeReeve863-DickeyLetter.9999">
 <pb facs="Reeve863-DickeyLetter.jpg"/>
-<head>Letter from President James E. Dickey to Thomas Ellis Reeve, August 29, 1908</head>
+<head>[Letter from President James E. Dickey to Thomas Ellis Reeve, August 29, 1908]</head>
 <opener>
 <dateline><date when="1908-08-29">Aug. 29, 1908.</date></dateline>
 <name type="person">Mr. Ellis Reeve</name>, <lb/>
