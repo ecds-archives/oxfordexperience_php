@@ -1,9 +1,9 @@
-<TEI xml:id="oeReeve863-DickeyLetter.9999" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
+<TEI xml:id="oeReeve863-DickeyLetter.01" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from President James E. Dickey to Thomas Ellis Reeve <date when="1908-08-29">August 29, 1908</date>, an electronic edition</title>
-<author><name type="person"><choice><sic>President James Dickey</sic><reg>Dickey, James</reg></choice></name></author>
+        <title>Letter from President James E. Dickey to Thomas Ellis Reeve, <date when="1908-08-29">August 29, 1908</date>, an electronic edition</title>
+<author><name type="person"><choice><sic>James E. Dickey</sic><reg>Dickey, James Edward, 1864-1928.</reg></choice></name></author>
       </titleStmt>
       <extent></extent>
       <publicationStmt>
@@ -85,6 +85,7 @@ in the original text.</p>
       </textClass>
     </profileDesc>
     <revisionDesc>
+      <change><name>Stewart Varner</name> inserted the Admission Certificate, <date when="2008-10-21">October 21, 2008</date>.</change> 
       <change>
 <name>Siobhain Rivera, </name>XML tags inserted in compliance with TEI guidelines.
         <date when="2007-07-17">July 17, 2007</date>.
@@ -94,7 +95,7 @@ in the original text.</p>
 <text>
 <front><!-- critical introduction goes here --></front>
 <body>
-<div type="letter" xml:id="oeReeve863-DickeyLetter.9999">
+<div type="letter" xml:id="oeReeve863-DickeyLetter.02">
 <pb facs="Reeve863-DickeyLetter.jpg"/>
 <head>[Letter from President James E. Dickey to Thomas Ellis Reeve, August 29, 1908]</head>
 <opener>
@@ -113,7 +114,7 @@ in the original text.</p>
 </body>
 <back>
 <pb facs="Reeve863-AdmissionCert1.jpg"/>
-<div type="certificate">
+<div type="certificate" xml:id="oeReeve863-DickeyLetter.03">
 <head>Emory College Certificate of Admission</head>
 <p rend="center">_____________________________________________</p>
 <p rend="right">_____________________________________190____</p>
