@@ -2,7 +2,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Diary of Yun Ch'i-ho <date when="1892-01-08">January 8, 1892</date>, an electronic edition</title>
+        <title>Diary of Yun Ch'i-ho, an electronic edition, <date when="1892-01-08">January 8, 1892</date></title>
 <author><name type="person"><choice><reg>Yun Ch'i-ho</reg><sic>Yun Ch'i-ho</sic></choice></name></author>
       </titleStmt>
       <extent></extent>
@@ -26,7 +26,8 @@
         </respStmt>
       </seriesStmt>
       <sourceDesc>
-        <bibl><title>Diary of Yun Ch'i-ho</title>, <date when="1892-01-08">8 January 1892</date>; Yun Ch'i-ho papers, Manuscript, Archives, and Rare Book Library, Emory University.</bibl>
+        <bibl><author>Yun Ch'i-ho</author>. <title>Diary</title>. <pubPlace></pubPlace>:
+<publisher></publisher>, <date>8 January 1892</date>.</bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -59,6 +60,11 @@ in the original text.</p>
             <title>Library of Congress Subject Headings</title>
           </bibl>
         </taxonomy>
+<taxonomy xml:id="MARBL">
+<bibl>
+<title>MARBL Subjuct Headings</title>
+</bibl>
+</taxonomy>
       </classDecl>
     </encodingDesc>
     <profileDesc>
@@ -74,13 +80,21 @@ in the original text.</p>
       <textClass>
         <keywords scheme="lcsh">
           <list>
+            <item>Yun, Ch'i-ho, 1865-1945.</item>
             <item></item>
-            <item></item>
-            <item></item>
+            <item>Education--United States--History--19th century.</item>
             <item></item>
             <item></item>
           </list>
         </keywords>
+<keywords scheme="MARBL">
+<list>
+<item>Emory College--History.</item>
+<item></item>
+<item></item>
+<item></item>
+</list>
+</keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>

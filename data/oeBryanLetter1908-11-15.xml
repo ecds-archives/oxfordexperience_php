@@ -64,6 +64,11 @@ in the original text.</p>
             <title>Library of Congress Subject Headings</title>
           </bibl>
         </taxonomy>
+<taxonomy xml:id="MARBL">
+<bibl>
+<title>MARBL Subjuct Headings</title>
+</bibl>
+</taxonomy>
       </classDecl>
     </encodingDesc>
     <profileDesc>
@@ -79,13 +84,21 @@ in the original text.</p>
       <textClass>
         <keywords scheme="lcsh">
           <list>
-            <item></item>
-            <item></item>
+            <item>Education--United States--History--20th century.</item>
+            <item>College students--Georgia.</item>
             <item></item>
             <item></item>
             <item></item>
           </list>
         </keywords>
+<keywords scheme="MARBL">
+<list>
+<item>Emory College--History.</item>
+<item>Emory College--Students.</item>
+<item></item>
+<item></item>
+</list>
+</keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>

@@ -59,6 +59,12 @@ in the original text.</p>
             <title>Library of Congress Subject Headings</title>
           </bibl>
         </taxonomy>
+
+<taxonomy xml:id="MARBL">
+<bibl>
+<title>MARBL Subjuct Headings</title>
+</bibl>
+</taxonomy>
       </classDecl>
     </encodingDesc>
     <profileDesc>
@@ -75,12 +81,21 @@ in the original text.</p>
         <keywords scheme="lcsh">
           <list>
             <item>Yun, Ch'i-ho, 1865-1945.</item>
-            <item>Emory College--History.</item>
+            <item></item>
             <item>Education--Korea--19th century.</item>
             <item>Education--United States--History--19th century.</item>
 <item>Women's suffrage--1880-1930.</item>
            </list>
         </keywords>
+<keywords scheme="MARBL">
+<list>
+<item>Emory College--History.</item>
+<item></item>
+<item></item>
+<item></item>
+</list>
+</keywords>
+
       </textClass>
     </profileDesc>
     <revisionDesc>
