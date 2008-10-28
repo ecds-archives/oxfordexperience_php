@@ -56,6 +56,11 @@ added by the encoder and do not appear in the original text.</p>
             <title>Library of Congress Subject Headings</title>
           </bibl>
         </taxonomy>
+<taxonomy xml:id="MARBL">
+<bibl>
+<title>MARBL Subjuct Headings</title>
+</bibl>
+</taxonomy>
       </classDecl>
     </encodingDesc>
     <profileDesc>
@@ -71,13 +76,16 @@ added by the encoder and do not appear in the original text.</p>
       <textClass>
         <keywords scheme="lcsh">
           <list>
-            <item></item>
-            <item></item>
-            <item></item>
-            <item></item>
-            <item></item>
+            <item>Education--United States--Histor</item>
+            <item>Education--Georgia.</item>
           </list>
         </keywords>
+<keywords scheme="MARBL">
+<list>
+<item>Emory College--History.</item>
+<item>Emory College--Students.</item>
+</list>
+</keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
