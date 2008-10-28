@@ -60,6 +60,11 @@ in the original text.</p>
             <title>Library of Congress Subject Headings</title>
           </bibl>
         </taxonomy>
+<taxonomy xml:id="MARBL">
+<bibl>
+<title>MARBL Subjuct Headings</title>
+</bibl>
+</taxonomy>
       </classDecl>
     </encodingDesc>
     <profileDesc>
@@ -75,13 +80,22 @@ in the original text.</p>
       <textClass>
         <keywords scheme="lcsh">
           <list>
-            <item></item>
-            <item></item>
-            <item></item>
+            <item>Education--United States--History--19th century.</item>
+            <item>Education--Georgia.</item>
+            <item>College students--Georgia.</item>
+            <item>Greek letter societies--United States.</item>
             <item></item>
             <item></item>
           </list>
         </keywords>
+<keywords scheme="MARBL">
+<list>
+<item>Emory College--History.</item>
+<item>Emory College--Students.</item>
+<item></item>
+<item></item>
+</list>
+</keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
@@ -130,7 +144,7 @@ great repositories of nature,
 
 as the light on my book is
 yielded by a star a hundred millions of miles distant, at the
-proise of my body  defiends
+poise of my body  defiends
 on the equilibrium of centrifugal and centripetal forces, so
 the hours should be instructed by the ages, and the ages
 explained by the hours. Of the

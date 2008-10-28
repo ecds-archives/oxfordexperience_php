@@ -1,4 +1,4 @@
-<TEI xml:id="oecarmichael.01" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
+<TEI xml:id="final.01" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -59,6 +59,11 @@ in the original text.</p>
             <title>Library of Congress Subject Headings</title>
           </bibl>
         </taxonomy>
+<taxonomy xml:id="MARBL">
+<bibl>
+<title>MARBL Subjuct Headings</title>
+</bibl>
+</taxonomy>
       </classDecl>
     </encodingDesc>
     <profileDesc>
@@ -74,13 +79,21 @@ in the original text.</p>
       <textClass>
         <keywords scheme="lcsh">
           <list>
-            <item></item>
-            <item></item>
-            <item></item>
+            <item>Education--United States--History--19th century.</item>
+            <item>College students--Georgia.</item>
+            <item>Education--Georgia.</item>
             <item></item>
             <item></item>
           </list>
         </keywords>
+<keywords scheme="MARBL">
+<list>
+<item>Emory College--History.</item>
+<item>Emory College--Students.</item>
+<item></item>
+<item></item>
+</list>
+</keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
@@ -100,7 +113,7 @@ in the original text.</p>
 <pb facs="1898-Journal_Entry_1.jpg"/>
 <head>[Diary entry of Marion Walter Carmichael]</head>
 <p>
-	In some near or remote future, should my eye change to fall upon this page, I shall recall in all distinctness this day - Feb 26th, 1898.</p>
+	In some near or remote future, should my eye chance to fall upon this page, I shall recall in all distinctness this day - Feb 26th, 1898.</p>
 <p>
 	How miserable are the effects of negligence of duty! For more than three weeks I have delayed writing my spring term speech, and not until last night did I try hard to accomplish this task. But lo! I accomplished nothing! I read a part of Emerson's Essay on Self-reliance, think-<pb facs="1898-Journal_Entry_2.jpg"/>ing that it might quicken mental action. But after trying to write until half past one o'clock, I could do nothing that was satisfactory to my own mind. I went to bed, slept until nearly seven o'clock, and arose with the determination of making another trial this morning. So after breakfast I gathered up Lee's History of the U.S., Sargents Standard Speaker, and writing tablet and set out for the woods. The morning is bright and nature seems to lend every aid. I am now in a little patch of pine woods of five or ten years growth by an old gully about ten feet deep which in all probability is the result of thoughtless <sic>antibellum</sic> farming, about one mile north west of Andrew Hall. What success I may have today I cannot now predict. But this much I know, that there is no probability of my enjoying the <pb facs="1898-Journal_Entry_3.jpg"/>Arbor Day exercises of the class of '98, of which I am a member, unless I make one more earnest effort to write my contemplated eulogy on Thomas Jefferson. May my mind be quickened by Him who has all power.</p>
 

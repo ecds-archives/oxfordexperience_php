@@ -64,6 +64,11 @@ in the original text.</p>
             <title>Library of Congress Subject Headings</title>
           </bibl>
         </taxonomy>
+<taxonomy xml:id="MARBL">
+<bibl>
+<title>MARBL Subjuct Headings</title>
+</bibl>
+</taxonomy>
       </classDecl>
     </encodingDesc>
     <profileDesc>
@@ -79,13 +84,21 @@ in the original text.</p>
       <textClass>
         <keywords scheme="lcsh">
           <list>
-            <item></item>
-            <item></item>
+            <item>Education--United States--History--20th century.</item>
+            <item>Education--Georgia.</item>
             <item></item>
             <item></item>
             <item></item>
           </list>
         </keywords>
+<keywords scheme="MARBL">
+<list>
+<item>Emory College--History.</item>
+<item>Emory College--Faculty.</item>
+<item>Emory College--Students.</item>
+<item></item>
+</list>
+</keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
@@ -126,7 +139,7 @@ in the original text.</p>
 
 <p>Did you ever get my report? In December the reports will go out with your grade marked in letters.</p>
 
-<p>I went over to Covington monday to see about my money being overdue. I come to find out that I was not overdrawn but had three fifty to my credit. The book keeper had made a mistake of eight dollars. I have paid my tuition. It keep me spending a good deal to keep up with all my expenses. Then there is always a collection for something which I think is unjust like this: The Senior of '07 got out an annual and<pb facs="1908-11-15_p3.jpg"/> defaulted on it several hundred dollars. Tom Rivers was trying to make it up among the students so as to save the honor. I told horror or no horror I was not going to pay other folks debts.</p>
+<p>I went over to Covington monday to see about my money being overdue. I come to find out that I was not overdrawn but had three fifty to my credit. The book keeper had made a mistake of eight dollars. I have paid my tuition. It keep me spending a good deal to keep up with all my expenses. Then there is always a collection for something which I think is unjust like this: The Senior of '07 got out an annual and<pb facs="1908-11-15_p3.jpg"/> defaulted on it several hundred dollars. Tom Rivers was trying to make it up among the students so as to save the <hi rend="underline">honor</hi> of college. I told honor or no honor I was not going to pay other folks debts.</p>
 
 <p>Asa Candler's son is here and one wouldn't of all the boys pick him out as a millionaire's son. He is very plain and unassuming and in the Literary Society talks of expense just as if he were some poor man's son.</p>
 
@@ -136,9 +149,9 @@ in the original text.</p>
 
 <p>The boys had the laugh on me the other day. Every one was nearly through when I saw that there was about two tablespoonsfuls of milk in the pitcher. The milk was put on for the boys coffee. So I thought I would drink it. Just as I poured it out Evans said to me,"Watch out<pb facs="1908-11-15_p5.jpg"/> Bryan they will charge you a dime for that." I unmindful placed it to my lips. Then the matron saw me and jumped up and was at my side in a second and said,"We cant allow that Mr Bryan. We cant allow that." When she said that I slapped it back on the table and then she said, "As long as you have poured it out you can drink it," just as if I were a ten year old child which made me madder than ever. I felt bad to think that one would publicly embarrass me for two tablespoonfuls of milk. I just turned on my heal and walked out of the dining room.</p>
 
-<p>I think we are going to get out on Dec. 17 for Christmas althoguh it has not been officially announced and then to have nearly two weeks. I hope it is so and that the time will roll around quickly. Papa will have to write me out a permit to come<hi rend="underline">home</hi> I don't think he has to send one when I want to go to <hi rend="underline">Covington</hi></p>
+<p>I think we are going to get out on Dec. 17 for Christmas althoguh it has not been officially announced and then to have nearly two weeks. I hope it is so and that the time will roll around quickly. Papa will have to write me out a permit to come <hi rend="underline">home</hi>. I don't think he has to send one when I want to go to <hi rend="underline">Covington</hi></p>
 
-<p>It was real laughable in chapel the other day. You know Prof. Peed is so sar-castic that he is less universally liked than any one of the Professors. <name type="person">Dr. Dickey</name> was gone and Prof. Peed had to take the chair.The boys thought it was a good chance to get it back on him and so just as he took the chair the boys began clapping and whistling and I thought they were never going to stop. <pb facs="1908-11-15_p6.jpg"/> Whenever a man tries to run over college boys, he is picking out a hard road.</p>
+<p>It was real laughable in chapel the other day. You know Prof. Peed is so sar-castic that he is less universally liked than any one of the Professors. <name type="person">Dr. Dickey</name> was gone and Prof. Peed had to take the chair. The boys thought it was a good chance to get it back on him and so just as he took the chair the boys began clapping and whistling and I thought they were never going to stop. <pb facs="1908-11-15_p6.jpg"/> Whenever a man tries to run over college boys, he is picking out a hard road.</p>
 </div>
 
 <div><head rend="center">(Private for) <lb/> <hi rend="underline">(Mamma)</hi></head>
