@@ -27,6 +27,8 @@ if($view == "xml") {
   $xsl_file = "xslt/xml.xsl";}
  else {
 $xsl_file = "xslt/article.xsl";
+ $header_xsl = "xslt/oxexp-dc.xsl";
+ $header2_xsl = "xslt/dc-htmldc.xsl";
     }
 
 $xsl_params = array('view' => $view, 'id' => $id);
@@ -51,6 +53,10 @@ $xmldb->displayXML();
 else {
 // run the query 
 $xmldb->xquery($query);
+$xmldb->xslBind($header_xsl);
+$xmldb->xslBind($header2_xsl);
+$xmldb->transform();
+
 $xmldb->xslTransform($xsl_file, $xsl_params);
 $xmldb->printResult();
 }
