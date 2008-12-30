@@ -6,13 +6,13 @@
 		xmlns:tei="http://www.tei-c.org/ns/1.0">
   <!-- This stylesheet creates Dublin core metadata for each document -->
   <xsl:output method="xml" omit-xml-declaration="yes"/>
+  <xsl:param name="qualified">true</xsl:param>
   <xsl:variable name="baseurl">http://beck.library.emory.edu/</xsl:variable>
   <xsl:variable name="siteurl">oxfordexperience</xsl:variable>
 
   <xsl:template match="/">
     <dc>
       <xsl:apply-templates select="//tei:TEI"/> <!-- get everything below this -->
-      
       <dc:type>Text</dc:type>
     <dc:format>text/xml</dc:format>
     </dc>
@@ -35,21 +35,43 @@
     <xsl:element name="dc:publisher">
       <xsl:apply-templates select="tei:publicationStmt/tei:publisher"/>
     </xsl:element>
-    <xsl:element name="dcterms:issued">
-      <xsl:apply-templates select="tei:publicationStmt/tei:date"/>
-    </xsl:element>
+    <xsl:choose>
+      <xsl:when test="$qualified = 'true'">
+	<xsl:element name="dcterms:issued">
+	  <xsl:apply-templates select="tei:publicationStmt/tei:date"/>
+	</xsl:element>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:element name="dc:date">
+	  <xsl:apply-templates select="tei:publicationStmt/tei:date"/>
+      </xsl:element>
+    </xsl:otherwise>
+    </xsl:choose>
     <xsl:element name="dc:rights">
       <xsl:apply-templates select="tei:publicationStmt/tei:availability/tei:p"/>
     </xsl:element>
     
-    <xsl:element name="dcterms:isPartOf">
-      <xsl:apply-templates select="tei:seriesStmt/tei:title"/>
-    </xsl:element>
-    <xsl:element name="dcterms:isPartOf">
-      <xsl:value-of select="$baseurl"/><xsl:value-of
-        select="$siteurl"/>      
-    </xsl:element>
-    
+    <xsl:choose>
+      <xsl:when test="$qualified = 'true'">
+	<xsl:element name="dcterms:isPartOf">
+	  <xsl:apply-templates select="tei:seriesStmt/tei:title"/>
+	</xsl:element>
+	<xsl:element name="dcterms:isPartOf">
+	  <xsl:value-of select="$baseurl"/><xsl:value-of
+	  select="$siteurl"/>      
+	</xsl:element>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:element name="dc:relation">
+	  <xsl:apply-templates select="tei:seriesStmt/tei:title"/>
+	</xsl:element>
+	<xsl:element name="dc:relation">
+	  <xsl:value-of select="$baseurl"/><xsl:value-of
+	    select="$siteurl"/>      
+	</xsl:element>
+      </xsl:otherwise>	
+    </xsl:choose>
+
     <xsl:element name="dc:source">
       <!-- only one element here. -->
       <xsl:apply-templates select="tei:sourceDesc/tei:bibl"/>
@@ -64,10 +86,12 @@
   </xsl:template>
   
   <xsl:template match="tei:publicationStmt"> 
+    <xsl:if test="$qualified = 'true'">
     <!-- electronic publication date: Per advice of LA -->
     <xsl:element name="dcterms:created">
       <xsl:value-of select="tei:date"/>
     </xsl:element>
+    </xsl:if>
   </xsl:template>
   
   <xsl:template match="tei:profileDesc">
@@ -94,7 +118,7 @@
    </xsl:template>
 
 
-  <!-- ignore these: encoding specific information -->
+  <!-- ignore these: encoding-specific information -->
   <xsl:template match="tei:encodingDesc"/>
   <xsl:template match="tei:encodingDesc/tei:projectDesc"/>
   <xsl:template match="tei:encodingDesc/tei:tagsDecl"/>

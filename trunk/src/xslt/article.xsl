@@ -192,15 +192,29 @@
   </xsl:element>
 </xsl:template>  
 
-<xsl:template match="tei:p">
+<xsl:template match="tei:p" priority="1">
   <xsl:element name="p">
+<xsl:choose>
+<xsl:when test="./@rend">
+    <xsl:call-template name="rend"/>
+</xsl:when>
+<xsl:otherwise>
     <xsl:apply-templates /> 
+</xsl:otherwise>
+</xsl:choose>
   </xsl:element>
 </xsl:template>
 
-<xsl:template match="tei:q">
+<xsl:template match="tei:q" priority="1">
   <xsl:element name="blockquote">
+<xsl:choose>
+<xsl:when test="./@rend">
+    <xsl:call-template name="rend"/>
+</xsl:when>
+<xsl:otherwise>
     <xsl:apply-templates /> 
+</xsl:otherwise>
+</xsl:choose>
   </xsl:element>
 </xsl:template>
 
@@ -210,10 +224,16 @@
   </xsl:element>
 </xsl:template>
 
-<xsl:template match="tei:item">
+<xsl:template match="tei:item" priority="1">
   <xsl:element name="li">
-   <xsl:apply-templates/>
-  </xsl:element>
+<xsl:choose>
+<xsl:when test="./@rend">
+    <xsl:call-template name="rend"/>
+</xsl:when>
+<xsl:otherwise>
+    <xsl:apply-templates /> 
+</xsl:otherwise>
+</xsl:choose>  </xsl:element>
 </xsl:template>
 
 
@@ -234,30 +254,94 @@
 </xsl:template>
 
 <xsl:template match="tei:lg/tei:head">
-<xsl:apply-templates/>
+<xsl:choose>
+<xsl:when test="./@rend">
+    <xsl:call-template name="rend"/>
+</xsl:when>
+<xsl:otherwise>
+    <xsl:apply-templates /> 
+</xsl:otherwise>
+</xsl:choose>
 <xsl:element name="br"/>
 </xsl:template>
 
 <!-- for letters in Oxford Experience -->
 <xsl:template match="tei:dateline/tei:name[@type='place']">
-<xsl:apply-templates/>
+<xsl:choose>
+<xsl:when test="./@rend">
+    <xsl:call-template name="rend"/>
+</xsl:when>
+<xsl:otherwise>
+    <xsl:apply-templates /> 
+</xsl:otherwise>
+</xsl:choose>
 <xsl:element name="br"/>
 </xsl:template>
 
 <xsl:template match="tei:dateline/tei:date">
-<xsl:apply-templates/>
+<xsl:choose>
+<xsl:when test="./@rend">
+    <xsl:call-template name="rend"/>
+</xsl:when>
+<xsl:otherwise>
+    <xsl:apply-templates /> 
+</xsl:otherwise>
+</xsl:choose>
 <xsl:element name="br"/>
 </xsl:template>
 
 <xsl:template match="tei:closer/tei:salute">
-<xsl:apply-templates/>
+<xsl:choose>
+<xsl:when test="./@rend">
+    <xsl:call-template name="rend"/>
+</xsl:when>
+<xsl:otherwise>
+    <xsl:apply-templates /> 
+</xsl:otherwise>
+</xsl:choose>
 <xsl:element name="br"/>
 </xsl:template>
 
 
 <!-- convert rend tags to their html equivalents 
      so far, converts: center, italic, smallcaps, bold   -->
-<xsl:template match="//*[@rend]">
+<xsl:template name="rend">
+  <xsl:choose>
+    <xsl:when test="@rend='center'">
+      <xsl:element name="center">
+        <xsl:apply-templates/>
+      </xsl:element>
+    </xsl:when>
+    <xsl:when test="@rend='italic'">
+      <xsl:element name="i">
+        <xsl:apply-templates/>
+      </xsl:element>
+    </xsl:when>
+    <xsl:when test="@rend='bold'">
+      <xsl:element name="b">
+	<xsl:apply-templates/>
+      </xsl:element>
+    </xsl:when>
+    <xsl:when test="@rend='smallcaps'">
+      <xsl:element name="span">
+        <xsl:attribute name="class">smallcaps</xsl:attribute>
+        <xsl:apply-templates/>
+      </xsl:element>
+    </xsl:when>
+    <xsl:when test="@rend='underline'">
+      <xsl:element name="u">
+        <xsl:apply-templates/>
+      </xsl:element>
+      </xsl:when>
+      <xsl:when test="@rend='right'">
+         <xsl:element name="span"><xsl:attribute name="class">right</xsl:attribute>
+        <xsl:apply-templates/>
+         </xsl:element>
+    </xsl:when>
+  </xsl:choose>
+</xsl:template>
+
+<xsl:template match="//*[@rend]" priority="-1">
   <xsl:choose>
     <xsl:when test="@rend='center'">
       <xsl:element name="center">
