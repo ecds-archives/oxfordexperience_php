@@ -304,7 +304,7 @@
 
 
 <!-- convert rend tags to their html equivalents 
-     so far, converts: center, italic, smallcaps, bold   -->
+     so far, converts: center, italic, smallcaps, bold, underline   -->
 <xsl:template name="rend">
   <xsl:choose>
     <xsl:when test="@rend='center'">
@@ -329,9 +329,9 @@
       </xsl:element>
     </xsl:when>
     <xsl:when test="@rend='underline'">
-      <xsl:element name="u">
+      <xsl:text>&#x00A0;</xsl:text><xsl:element name="u">
         <xsl:apply-templates/>
-      </xsl:element>
+      </xsl:element><xsl:text> </xsl:text>
       </xsl:when>
       <xsl:when test="@rend='right'">
          <xsl:element name="span"><xsl:attribute name="class">right</xsl:attribute>

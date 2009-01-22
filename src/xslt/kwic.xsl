@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  version="1.0">
+  version="1.0"
+  xmlns:tei="http://www.tei-c.org/ns/1.0">
 
   <xsl:output method="xml"/>
 
 
   <xsl:param name="mode">kwic</xsl:param>
-  <xsl:param name="url_suffix"/>
+  <xsl:param name="url_suffix"/> 
   <xsl:param name="url"/>  	<!-- needed in common.xsl; not used here -->
   <xsl:param name="id"/>	
 
@@ -15,17 +16,19 @@
 
 
   <xsl:template match="/">
-    <xsl:apply-templates select="item"/>
-  
+    <xsl:apply-templates/>
+  </xsl:template>
+
+<xsl:template match="item">
     <h2>Keyword in Context</h2>
     
     <div class="kwic">
       <p>
         <a>
-          <xsl:attribute name="href">document.php?id=<xsl:value-of select="//@id"/>&amp;<xsl:value-of select="$url_suffix"/></xsl:attribute>
-          <xsl:value-of select="//title"/>, 
-        </a><xsl:apply-templates select="//name"/>, 
-    <xsl:apply-templates select="//date"/>
+          <xsl:attribute name="href">document.php?id=<xsl:value-of select="//@xml:id"/>&amp;<xsl:value-of select="$url_suffix"/></xsl:attribute>
+          <xsl:value-of select="tei:title"/>, 
+        </a><xsl:apply-templates select="tei:name//tei:reg"/>, 
+    <xsl:apply-templates select="tei:date"/>
       </p>
     </div>
    
