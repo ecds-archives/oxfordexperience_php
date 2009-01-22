@@ -38,8 +38,9 @@ $xsl_params = array('view' => $view, 'id' => $id);
 
 
 $query='declare namespace tei="http://www.tei-c.org/ns/1.0";
-for $b in /tei:TEI[@xml:id="' . "$id" . '"]
-return
+for $b in /tei:TEI[@xml:id="' . "$id" . '"]';
+if ($terms != '') {$query .= "[. |= \"$terms\"]";}
+$query .= 'return
 <result>
 {$b/@xml:id}
 {$b}

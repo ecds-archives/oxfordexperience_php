@@ -23,16 +23,17 @@ $htmltitle = "The Oxford Experience";
 // use article query with context added
 // note: using |= instead of &= because we want context for any of the
 // keyword terms, whether they appear together or not
-$xquery = "let \$doc := /TEI.2[@id = \"$id\"]
+$xquery = "declare namespace tei='http://www.tei-c.org/ns/1.0';
+let \$doc := /tei:TEI[@xml:id = \"$id\"]
 return 
 <item>
-{\$doc/@id}
-{\$doc//titleStmt//title}
-{\$doc//titleStmt//author/name}
-{\$doc//sourceDesc//date}
+{\$doc/@xml:id}
+{\$doc//tei:titleStmt//tei:title}
+{\$doc//tei:titleStmt//tei:author/tei:name}
+{\$doc//tei:sourceDesc//tei:date}
 <context>
 {for \$c in \$doc//*[. |= \"$keyword\"]
-   return if (name(\$c) = 'hi') then \$c/..[. |= \"$keyword\"] else  \$c }</context>
+   return if (name(\$c) = 'tei:hi') then \$c/..[. |= \"$keyword\"] else  \$c }</context>
 </item>";
 
 
