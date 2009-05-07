@@ -1,0 +1,142 @@
+<TEI xml:id="oeBylaws" xmlns="http://www.tei-c.org/ns1.0" xmlns:rng="relaxng.org/ns/structure/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Statues of Emory College and the Bylaws: Statutes 4-5, <date when="1839">1839</date>, an electronic edition</title>
+ <author>
+   <name type="corporate">
+     <choice>
+       <reg>Emory College</reg>
+       <sic>Emory College</sic>
+     </choice>
+   </name>
+ </author>
+      </titleStmt>
+      <extent></extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2007</date>
+        <availability>
+          <p>&#x00A9; 2007, Lewis H. Beck Center, Emory University.
+  Emory University makes a claim of copyright only to original
+  contributions made by the Oxford Experience Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>The Oxford Experience</title>
+        <respStmt>
+          <name>Christine Loflin</name>
+          <name>Adriane Ivey</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+
+      </seriesStmt>
+      <sourceDesc>
+        <bibl>The Statues of Emory College and the Bylaws,1839, Manuscript, Archives, and Rare Book Library, Emory University.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part
+ of the Oxford Experience Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The archival material has been transcribed and encoded.
+ Paratextual elements may be provided as digital images only, with some exceptions.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF
+images of each page using either a flatbed scanner.  Text pages were
+captured in color at 300dpi.  These digital images were converted to
+an electronic text file by transcription.  The text files produced
+have been proofread against the original document or a JPEG image of
+the original.  This proofread text file has then been encoded using
+the recommendations for Level 3 of the TEI in Libraries Guidelines.
+For the details of Level 3 encoding, please see the webpage for TEI
+Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.  Encoders silently replaced em
+dashes with two dashes.  Page numbers and other text such as titles
+displayed in brackets have been added by the encoder and do not appear
+in the original text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Oxford Experience</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Edited</rs>
+        <rs type="genre"></rs>
+        <rs type="geography">United States</rs>
+        <date>1800-1899</date>  <!-- or 1900-1999 -->
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item>Education--United States--History--19th century.</item>
+            <item>Education--Georgia.</item>
+            <item>College students--Georgia.</item>
+         </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>On <date>November 5, 2008</date>   
+          <name> Chinedum Onyeka</name> and <name>Anwar Ferdinand</name>
+        transcribed and encoded the document.  
+      </change>
+<change>On May 7, 2009 <name>Alice Hickcox</name> corrected the text and encoding and added subject headings.</change>
+    </revisionDesc>
+  </teiHeader>
+
+
+<text>
+<body>
+<div>
+<pb facs="statutes4_5.jpg"/>
+<head>
+Chapter 2
+<lb/> 
+Rules of admission for students and their government
+</head>
+<p>1st. In the general intercourse of the students with each other, and with the Faculty, it is expected they will be governed by those general and well known principles of decorum and courtesy, which mark the intercourse of Gentlemen and Christians, in their appropriate relations to each other-- No specific rules are therefore necessary to regulate this intercourse. The same may be said of moral conduct -  What would be an immorality out of College, will be so considered here-- and many things which are practiced with immunity by society at large, cannot be tolerated here. Profane swearing, Sabbath-Breaking, indecent language, falsehood, fraud and dishonesty of every kind, utterly disqualify a young Man for an honorable standing in College, and the more so, from their corrupting influence upon the young and inexperienced who are removed from the restraints and counsels of parental authority and affection. Certain prudential regulations however are required to meet those cases where uniformity is necessary, and where, from the nature of the subject, common usage cannot supply the place of positive precepts. To meet those cases the Board prescribes the following regulations:</p>
+ <p>Candidates for admission into the Freshman Class, shall have attained atleast fourteen years of age-- the sophomore Class, fifteen years-- the Junior Class-- sixteen years and the Senior Class, seventeen years. They shall be examined by the Faculty for the Freshman Class on the studies designated below, and for the other Classes, on the studies of the previous years.</p>
+ <p>Grammars of the Greek and Latin Languages, including Rules of Prosody.</p>
+ <p>Caesar-- 5 Books of the Gallic War, and Civil War entire.</p>
+ <p>Cicero's Orations against Catiline, and for Archias and Marcellas</p>
+ <p>Virgil-- Aenead 6 books and Bucolics.</p>
+ <p>Latin Exercises.</p>
+ <p>Jacob's Greek Reader.</p>
+ <p>Zenophon's Anabasis-- 4 books</p>
+ <p>Fisk's Greek Exercises.</p>
+ <p>They shall be versed in the first four Rules of Arithmatic, the Rule of Three Direct and Inverse, Vulgar and Decimal Fractions, and the Extraction of the Roots, Interest and Annuities,-- Algebra through Simple Equations,-- Geography.</p>
+ <p>The course of study in the several years shall be as follows:</p>
+<p rend="center">FRESHMAN.</p>
+<p>Sallust, Cicero, Virgil, Livy-- Latin Translation and Composition, Greek Testament, Homer's Illiad, Aeschines and Demosthenes, Greek and Roman Antiquities, Ancient and Modern Georgraphy, Greek Exercises, English Bible-- English Grammar, Algebra and Geometry.</p>
+<p>SOPHOMORE YEAR.</p>
+<p>Terence, Cicero continued; Horace, Odes and Satires; Latin Composition continued, Thucydides, Greek Testament continued, Greek Composition, Greek and Roman Antiquities continued, Ancient and Modern Geography continued, English bible continued, Mathematics, Geometry, Chemistry, Elements of Rhetoric and Oratory, English Composition.</p>
+<p>JUNIOR CLASS.</p>
+<p>Horace's Epistles and Art of Poetry, Latin Composition, Tacitus, Course of Lectures on Roman Literature, with weekly examinations-- Select Plays from Aeschylas, Sophocles, Euripides and Aristophanes, Greek Composition, Weekly Exercises in Greek Testament, and English bible continued, Astronomy, Chemistry, Mineralogy, Geology, Natural Philosophy, Mathematics continued, Principles of Taste and Criticism, conducted by Lectures and Recitations-- English Composition Continued.</p>
+<p>SENIOR YEAR.</p>
+<p>Tacitus continued, Plato, Septuagint, Greek Composition continued, a Course of Lectures on Greek Literature, with Weekly Examinations-- Chemistry and Natural Philosophy continued, Differential and Integral Calculus, Calculus of Variations, Mathematics continued, Mechanics, Astronomy, Practical Mechanics, Principles of Civil and Military Architecture, and Civil Engineering illustrated by Drawings and Models, History and Philosophy, Principles of Moral and Intellectual Philosophy, including Logic-- Political Economy, Evidences of Natural and Revealed Religion, English Composition continued. The studies belonging to the department of the Professor of Natural  Science, to be continued in the Senior year shall be hereafter arranged.</p>
+ <p>N.B . In all the Departments it is to be understood that such parts of the Book are to be read as the Professor with the consent of the President may direct. Declamations and Forensic Disputations to be continued through the Sophomore, Junior and Senior years at stated periods.</p>
+ <p>Every Student, when admitted into the College shall write in the Matriculation Book of the College his own name and age, and the name and place of abode of his Parent or Guardian, by which, he shall be bound to obey te Laws and Statutes of the College; at the same time he shall be furnished with a copy of the Statutes.</p> 
+ <p>2d. Every Person before he is admitted into College shall produce to the Faculty, a receipt from the Treasurer of the College, by which it shall appear that he has paid all necessary dues.</p>
+ <p>3d. All College expenses, including Board, shall be paid in advance at the commencement of each Session. Each Student shall produce a similar receipt as is required in the preceding section, before he is permitted to join his class and engage in College Exercises.</p>
+ <p>4th. Rooms shall be assigned to the Students by the Faculty-- and the occupants of each Room shall be responsible for all damage done to the same,--unless the person committing the damage be pointed out to the Faculty.</p>
+ <p>5th. No change of rooms shall be made by the Students, unless permitted by the Faculty, and the occupants of each room shall be held responsible for good order in the same.</p>
+ <p>6th. Each student shall furnish his own Bedding, Towels, Chairs and Table, and the occupants of the room together shall furnish Room Furniture.</p>
+<p>7th. All defacing and injury of the College Buildings, are contrary to rule and good order, and all persons guilty of this same shall be held responsible for the damages.</p>
+</div>
+</body>
+</text>
+</TEI> 

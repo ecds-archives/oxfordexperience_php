@@ -75,7 +75,7 @@ in the original text.</p>
         <rs type="form">Edited</rs>
         <rs type="genre"></rs>
         <rs type="geography">United States</rs>
-        <date>1800-1899</date>  <!-- or 1900-1999 -->
+        <date>1900-1999</date>
       </creation>
       <textClass>
         <keywords scheme="lcsh">
@@ -83,9 +83,7 @@ in the original text.</p>
             <item>Education--United States--History--20th century.</item>
             <item>Education--Georgia.</item>
             <item>College students--Georgia.</item>
-            <item></item>
-            <item></item>
-          </list>
+           </list>
         </keywords>
 <keywords scheme="MARBL">
 <list>
