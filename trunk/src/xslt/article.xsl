@@ -21,16 +21,12 @@
 <xsl:variable name="figure-suffix">.jpg</xsl:variable>
 
 
-
+<!-- note: Change for P5: to make the stylesheets work properly, if they use the tei namespace, they must declare it! -->
 <!-- <xsl:include href="teihtml-tables.xsl"/>
 <xsl:include href="table.xsl"/> -->
-<!-- <xsl:include href="footnotes.xsl"/> -->
+ <xsl:include href="footnotes.xsl"/>
 <xsl:output method="html"/>  
-<!-- this is broken -->
-<!-- <xsl:template match="/">  <xsl:text>DEBUG: root matched!</xsl:text><br/>
-    <xsl:call-template name="footnote-init"/> --> <!-- for popup footnotes -->
-<!-- </xsl:template>
--->
+
 
 <xsl:template match="/">
   <!-- recall the article list -->
@@ -38,7 +34,7 @@
   <xsl:call-template name="xmlview"/>
  <xsl:apply-templates/>
 <!-- display footnotes at end -->
-<!--    <xsl:call-template name="endnotes"/> -->
+    <xsl:call-template name="endnotes"/> 
   <!-- recall the article list -->
   <xsl:call-template name="return" />
 <!-- links to next & previous titles (if present) -->
@@ -99,7 +95,7 @@
   <!-- if it is inside a paragraph, or in the back, add breaks around the page break -->
   <!-- only offer the view if there is @facs -->
   
-  <xsl:template match="//tei:pb">
+  <xsl:template match="//tei:pb|//tei:milestone">
     <xsl:if test="ancestor::tei:p | ancestor::tei:back"><br/></xsl:if>
   <xsl:if test="@*[name() = 'facs']">
     <xsl:element name="a">
@@ -111,6 +107,7 @@
       <xsl:element name="br"/>
     </xsl:if>
   </xsl:if>
+    <xsl:if test="following-sibling::tei:opener"><br/></xsl:if>
     <xsl:if test="ancestor::tei:p | ancestor::tei:back"><br/></xsl:if>
   </xsl:template>
 
@@ -149,7 +146,7 @@
 </xsl:template>
 <!--
 <xsl:template match="div3">
-  <xsl:if test="@type='About'">
+"u  <xsl:if test="@type='About'">
     <xsl:element name="i">
       <xsl:apply-templates/>
     </xsl:element>
@@ -329,7 +326,7 @@
       </xsl:element>
     </xsl:when>
     <xsl:when test="@rend='underline'">
-      <xsl:text>&#x00A0;</xsl:text><xsl:element name="u">
+      <xsl:element name="u">
         <xsl:apply-templates/>
       </xsl:element><xsl:text> </xsl:text>
       </xsl:when>
@@ -367,7 +364,7 @@
     <xsl:when test="@rend='underline'">
       <xsl:element name="u">
         <xsl:apply-templates/>
-      </xsl:element>
+      </xsl:element><xsl:text> </xsl:text>
       </xsl:when>
       <xsl:when test="@rend='right'">
          <xsl:element name="span"><xsl:attribute name="class">right</xsl:attribute>
