@@ -2,7 +2,8 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
 	xmlns:html="http://www.w3.org/TR/REC-html40" 
 	xmlns:ino="http://namespaces.softwareag.com/tamino/response2" 
-	xmlns:xql="http://metalab.unc.edu/xql/">
+	xmlns:xql="http://metalab.unc.edu/xql/"
+	xmlns:tei="http://www.tei-c.org/ns/1.0">
 
 <xsl:include href="utils.xsl"/>
 
