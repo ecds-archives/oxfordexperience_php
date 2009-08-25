@@ -2,7 +2,7 @@
 include_once("config.php");
 include_once("lib/xmlDbConnection.class.php");
 
-$exist_args{"debug"} = false;
+$exist_args{"debug"} = true;
 
 $db = new xmlDbConnection($exist_args);
 
@@ -23,7 +23,8 @@ $htmltitle = "The Oxford Experience";
 // use article query with context added
 // note: using |= instead of &= because we want context for any of the
 // keyword terms, whether they appear together or not
-$xquery = "declare namespace tei='http://www.tei-c.org/ns/1.0';
+$xquery = "declare option exist:serialize 'highlight-matches=all';";
+$xquery .= "declare namespace tei='http://www.tei-c.org/ns/1.0';
 let \$doc := /tei:TEI[@xml:id = \"$id\"]
 return 
 <item>

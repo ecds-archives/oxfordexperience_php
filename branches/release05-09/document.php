@@ -10,7 +10,7 @@ $terms = $_REQUEST["keyword"];
 
 $view = $_REQUEST["view"];
 
-$exist_args{"debug"} =false;
+$exist_args{"debug"} =true;
 $xmldb = new xmlDbConnection($exist_args);
 
 html_head("Documents", true);
