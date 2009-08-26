@@ -1,0 +1,32 @@
+<div class="content">
+<div>
+<h3>The Oxford Experience Site</h3>
+<p>The Oxford Experience Project began with the request of a faculty
+  member at Oxford College who teaches a writing class, to use primary source documents in her
+  writing class, and to present the documents and student papers on the web. A
+  consultation team of librarians from Oxford, from the Manuscript,
+  Archives, and Rare Book Library (MARBL), and the Beck Center for Electronic
+  Collections at Emory, met with the faculty and decided to engage the
+  students in text analysis that included text markup in XML.</p>
+<p>The team hired a student to gather texts that were interesting from
+  <a href="#sr">an undergraduate perspective</a>. With the assistance of the staff of
+  MARBL and the Archives, she gathered and scanned images of a variety
+  of letters, diary entries, class lists, and student produced
+  documents of various kinds. The group tested the markup instruction
+  on themselves and made necessary adjustments. </p>
+<p>During the semester students selected texts to study and
+  transcribe. They researched the situation that produced the
+  document, and visited the archives to see the original. After some
+  instruction in encoding, they added markup to their
+  document. Finished documents were loaded to the development website
+  for class presentation. Some of the documents at this production
+  site also include papers that the students wrote for the class
+  about their document.</p>
+<p>The letters have titles as assigned by the students. The encoding has been normalized to Beck Center practices.</p>
+</div>
+<div>
+<h3>Related Oxford Sites</h3>
+<p>Students used the <a href="http://www.emory.edu/OXFORD/EarlyEmoryPhotos/">archive of early photos</a> to research the people who are named in their document.</p>
+<p>Some of the collections came from <a href="http://marbl.library.emory.edu">MARBL</a>, and the <a href="http://marbl.library.emory.edu/FindingAids/index.html">finding aids</a> there may give more information about the people mentioned in the documents.</p>
+</div>
+</div>
