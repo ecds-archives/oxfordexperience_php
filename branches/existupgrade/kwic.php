@@ -25,6 +25,7 @@ $htmltitle = "The Oxford Experience";
 // keyword terms, whether they appear together or not
 $xquery = "declare option exist:serialize 'highlight-matches=all';";
 $xquery .= "declare namespace tei='http://www.tei-c.org/ns/1.0';
+declare option exist:serialize 'highlight-matches=all';
 let \$doc := /tei:TEI[@xml:id = \"$id\"]
 return 
 <item>
