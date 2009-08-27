@@ -46,6 +46,7 @@ if (count($options)) {
   //print("DEBUG: Searchfilter is $searchfilter");
   
   $query = "declare namespace tei='http://www.tei-c.org/ns/1.0';
+declare option exist:serialize 'highlight-matches=all';
 for \$a in /tei:TEI$searchfilter
 let \$t := \$a//tei:titleStmt//tei:title
 let \$auth := \$a//tei:titleStmt//tei:author/tei:name
