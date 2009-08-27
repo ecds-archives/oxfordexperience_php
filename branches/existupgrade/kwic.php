@@ -23,8 +23,8 @@ $htmltitle = "The Oxford Experience";
 // use article query with context added
 // note: using |= instead of &= because we want context for any of the
 // keyword terms, whether they appear together or not
-$xquery = "declare option exist:serialize 'highlight-matches=all';";
-$xquery .= "declare namespace tei='http://www.tei-c.org/ns/1.0';
+
+$xquery = "declare namespace tei='http://www.tei-c.org/ns/1.0';
 declare option exist:serialize 'highlight-matches=all';
 let \$doc := /tei:TEI[@xml:id = \"$id\"]
 return 
