@@ -17,6 +17,10 @@ include("web/xml/about.xml");
 include("web/xml/srstory.xml");
 
 include("web/xml/footer.xml");
-?> 
-   
-</div>
+
+print "</div>";
+
+include("web/xml/google-trackoxex.xml");
+?>
+</body>
+</html>

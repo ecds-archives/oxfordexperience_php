@@ -2,8 +2,9 @@
 
 /* Configuration settings for entire site */
 
-// pick up login/authorization information
-session_start();
+
+$in_production = true;
+
 
 // set level of php error reporting --  ONLY display errors
 // (will hide ugly warnings if databse goes offline/is unreachable)
@@ -43,7 +44,11 @@ if ($in_production) {
   $server = "wilson.library.emory.edu";         // test
 }
 
-$port = "8080";
+if($in_production) {
+  $port = "7080";
+ } else {
+  $port = "8080";
+ }
 $db = "oxfordexperience";
 
 $exist_args = array('host'   => $server,
