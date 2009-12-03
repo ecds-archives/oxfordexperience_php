@@ -59,7 +59,7 @@ include("web/xml/footer.xml");
 </div>
    
 
-
+<?php include("web/xml/google-trackoxex.xml"); ?>
 
 </body>
 </html>

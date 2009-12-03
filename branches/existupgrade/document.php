@@ -68,6 +68,7 @@ $xmldb->printResult();
    
 <?php
   include("web/xml/footer.xml");
+  include("web/xml/google-trackoxex.xml");
 ?>
 
 
