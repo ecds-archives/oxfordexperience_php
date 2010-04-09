@@ -1,0 +1,112 @@
+<TEI xml:id="March_11_1844_Letter.xml" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="relaxng.org/ns/structure/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> March 11, 1844 Letter, <date when="1844-03-11">March 11th /44</date>, an electronic edition</title>
+	<author>
+	  <name type="person">
+	    <choice>
+	      <reg>G A Our Pres.</reg>
+	      <sic>G A Our Pres.</sic>
+	    </choice>
+	  </name>
+	</author>
+      </titleStmt>
+      <extent></extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2009</date>
+        <availability>
+          <p>&#x00A9; 2009, Lewis H. Beck Center, Emory University.
+  Emory University makes a claim of copyright only to original
+  contributions made by the Oxford Experience Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>The Oxford Experience</title>
+        <respStmt>
+         <name>Adriane Ivey</name>
+          <name>Jeff Galle</name>
+	  <name>Mark Swails</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl>March 11,1844 Letter, Manuscript, Archives, and Rare Book Library, Emory University.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part
+	of the Oxford Experience Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The archival material has been transcribed and encoded.
+	Paratextual elements may be provided as digital images only, with some exceptions.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF
+images of each page using either a flatbed scanner.  Text pages were
+captured in color at 300dpi.  These digital images were converted to
+an electronic text file by transcription.  The text files produced
+have been proofread against the original document or a JPEG image of
+the original.  This proofread text file has then been encoded using
+the recommendations for Level 3 of the TEI in Libraries Guidelines.
+For the details of Level 3 encoding, please see the webpage for TEI
+Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.  Encoders silently replaced em
+dashes with two dashes.  Page numbers and other text such as titles
+displayed in brackets have been added by the encoder and do not appear
+in the original text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Oxford Experience</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Edited</rs>
+        <rs type="genre"></rs>
+        <rs type="geography">United States</rs>
+        <date>1800-1899</date>
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>On <date>2009-10-06</date>   
+          <name>Brady, Neil</name> and <name>Iyer, Nathan</name> and <name>Hunt, Brittain</name> and <name>Mitchell, Gary</name> and <name>Cory, Sarah</name> and <name>Ellis, Anna Grace</name>
+        transcribed and encoded the document.  
+      </change>
+    </revisionDesc>
+  </teiHeader>
+<text>
+  <body>
+	<div type= "letter">
+	<pb facs="6089.jpg"/>
+	<head><date when="1844-03-11">March 11, 1844 Letter</date></head>
+	
+<p>At a called meeting of the Soc. the Sec. laid before the Soc. a letter from Sec of <name>Phi Gamma Soc.</name> requesting a list of our Honorary Members - and the actions of the Soc. upon that subject. It was deemed expedient not to take action on it until the next regular meeting. A number of persons were then proposed and elected as Honorary Members* next thing in order was adjournment.</p> 
+
+<p><name type="person"><sic>Mr. N Moore Sec.-</sic></name> 
+<name type="person"><sic>G A Our Pres.</sic></name></p>
+<p>"On motion several <add rend="subscript">following</add> gentlemen were appointed to write to those who had been elected Honorary Members. <list><item><name type="person"><sic><unclear reason="illegible">J J Evans</unclear></sic><reg> Evans, J. J. </reg></name>,</item><item><name type="person"><sic>M T Tucker,</sic><reg> Tucker, M. T. </reg></name></item><item><name type="person"><sic> I Tharr,</sic><reg> Tharr, I. </reg></name></item><item><name type="person"><sic> A Golvard,</sic></name></item><item><name type="person"><sic> B Love,</sic><reg> Love,B. </reg></name></item><item> <name type="person"><sic>I H Lynch,</sic><reg> Lynch, I. H. </reg></name></item><item><name type="person"><sic>P O Harper,</sic><reg> Harper, P. O. </reg></name></item><item> <name type="person"><sic>I G Ardis.</sic><reg> Ardis, I. G. </reg></name></item></list></p>
+</div></body></text></TEI>
