@@ -1,0 +1,137 @@
+<!-- I couldn't find the images associated with this text - Stewart -->
+
+<TEI xml:id="Reeve_Ellis_Letter.xml" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="relaxng.org/ns/structure/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Ellis Reve to His Mother <date when="1907-02-16">February 16, 1907</date>, an electronic edition</title>
+	<author>
+	  <name type="person">
+	    <choice>
+	      <reg>Reeve, Ellis</reg>
+	      <sic>Ellis Reeve</sic>
+	    </choice>
+	  </name>
+	</author>
+      </titleStmt>
+      <extent></extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2009</date>
+        <availability>
+          <p>&#x00A9; 2009, Lewis H. Beck Center, Emory University.
+  Emory University makes a claim of copyright only to original
+  contributions made by the Oxford Experience Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>The Oxford Experience</title>
+        <respStmt>
+         <name>Adriane Ivey</name>
+          <name>Jeff Galle</name>
+	  <name>Mark Swails</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl>Letter from Ellis Reve to His Mother, Manuscript, Archives, and Rare Book Library, Emory University.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part
+	of the Oxford Experience Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The archival material has been transcribed and encoded.
+	Paratextual elements may be provided as digital images only, with some exceptions.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF
+images of each page using either a flatbed scanner.  Text pages were
+captured in color at 300dpi.  These digital images were converted to
+an electronic text file by transcription.  The text files produced
+have been proofread against the original document or a JPEG image of
+the original.  This proofread text file has then been encoded using
+the recommendations for Level 3 of the TEI in Libraries Guidelines.
+For the details of Level 3 encoding, please see the webpage for TEI
+Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.  Encoders silently replaced em
+dashes with two dashes.  Page numbers and other text such as titles
+displayed in brackets have been added by the encoder and do not appear
+in the original text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Oxford Experience</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Edited</rs>
+        <rs type="genre"></rs>
+        <rs type="geography">United States</rs>
+        <date>1800-1899</date>  <!-- or 1900-1999 -->
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>On <date>2009-10-05</date>   
+          <name>Class, Our</name>, <name>Class, Another</name> and <name> Class, OneMore </name>
+        transcribed and encoded the document.  
+      </change>
+    </revisionDesc>
+  </teiHeader>
+<text>
+  <body>
+	<div type="letter">
+	<pb facs="1907-02-16_1.jpg"/>
+	<head>Letter from Ellis Reve to His Mother</head>
+	
+
+
+                        <opener>
+                            <dateline>
+                                <name type="place">Oxford, Ga.,</name>
+                                <date when="1907-02-16">February 16, 1907</date>
+                            </dateline>
+                            <salute>My Dear,</salute>
+                        </opener>
+                        <p>It is just half an hour till my first recitation is due to begin, so I will start my letter to you, so I can be sure to get it off tonight. One more week has gone by almost <sic>to</sic> quick to think about it. I can't hardly realize that all but twelve days of Feb. are gone. Just think only three and a half more months. I am very anxious for summer to come. If I can run on the mail route a month it will give me a considerable <pb facs="1907-02-16_2.jpg"/>lift financially. You know they leave at 7 30 a.m. and are due back at two. That would give me almost a half day each day. I do hope I can get on it for a while. Has Mr. Moss said any thing to any of them yet? And if so, with what success?</p>
+                        <p>One of the Pressing club negros here wants me to start a club in Calhoun next summer. I am going to see what size membership I can get, and may run one if I can get enough. I think I might be able <!-- page break-->to get thirty five to begin with. I am going to write to some there and see. I won't do anything until along in May or the latter part of April. I must stop and go to college.</p>
+                        <p>After supper; I have just been eating some fig preserves and lightbread that the "lady of the house" sent in to us. You know we only room here but they treat us like we were human beings and not just college boys used to anything. They frequently send us in some dish <!-- page break -->of something good to eat. Sometimes cake or peaches and cream, preserves etc. Whenever <add place="supralinear">(almost)</add> they buy any fruit, whether apples, bananas or oranges, straight to our room they come and offer us some. They ask us in to play games with them and their children frequently. Mrs. Baum remembers you well. She very often has something to say about you. She was at Washington Seminary about two months while you were there.</p>
+                        <p>Mama, your last two <!-- page break-->letters, though shorter than usual were very "sweet" and "encouraging." You can't imagine how inspiring they are. I had <hi rend="underline">by far</hi> rather get your letters than those of any girls I correspond with. In fact I wouldn't give one of yours for all of theirs.</p>
+                        <p>I am feeling fine except for my back and kidneys they are troubling me quite a deal, but I think Dr. Anderson can bring me out O.K.  I have put off my trip to A. on acc't of my condition now.</p>
+                        <!-- page break -->
+                        <p>I would like very much to be with you all to night and tomorrow. Some how or other I want to see you worse than usual.</p>
+                        <p>By the way, does Sister know who sent me that valentine. It was a hot shot, I mean real "cute" so to speak.</p>
+                        <p>I am afraid you won't get this tonight, I mean tomorrow. I'll have to cut it out and skidoo to the post office.</p>
+                        <closer>
+                            <salute>Your devoted boy,</salute>
+                            <signed>
+                                <name type="person">Ellis</name>
+                            </signed>
+                        </closer>
+
+	</div>
+  </body>
+</text>
+</TEI>

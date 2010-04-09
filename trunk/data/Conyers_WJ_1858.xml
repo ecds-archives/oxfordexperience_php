@@ -1,0 +1,126 @@
+<TEI xml:id="Conyers_WJ_1858.xml" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="relaxng.org/ns/structure/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>W.J. Conyers Yearbook Comment 1858<date when="1858-06-30"></date>, an electronic edition</title>
+	<author>
+	  <name type="person">
+	    <choice>
+	      <reg>Conyers, W.J.</reg>
+	      <sic>W.J Conyers</sic>
+	    </choice>
+	  </name>
+	</author>
+      </titleStmt>
+      <extent></extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2009</date>
+        <availability>
+          <p>&#x00A9; 2009, Lewis H. Beck Center, Emory University.
+  Emory University makes a claim of copyright only to original
+  contributions made by the Oxford Experience Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>The Oxford Experience</title>
+        <respStmt>
+         <name>Adriane Ivey</name>
+          <name>Jeff Galle</name>
+	  <name>Mark Swails</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl>W.J. Conyers Yearbook Comment 1858, Manuscript, Archives, and Rare Book Library, Emory University.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part
+	of the Oxford Experience Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The archival material has been transcribed and encoded.
+	Paratextual elements may be provided as digital images only, with some exceptions.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF
+images of each page using either a flatbed scanner.  Text pages were
+captured in color at 300dpi.  These digital images were converted to
+an electronic text file by transcription.  The text files produced
+have been proofread against the original document or a JPEG image of
+the original.  This proofread text file has then been encoded using
+the recommendations for Level 3 of the TEI in Libraries Guidelines.
+For the details of Level 3 encoding, please see the webpage for TEI
+Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.  Encoders silently replaced em
+dashes with two dashes.  Page numbers and other text such as titles
+displayed in brackets have been added by the encoder and do not appear
+in the original text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Oxford Experience</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Edited</rs>
+        <rs type="genre"></rs>
+        <rs type="geography">United States</rs>
+        <date>1800-1899</date>
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>On <date>2009-10-05></date>   
+          <name>Patel, Seema</name> and <name>Donovan, Alexandria</name> and <name>Scruggs, Omar</name> and <name>sawyer, lauren</name> and <name>allen,natalie</name> and <name>Hopkins,Paula</name>
+        transcribed and encoded the document.  
+      </change>
+    </revisionDesc>
+  </teiHeader>
+<text>
+  <body>
+	<div>
+	<pb facs="6042.jpg"/>
+	<head>W.J. Conyers Yearbook Comment 1858</head>
+	
+
+<pb facs= "6042.jpg"/>
+
+<opener><salute>Dear <name><gap reason="illegible" unit="word"/></name>,</salute></opener>
+
+	<p>It gives me much happiness to enroll my name on the list of acquaintances whom you <del rend="strikethrough">wish</del> especially wish to remember. While it grieves me deeply to know that another and a dear friend is soon to depart; yet <del rend="strikethrough">it</del> I cannot but esteem into a great <choice> <sic>privalege</sic> <reg>priviledge</reg></choice> to leave with him something, which however humble it may be, cannot help but recall the friend of his College course.</p>
+
+	<p>Our acquaintance has been comparitively short but of sufficient duration to bind us by other cords than those of mere acquaintance; such I am sure as shall prove sternley oburate to the force of time and its attendant circumstances. But soon you must leave us to sip the sweets or battle with "the stern realities of life", and I cannot repress my heartfelt wishes for your happiness. May your sound worth and strict integrity secure to you the purest pleasures and joys of life unmingled with any of its perplexing cares. I would have your pathway continue smooth, your sky unclouded, your stream unruffled. But whether you revel in life's enjoyments or be tortured by its amenities remember, yes forget not your classmate.</p>   
+<closer>							
+<signed>
+<name type="person">
+<choice>
+<reg>Conyers, W.J.</reg>
+<sic>W.J. Conyers</sic>
+</choice>
+</name></signed>
+<name type="corporate">Emory College</name> <dateline><date when="1858-06-30">June 30th, '58</date><lb/>
+</dateline>
+</closer>
+</div></body></text></TEI>

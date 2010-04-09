@@ -1,0 +1,145 @@
+                
+<TEI xml:id="summerlinorig.xml" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="relaxng.org/ns/structure/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Joe Summerlin to his father, <date when="1851-10-18">October 18, 1851</date>, an electronic edition</title>
+	<author>
+	  <name type="person">
+	    <choice>
+	      <reg>Summerlin, M.B.</reg>
+	      <sic>M.B. Summerlin</sic>
+	    </choice>
+	  </name>
+	</author>
+      </titleStmt>
+      <extent></extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2009</date>
+        <availability>
+          <p>&#x00A9; 2009, Lewis H. Beck Center, Emory University.
+  Emory University makes a claim of copyright only to original
+  contributions made by the Oxford Experience Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>The Oxford Experience</title>
+        <respStmt>
+         <name>Adriane Ivey</name>
+          <name>Jeff Galle</name>
+	  <name>Mark Swails</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl>Letter from Joe Summerlin to his father, Manuscript, Archives, and Rare Book Library, Emory University.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part
+	of the Oxford Experience Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The archival material has been transcribed and encoded.
+	Paratextual elements may be provided as digital images only, with some exceptions.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF
+images of each page using either a flatbed scanner.  Text pages were
+captured in color at 300dpi.  These digital images were converted to
+an electronic text file by transcription.  The text files produced
+have been proofread against the original document or a JPEG image of
+the original.  This proofread text file has then been encoded using
+the recommendations for Level 3 of the TEI in Libraries Guidelines.
+For the details of Level 3 encoding, please see the webpage for TEI
+Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.  Encoders silently replaced em
+dashes with two dashes.  Page numbers and other text such as titles
+displayed in brackets have been added by the encoder and do not appear
+in the original text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Oxford Experience</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Edited</rs>
+        <rs type="genre"></rs>
+        <rs type="geography">United States</rs>
+        <date>1800-1899</date>  <!-- or 1900-1999 -->
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>On <date>2009-10-05</date> 
+          <name>Edwin X. Chiu</name> and <name>Su Jin Kim</name> and <name> Jemeia G. Kollie </name> and <name> Melissa A. Stephenson </name>
+        transcribed and encoded the document.  
+      </change>
+    </revisionDesc>
+  </teiHeader>
+<text>
+  <body>
+	<div type="letter">
+	<pb facs="summerlinorig_p1.jpg"/>
+	<head>Letter from M.B. Summerlin to his father, <name type="place">Oxford Newton County Ga</name>, <date when="1851-10-18">Oct. 1851</date></head>
+
+
+<salute>Dear Pa,</salute>
+
+      <p>I reached <name type="place">Oxford</name> the next day after leaving home: but I must tell you of my misfortune before getting here; as I came down in the night I did not know when I got to <name type="place">Covington</name>. I requested the conductor too to let me  know  when I got  there but he failed to do so and he carried me down to the Social Circle in <name type="place">Walton County</name>, there I found out by inquiring that I had past <name type="place">Covington</name>. I stayed there until 2 o clock in the morning and came on back to 
+<name type="place">Covington</name>. Consequently I lost my sleep and was out about six <choice><sic>dollers</sic><reg>dollars</reg></choice> when I reached <name type="place">Oxford</name>. The first thing I did after my arrival I took short knap of sleep. I then after waking up went over to the college building and soon got acquainted with several of the students and the faculty also, Last Monday morning I entered college, I am mighty well pleased so far with  my new home , this a most beautiful little place situated 2 miles north of <name type="place">Covington</name>. The college now is in a very flourishing condition, one hundred and twenty students about. But I am sorry the expenses are so much, boarding and lodging is twelve dollars per month excluding of washing, 
+
+<pb facs="summerlinorig_p2.jpg"/>
+
+wood and lights. I suppose there are some few that furnish the wood though they live some distance from the college. I board at the hotel about half the students board there. The expense is but very little more than boarding at private houses, all the expenses at private houses per month is about 13 1/2 dollars. At the hotel about fourteen I prefer boarding at the hotel, tuition is $30 a year, this is an extravagant place, but I suppose its as cheap as any other college in <name type="place">Georgia</name>, It will cost me near $300 three hundred dollars a year to come here, it will take about $50 more than what you gave me when I left home about $23.50 
+for board $10.50 tuition. I have to pay a society fee but how much that is I am not permitted to say. In connection with this college as it is with all others are
+ two literary societies which add to the improvment of the student almost as much as the college course does. the names of these societies are <name type="corporate"> Phi Gamma </name> &#x0026; <name type="corporate"> Few </name>. 
+I have joined the <name type="place"> Phi Gamma </name>. I will <sic>kneed</sic> some few clothing before i go home and i will have to get some books after I advance a little. 
+We have to study a good many books here. 
+They are very strict here. <name type="person"> <choice> <reg> Standard Version </reg> <sic> Mr. Geo. F. Pierce </sic> </choice> </name> is Pres. The Faculty is a very able oneDr. Means is one of the Faculty.  The Faculty consists of 
+five professors, Pres. and tutor. I have not paid my tuition yet though its 
+
+<pb facs="summerlinorig_p2.jpg"/>
+
+the Rule to pay it in advance. I made arrangements with the Faculty to pay it at the end of the term, for board is required in advance also. I could not pay either without 
+depriving myself of any money the initiation fee I have to pay in about three weeks you may send me ten or fifteen dollars. As I promised to pay the board monthly, 
+by the end of the term you can send me the rest. The term will end about the <date when="1899-01-31"> 8th December. </date> I am sorry the Expenses are so high but 
+its almost as little as i could make out on. 
+I am well satisfied here. When I was in <name type="place"> Tennessee </name> I felt I was almost out of the world. <name type="place"> Knoxville </name> 
+is a much cheaper place than this - there are many cheaper places
+ than this but they are too far from home. I can graduate in three years and a half. I am very anxious for the sheep skin. If I had it and was worthy of it 
+I would not take the <name type="place"> State of Georgia </name> for it. I would esteem it higher than all the wealth this world affords although I never expect to get it but I must get a good 
+education before I stop if I can. I can never bear the thoughts of living and dying in ignorance. Pa I must now come to a close  you must excuse my badly written letter
+ as I had to write in a hurry farewell.</p>
+
+<closer>
+<salute>Write Soon</salute>
+<signed><name type="person"><choice><reg>Summerlin, M.B.</reg><sic>M.B. Summerlin</sic></choice></name></signed></closer>
+<postscript><p>P.S. write soon</p>
+<p>I am well.</p></postscript>
+	</div>
+  </body>
+</text>
+</TEI>

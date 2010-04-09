@@ -1,0 +1,137 @@
+<TEI xml:id="lettermunson.xml" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="relaxng.org/ns/structure/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from G.B. Munson to his Parents <date when="1848-10-10">October 10, 1848</date>, an electronic edition</title>
+	<author>
+	  <name type="person">
+	    <choice>
+	      <reg>Lewis, George</reg>
+	      <sic>Lewis, Go.</sic>
+	    </choice>
+	  </name>
+	</author>
+      </titleStmt>
+      <extent></extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2009</date>
+        <availability>
+          <p>&#x00A9; 2009, Lewis H. Beck Center, Emory University.
+  Emory University makes a claim of copyright only to original
+  contributions made by the Oxford Experience Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>The Oxford Experience</title>
+        <respStmt>
+         <name>Adriane Ivey</name>
+          <name>Jeff Galle</name>
+	  <name>Mark Swails</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl>Lewis Letter, Manuscript, Archives, and Rare Book Library, Emory University.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part
+	of the Oxford Experience Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The archival material has been transcribed and encoded.
+	Paratextual elements may be provided as digital images only, with some exceptions.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF
+images of each page using either a flatbed scanner.  Text pages were
+captured in color at 300dpi.  These digital images were converted to
+an electronic text file by transcription.  The text files produced
+have been proofread against the original document or a JPEG image of
+the original.  This proofread text file has then been encoded using
+the recommendations for Level 3 of the TEI in Libraries Guidelines.
+For the details of Level 3 encoding, please see the webpage for TEI
+Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.  Encoders silently replaced em
+dashes with two dashes.  Page numbers and other text such as titles
+displayed in brackets have been added by the encoder and do not appear
+in the original text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Oxford Experience</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Edited</rs>
+        <rs type="genre"></rs>
+        <rs type="geography">United States</rs>
+        <date>1800-1899</date>  
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>On <date>2009/10/06</date>   
+          <name> Carter, Duronte </name><name> Broughton, Amber</name><name>Stanich, Nicole </name><name> Engle, Ashley </name> and <name>Deaton, Michael</name>
+        transcribed and encoded the document.  
+      </change>
+    </revisionDesc>
+  </teiHeader>
+<text>
+  <body>
+    <div type="letter">
+
+<pb facs="parents_origp1.jpg-"/>
+
+      <head>Emory College Oxford<lb/>
+<date when="1848-10-10">Oct. 10th 1848</date></head>
+ 
+ 
+<opener><salute>Dear Parents,</salute></opener>
+<p>I again attempt to write a few lines in order to let you know how I am situated and how I am getting <choice><sic>allong</sic>
+<reg>along</reg> </choice> at this place. First my health is tolerably good and I am now engaged in my College exercises our College has been thrown back a great deal by the loss of one of our <choice><sic>Proffessors</sic> <reg>Professors</reg></choice> but his place is now filled by one of our last graduates, but not withstanding this loss she is still increasing in the number of her students and bids fare soon to outstrip any of her <choice><sic>sothern</sic> <reg>Southern</reg></choice> rivals of the South both in the number of her students and the superiority of her faculty.</p>
+
+<p>We have no news of interest at present-except that politics is raging at it hightest pitch and it is yer doubtful how our state will go in the Election, but as this is a subject which ought never to trouble or interest the students I therefore pay little or no attention to it and therefore know comparatively nothing about it. I received your letter sometime since and the amount which you had inclosed within but as Kentucky money does not pas here without discount I have not yet made
+
+<pb facs="parents_origp2.jpg-"/>
+
+ use of it but as there is a great many men from Kentucky and <sic>Tenesee</sic> who drive hogs and horses through this place every winter and will be glad to change Georgia money for it I will therefore have a good chance of geting rid of assoon as the <sic>wether</sic> turns a little bit colder. I <sic>ned</sic> hardly say anything to you about money affairs as you must know that I stand greatly in <sic>kned</sic> <sic>ofsome</sic>. I wish however that you would send me enough to pay up all my accounts here and let me be square once more and I will then endeavour to keep so perhaps you may think that I spend more here than I really should do I might a little less provided had the cash to pay for any thing which I may I need but as I haf to go on the credit sistem I hafto pay very high prices for all the articles which I purchase. Tuition as also required in advance and I behind in paying for my board and washing which I would like to pay up as soon as possible as I am boarding with a Widow Lady and she is greatly in debt is is needing some money very much this I suppose will suffice on this subject and I hope that you will not think me to extravigant as I try to make every edge cut.
+
+<pb facs="parents_origp2.jpg-"/>
+
+You have never said anything about when and how soon you intended for me to come home I would like for you to tell me something about it as I begin to be anxious for that happy period to arrive when I had this place for home dont understand one to say that I dislike this place not as I like it as well as I could like any place away from home but I begin to want to see home pretty badly. Bishop Andrew from this place will attend your conference to be held in Lagrange and said perhaps that he would pay you a visit you must see the Bishop if you can make it convienient as I know that you cannot help being pleased with him <sic>boath</sic> as a man and as a preacher.  Mr Agcock will return in a few weaks in company with two others your me whom he has persuaded to try our county.</p>
+
+<p>You must write soon and write often for I have not received but one letter from home since <name type="person"> <choice> <reg> Agcock, Mr. </reg>
+<sic> Mr Agcock </sic> </choice> </name> left there and I had allmost given out the idea of hearing from any of you again. Give my love to all and tell Mother that she must write to oftener than she does my love to little Mary in particular as I long see her as well as the rest of ya I remain youre son.</p>
+<closer> 
+<signed>
+<name>
+-GB Munson
+</name>
+</signed>
+</closer>
+    </div>
+  </body>
+</text>
+</TEI>
