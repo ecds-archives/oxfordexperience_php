@@ -1,0 +1,127 @@
+<TEI xml:id="wren_diary" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="relaxng.org/ns/structure/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Wren Diary, <date>1858-1859</date>, an electronic edition</title>
+	<author>
+	  <name type="person">
+	    <choice>
+	      <reg>Wren, George Pierce</reg>
+	      <sic>George Pierce Wren</sic>
+	    </choice>
+	  </name>
+	</author>
+      </titleStmt>
+      <extent></extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2009</date>
+        <availability>
+          <p>&#x00A9; 2009, Lewis H. Beck Center, Emory University.
+  Emory University makes a claim of copyright only to original
+  contributions made by the Oxford Experience Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>The Oxford Experience</title>
+        <respStmt>
+         <name>Adriane Ivey</name>
+          <name>Jeff Galle</name>
+	  <name>Mark Swails</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl>Wren Diary, Manuscript, Archives, and Rare Book Library, Emory University.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part
+	of the Oxford Experience Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The archival material has been transcribed and encoded.
+	Paratextual elements may be provided as digital images only, with some exceptions.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF
+images of each page using either a flatbed scanner.  Text pages were
+captured in color at 300dpi.  These digital images were converted to
+an electronic text file by transcription.  The text files produced
+have been proofread against the original document or a JPEG image of
+the original.  This proofread text file has then been encoded using
+the recommendations for Level 3 of the TEI in Libraries Guidelines.
+For the details of Level 3 encoding, please see the webpage for TEI
+Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.  Encoders silently replaced em
+dashes with two dashes.  Page numbers and other text such as titles
+displayed in brackets have been added by the encoder and do not appear
+in the original text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Oxford Experience</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Edited</rs>
+        <rs type="genre"></rs>
+        <rs type="geography">United States</rs>
+        <date>1800-1899</date>  
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>On <date>2009/10/06</date>   
+          <name>Oneal,Janai></name> and <name>Morris,Kathrine</name>,<name>Gourley,Meg</name>,<name>Grady,Alex</name>
+        transcribed and encoded the document.  
+      </change>
+    </revisionDesc>
+  </teiHeader>
+<text>
+  <body>
+	<div type= "diary">
+	<head> [Wren Diary] </head>
+<pb facs="6304.jpg"/>
+	<p><date>Monday 24th</date></p>
+	<p>Friday &#x0026; Saturday, I being sick failed to write and now <add place="supralinear">I</add> will relate the circumstances. Yesterday I went to preaching and heard another eccentric <choice><sic>serman</sic><reg>sermon</reg></choice> from Mr.Yarbrough.  To-day there was a circumstance that took place that I have never known here before, <name type="person"><sic>Gigger</sic></name>one of our fellow students drowned. I have finished reading <name type="person"><choice><reg> Stuart,Mary Queen of Scots </reg><sic> Mearry Queen of Scots</sic></choice></name> and her son that she bore became <choice><sic>Keing</sic><reg>King</reg></choice> Sixth of Scotland 
+<pb facs="6305.jpg"/>
+and First of England. <name type="person"><choice><reg> Stuart,Henry Lord Darnley</reg><sic>Darnley</sic></choice></name> <name type="person"><choice><reg> Stuart,Mary Queen of Scots </reg><sic> Mary's </sic></choice></name>second husband treated her very bad hes finally killed by <name type="person"><choice><reg>Hepburn, James 4th Earl of Bothwell</reg><sic>Bothwell</sic></choice></name> who afterwards married her, and she was thought to have had some hand in putting him to death but not known. The people were all so much incensed at her that they finally waged war against them and took her a way from him and had her confined for some time and sent for the <choice><sic>Eearl</sic><reg>Earl</reg></choice>  of <choice><sic>Murry</sic><reg>Moray</reg></choice> to act as regent for<name type="person"><choice><reg>Hepburn,James 4th Earl of Bothwell</reg><sic>James</sic></choice></name>and made her sign papers <choice><sic>cirtifying</sic><reg>certifying</reg></choice>that she had given up the right to him. She finally by the help of her friends was released from captivity and many of them joined her and the waged war against <choice><sic>Murry</sic><reg>Moray</reg></choice> her brother and was defeated and she then fled to <name type="place"> England</name>for help from the Queen but She there fell into the hands of one that was her enemy. <name type="person"><choice><reg> Stuart,Mary Queen of Scots </reg><sic> Mary </sic></choice></name> was kept in captivity for many years until her son obtained the crown in Scotland and She was finally caught trying to work some plans to be freed from her captivity and it was said She and her friends were working some plan to put <name type="person"><choice><reg> Tudor,Elizabeth</reg><sic>Elizabeth</sic></choice></name>to death, she was finally <choice><sic>tryed</sic><corr>tried</corr></choice> and condemed to die but the <choice><sic>warent</sic><reg>warrant</reg></choice> had to be signed by the Queen and the first sums as if she didn't want to do it but she did it and <name type="person"><choice><reg> Stuart,Mary Queen of Scots </reg><sic> Mary </sic></choice></name>was beheded, and when she was on the eve of death we can but notice her composure and the manner in which She took her death and even swore with her hand on the bible that she never had done any thing to injure <name type="person"><choice><reg> Tudor,Elizabeth</reg><sic>Elizabeth</sic></choice></name>and her last prayer was in fact offered up for <name type="person"><choice><reg> Tudor,Elizabeth</reg><sic>Elizabeth</sic></choice></name>and her son and others that treated her very bad.</p>
+<pb facs="6306.jpg"/>
+	<p><date>Tuesday 25th</date></p>
+	<p>There being no recitations to day I have been reading something of the traitor <name type="person"> <choice> <reg> Arnold, Benedict</reg>
+<sic> Benedic Arnold. </sic> </choice> </name>And I have not read enough to find out much that will give me light concerning the question. I find Arnold was a real traitor and among his worst deeds was that of sending <choice><sic>Meajor</sic><reg>Major</reg></choice> Andre through the American lines and thus caused him to be killed and in all his meaning was not finished but finally died a natural death.</p> 
+<lb/>
+	<p><date>Wednesday 26th</date></p>
+	<p>To-day I have attended recitations regularly but have not been called upon. I have read the life or author a sketch of the life of <name type="person"><choice><reg> Hamilton, Alexander</reg><sic>Hamilton</sic></choice></name> and the  circumstances of his being killed by <name type="person"> <choice> <reg> Burr, Aaron</reg>
+<sic> Burr </sic> </choice> </name>. <name type="person"> <choice> <reg> Burr, Aaron</reg>
+<sic> Burr </sic> </choice> </name> has been greatly blamed and no doubt he deverves all the blame but it seems strange that <name type="person"><choice><reg> Hamilton,Alexander</reg><sic>Hamilton</sic></choice></name> should meet a man to fight a duel and not intend to try to kill him as it is said by <name type="person"><choice><reg> Hamilton, Alexander</reg><sic>Hamilton</sic></choice></name>, I dont think he ought to have <choice><sic>meet</sic><corr>met</corr></choice> him if he didnt intend to shoot at him so it seems rather obscure to me.</p>
+<lb/>
+	<p><date>Thursday 27th</date></p>
+	<p>I have been to recitations to day and called upon once as we only had one and had experiments the other hour but had very little of importance shown. This evening we had no recitations but I read some of the Pilgrim <unclear reason="illegible">Progress</unclear>. I recieved a letter from <name type="person"><choice><reg> Lewis,Bill</reg><sic>Bill Lewis</sic></choice></name>
+this evening which I read with much pleasure and wrote one to Mr <unclear reason="illegible">Quasles</unclear> <name type="person"><sic><hi rend="underline"> Adrin</hi>
+</sic></name></p>
+	</div>
+ 				</body>
+			</text>
+		</TEI>

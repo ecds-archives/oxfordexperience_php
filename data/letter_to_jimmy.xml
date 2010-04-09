@@ -1,0 +1,123 @@
+<TEI xml:id="letter_to_jimmy" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="relaxng.org/ns/structure/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter to Townie, <date when="1858">1858</date>, an electronic edition</title>
+	<author>
+	  <name type="person">
+	      <sic>Wes</sic>
+	  </name>
+	</author>
+      </titleStmt>
+      <extent></extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2009</date>
+        <availability>
+          <p>&#x00A9; 2009, Lewis H. Beck Center, Emory University.
+  Emory University makes a claim of copyright only to original
+  contributions made by the Oxford Experience Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>The Oxford Experience</title>
+        <respStmt>
+         <name>Adriane Ivey</name>
+          <name>Jeff Galle</name>
+	  <name>Mark Swails</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl>Letter to Townie, Manuscript, Archives, and Rare Book Library, Emory University.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part
+	of the Oxford Experience Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The archival material has been transcribed and encoded.
+	Paratextual elements may be provided as digital images only, with some exceptions.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF
+images of each page using either a flatbed scanner.  Text pages were
+captured in color at 300dpi.  These digital images were converted to
+an electronic text file by transcription.  The text files produced
+have been proofread against the original document or a JPEG image of
+the original.  This proofread text file has then been encoded using
+the recommendations for Level 3 of the TEI in Libraries Guidelines.
+For the details of Level 3 encoding, please see the webpage for TEI
+Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.  Encoders silently replaced em
+dashes with two dashes.  Page numbers and other text such as titles
+displayed in brackets have been added by the encoder and do not appear
+in the original text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Oxford Experience</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Edited</rs>
+        <rs type="genre"></rs>
+        <rs type="geography">United States</rs>
+        <date>1800-1899</date>  <!-- or 1900-1999 -->
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>On <date>10-06-09</date>   
+          <name>Candler Vinson</name> <name>Aaron Cole</name> <name>Jennifer Song</name> and <name>Torri Cofield</name>
+        transcribed and encoded the document.  
+      </change>
+    </revisionDesc>
+  </teiHeader>
+<text>
+  <body>
+	<div type= "xml">
+	<pb facs="6045.jpg"/>
+	<head> Letter to Townie </head>
+<opener>To my dear <hi rend="underlined">friend</hi> <name>Townie</name>.</opener>
+
+<p>It is needless for me to speak of the many happy moments, which we have enjoyed together; suffice it to say, that if Memory does not prove a recreant to his duty! Years may roll away - ocean's mooring roar may serve as a barrier to our companionship-. Yet, be assured that you, and your <gap reason="illegible" unit="word"/>, will never  be <gap reason="illegible" unit="word"/>. You have been to me a "<hi rend="underlined">friend</hi> indeed", and is my nature as cold and <gap reason="illegible" unit="word"/> as to lose sight of my friends? No Towns I can think of them! I <hi rend="underline">will</hi> remember you. Life has many <gap reason="illegible" unit="word"/> - they are <gap reason="illegible" unit="word"/> - so be guarded - be your own skiff, with Christ Jesus at the helm, and <hi rend="underline">then</hi>, the storm may  rage - to be bunnies is a noting you would seem to be your <gap reason="illegible" unit="word"/>partner - met with the "Lord save us, or me punish" of <name type="person"><choice><reg>Jimmy Peter</reg><sic>Peter, Jimmy</sic></choice></name>. "Peace" <hi rend="underlined">will</hi> "be still". I would then have you to indulge, for the passing moment, the, to me, gratifying reflection that this was <hi rend="underlined">your</hi> <hi rend="underlined">friend</hi>, will <gap reason="illegible" unit="word"/>change unworthy of your regard, would still <gap reason="illegible" unit="word"/>seek a "place in <gap reason="illegible" unit="word"/> memory". Yes <gap reason="illegible" unit="word"/> -
+
+<pb facs="6046.jpg"/>  
+
+" when lone thy sour heart dreameth And thought is few; When lone thy spirit
+scanneth -</p>
+
+<p><hi rend="underline">Oh!</hi> think of me."</p>
+
+<p>But why should I write so effemently; This would mature, <hi rend="underlined">seem</hi> more appropriate , for a "body's skull";, and so Lovers it would seem, to me, suited to your's, for believe me. This
+friendship <gap reason="illegible" unit="word"/> you is that of a <gap reason="illegible" unit="word"/>; It is a <gap reason="illegible" unit="word"/>- was <gap reason="illegible" unit="word"/> me- that much would join in your joy- sympathy in your sorrow- that would wish you much happiness - a life well-spent and an above <gap reason="illegible" unit="word"/> the "Pearly City" - I say "Good Bye". It's gone! Why linger in the word and my heart would be with you.</p>
+
+<p>Townie, "God help you", may heavens dearest blessings lest shine upon you - as golden light - as any as life should last, much trying in may we meet in "<gap reason="illegible" unit="word"/> happy <gap reason="illegible" unit="word"/>", and "<hi rend="underline">next</hi> to part in <gap reason="illegible" unit="word"/>" - Remember me at on the way out!</p>
+
+                <closer><salute>Your loving friend and classmate</salute>
+                                <signed><name>Wes</name></signed></closer>
+
+
+</div></body></text></TEI>

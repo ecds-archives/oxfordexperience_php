@@ -1,0 +1,143 @@
+<TEI xml:id="civil_war_letter_1861" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="relaxng.org/ns/structure/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Civil War Letter 1861, <date when="1861-03-28">March 28, 1861</date>, an electronic edition</title>
+	<author>
+	  <name type="person">
+	    <sic>father</sic>
+	  </name>
+	</author>
+      </titleStmt>
+      <extent></extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2009</date>
+        <availability>
+          <p>&#x00A9; 2009, Lewis H. Beck Center, Emory University.
+  Emory University makes a claim of copyright only to original
+  contributions made by the Oxford Experience Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>The Oxford Experience</title>
+        <respStmt>
+         <name>Adriane Ivey</name>
+          <name>Jeff Galle</name>
+	  <name>Mark Swails</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl>Civil War Letter 1861, Manuscript, Archives, and Rare Book Library, Emory University.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part
+	of the Oxford Experience Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The archival material has been transcribed and encoded.
+	Paratextual elements may be provided as digital images only, with some exceptions.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF
+images of each page using either a flatbed scanner.  Text pages were
+captured in color at 300dpi.  These digital images were converted to
+an electronic text file by transcription.  The text files produced
+have been proofread against the original document or a JPEG image of
+the original.  This proofread text file has then been encoded using
+the recommendations for Level 3 of the TEI in Libraries Guidelines.
+For the details of Level 3 encoding, please see the webpage for TEI
+Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.  Encoders silently replaced em
+dashes with two dashes.  Page numbers and other text such as titles
+displayed in brackets have been added by the encoder and do not appear
+in the original text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Oxford Experience</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Edited</rs>
+        <rs type="genre"></rs>
+        <rs type="geography">United States</rs>
+        <date>1800-1899</date>  1800-1899
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>On <date>2009-10-06</date>   
+          <name>Ciara Fortson</name> and <name>Anna Isakov</name> and <name>Kiana Middleton</name> and <name>Chrishandra Perkins</name> and <name>Mi'Kayla Scott</name>
+        transcribed and encohded the document.  
+      </change>
+    </revisionDesc>
+  </teiHeader>
+<text>
+  <body>
+	<div type= "letter">
+<pb facs="6056.jpg"/>	
+	<head>Civil War Letter 1861</head>
+<dateline><name type="place">Augusta</name> <date>March 28/61</date></dateline>
+<salute>Mr dearest <name type="person">Robert</name></salute>
+<p>This morning when about to go into the country to visit your cousin <name type="person">Robert</name> who still continues in a very distressing situation, I recieved your letter, in which you expressed a desire to go to <name type="place">Pensacola</name>.</p>
+
+<p>I requested your brother <name type="person">Sterling</name> to write to you, as it was out of my power. I hope you will recieve his letter &#x0026; be satisfied that, so far from reflecting any discredit on you to stay, it is not in your power to go, as <del rend="strikethrough">the</del> only a limited number can go.</p>
+
+<p> If you had an opportunity to
+
+<pb facs="6057.jpg"/>
+
+go, it would prove of no benefit or credit to you, as it is not at all probable there will be any war. If the company go any farther than <name type="place" >Macon</name>, it is not likely they will remain long in <name type="place">Pensecola</name>; and while there they will be exposed to a sickly climate, mosquitoes sandflies &#x0026; various annoyances.</p>
+
+<p>At this time it <del rend="strikethrough">will be</del> is all important that your education should not be interupted, for time lost now can never be regained.</p>
+
+<p>I hope you will now make up your mind to remain contentedly at college &#x0026; not think about leaving, when so much evil &#x0026; no benefit would be likely to result from going, even if you had the oppor
+
+<pb facs="6057.jpg"/>
+
+tunity. I regret very much that <name type="person">Sterling</name> has to go &#x0026; would prevent it, if I could consistanly; but under the circumstances, it appears to be unavoidable.</p>
+
+<p> You can sertainly derive more benefit from college than from spending the time in <name type="place">Macon</name>, one of the most immoral &#x0026; dissapated places in the <gap extent="3" unit="chars" reason="illegible"/> or Southern Confederacy, in company it is true with many who are gentlemen, some christian gentlemen, but a large portion of whom are the <gap extent="10" unit="chars" reason="illegible"/> of the town &#x0026; country, who leave their homes more for the good of their homes than of the place to which they go.</p>
+
+<p>I trust my dearest <name type="person">Robert</name>, you will be contented to remain where you are. You know we have no motives but your
+
+<pb facs="6056.jpg"/>
+
+good. We wish you to do what will <gap extent="8" unit="chars" reason="illegible"/> most to your benefit &#x0026; happiness.</p>
+
+<p> I know you love us &#x0026; have always evinced a disposition to obey and please us; &#x0026; you can not doubt our regard for you.</p>
+
+<p> Write us immediatly. I must close in hard, lest I may be too late for the mail. Your mother &#x0026; all join me in most devoted love to you.</p>
+
+<closer>
+<salute>May heaven bless forever<lb/>
+Love,</salute>
+<signed>Your affectionate father.</signed></closer>
+
+	</div>
+  </body>
+</text>
+ </TEI>

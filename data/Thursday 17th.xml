@@ -1,0 +1,137 @@
+<!-- i couldn't find the imagaes associated with this text.  they might provide some insight for a better name -->
+
+<TEI xml:id="Thursday_17th.xml" xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="relaxng.org/ns/structure/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Diary Entry <date when="1858-06-17">Thursday 17th</date>, an electronic edition</title>
+	<author>
+	  <name type="person">
+	    <choice>
+	      <reg>Unknown Author</reg>
+	      <sic>Unknown Author</sic>
+	    </choice>
+	  </name>
+	</author>
+      </titleStmt>
+      <extent></extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2009</date>
+        <availability>
+          <p>&#x00A9; 2009, Lewis H. Beck Center, Emory University.
+  Emory University makes a claim of copyright only to original
+  contributions made by the Oxford Experience Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>The Oxford Experience</title>
+        <respStmt>
+         <name>Adriane Ivey</name>
+          <name>Jeff Galle</name>
+	  <name>Mark Swails</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl>Thursday 17th, Manuscript, Archives, and Rare Book Library, Emory University.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part
+	of the Oxford Experience Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The archival material has been transcribed and encoded.
+	Paratextual elements may be provided as digital images only, with some exceptions.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF
+images of each page using either a flatbed scanner.  Text pages were
+captured in color at 300dpi.  These digital images were converted to
+an electronic text file by transcription.  The text files produced
+have been proofread against the original document or a JPEG image of
+the original.  This proofread text file has then been encoded using
+the recommendations for Level 3 of the TEI in Libraries Guidelines.
+For the details of Level 3 encoding, please see the webpage for TEI
+Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.  Encoders silently replaced em
+dashes with two dashes.  Page numbers and other text such as titles
+displayed in brackets have been added by the encoder and do not appear
+in the original text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Oxford Experience</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Edited</rs>
+        <rs type="genre"></rs>
+        <rs type="geography">United States</rs>
+        <date>1800-1899</date>  
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+            <item></item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>On <date>October 6, 2009</date>   
+          <name>Lee, Jessica</name> and <name>Matta, Poojitha</name> and <name>Fleming, Hannah</name> and <name> Duffey, Alexis></name>
+        transcribed and encoded the document.  
+      </change>
+    </revisionDesc>
+  </teiHeader>
+<text>
+  <body>
+	<div>
+	<pb facs="6037.jpg"/>
+	<head> [Thursday 17th] </head>
+	
+
+<pb facs="6307.jpg"/>
+
+<dateline> <date when="1858-06-17"> Thursday 17th </date> </dateline>
+ 
+
+
+
+<p>I wrote nothing last night as I called upon a lady and didn't return in time. I enjoyed myself very much with <name type="person"><choice>
+<reg>Hall, Sallie</reg>
+<sic><unclear reason="illegible">Ms</unclear> Sallie <unclear reason="illegible">Hall</unclear></sic>
+</choice></name>
+and could hardly leave when the time 
+<choice><sic> came</sic><reg>came</reg></choice>.</p>
+
+
+<p>To day I have been reading something of 
+<name type="person"><choice>
+<reg>Napoleon Bonaparte I</reg><sic>Nepolean's</sic></choice></name>
+banishment to <name type="place"> St.Heellina </name> by
+<name type="person"><choice>
+<reg>Scott</reg><sic>Scott</sic></choice></name>.
+It seemed that his banishment was just - though it's thought otherwise by most of men. 
+If what Scott says be true he was justly banished for if he had not been 
+it's more than probable that he would have again caused a war between 
+<name type="place"> England </name> &#x0026;
+<name type="place"> France </name>
+and thus the justice.</p>
+	</div></body></text></TEI>
