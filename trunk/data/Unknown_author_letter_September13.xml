@@ -105,12 +105,12 @@ in the original text.</p>
 	<div type= "Letter">
 	<pb facs="6081.jpg"/>
 	<head> [Unknown author,letter, September13 [1863?]</head>
-	
-Emory College, Oxford, Ga.
-Sept. 13, '63
+	<opener>
+	  <name type="place">Emory College, Oxford, Ga.</name>
+	  <date when="1892-02-06">Sept. 13, '63</date>
 
 Bro Jes'
-
+</opener>
 <p>I received yours a few days since.  It offerded me much pleasure to hear from you as it has been some time since I had received a letter from you before.</p>
 
 <p>I have again commenced the term with as bright hopes and prospects as ever.  And the farther that I advance in the dark, yet pleasant road, of science and literature and be hold its <unclear reason="illegible">hidden</unclear> misteries the greater the necessity - I see of undrestanding then, as well as the desire of an education.  These acting as incentives serves the reader my mind content and a College life agreeable.</p>
@@ -119,7 +119,7 @@ Bro Jes'
 
 <pb facs="6082.jpg"/>
 
-I even visit there <choice><sic>oing</sic><corr>owing</corr></choice> to two very good reasons, I say good reasons, i don't know that any thing is a good reason why a young man should not occasionaly visit the ladies yet reasons such as I have are sufficient to prevent me in a great measure: my reasons are first my own <unclear reason="illegible"><choice><sic>temidity</sic><corr>timidity</corr></choice></unclear>, which i know i indulge  to a fault, the other is that I never neglect my <choice><reg>text</reg><sic>tex</sic><corr>text</corr></choice> books for the enjoyment of pleasure.  My advantages for social enjoyment is better this term than it has been before this oing the <unclear reason="illegible">paychange</unclear> in my place of <unclear reason="illegible">hound</unclear>. I have left the <choice><sic>hotell</sic><corr>hotel</corr></choice> and take board in a private family where there are two very pleasant young ladies, which may be the means of improvement to me,as well as being a pleasure.</p>
+I even visit there <choice><sic>oing</sic><corr>owing</corr></choice> to two very good reasons, I say good reasons, i don't know that any thing is a good reason why a young man should not occasionaly visit the ladies yet reasons such as I have are sufficient to prevent me in a great measure: my reasons are first my own <unclear reason="illegible"><choice><orig>temidity</orig><reg>timidity</reg></choice></unclear>, which i know i indulge  to a fault, the other is that I never neglect my <choice><orig>tex</orig><reg>text</reg></choice> books for the enjoyment of pleasure.  My advantages for social enjoyment is better this term than it has been before this oing the <unclear reason="illegible">paychange</unclear> in my place of <unclear reason="illegible">hound</unclear>. I have left the <choice><sic>hotell</sic><corr>hotel</corr></choice> and take board in a private family where there are two very pleasant young ladies, which may be the means of improvement to me, as well as being a pleasure.</p>
 
 <p>This term has opened under very favorable auspicies. <choice><sic>Ther</sic><corr>There</corr></choice> are now in attendance about one hundred and forty students, and still they come.</p>
 
