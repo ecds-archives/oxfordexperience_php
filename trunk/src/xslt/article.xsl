@@ -12,7 +12,7 @@
 <xsl:param name="defaultindent">5</xsl:param>
 
 <!-- code adapted from ewwrp -->
-<xsl:variable name="imgserver">http://bohr.library.emory.edu/beck/oxfordexperience/images/</xsl:variable>
+<xsl:variable name="imgserver">http://beck.library.emory.edu/oxfordexperience/images/</xsl:variable>
 
 <xsl:variable name="figure-prefix">
     <xsl:value-of select="$imgserver"/>
